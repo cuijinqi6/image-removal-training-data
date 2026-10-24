@@ -1,0 +1,5153 @@
+[
+  {
+    "id": "101",
+    "source_size": [
+      3840,
+      2560
+    ],
+    "working_size": [
+      2496,
+      1664
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove both pedestrians and their carried bags, together with their entire long cast shadows and contact shadows. Reconstruct the empty crosswalk naturally. Preserve the road, crosswalk stripes, lighting and everything else.",
+    "selected_instance_ids": [
+      1,
+      2
+    ],
+    "mask_source": "YOLO11m instance segmentation plus reviewed entity-class selection; NOT image difference",
+    "mask_review_status": "user_approved_pilot",
+    "review_status": "user_approved_pilot",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "101.jpg",
+    "files": {
+      "input": {
+        "path": "input/101.png",
+        "sha256": "2126efadbb64011baff7c09bcad2c0b9db553c448951b1e4a7abc481d645f680",
+        "bytes": 7433650
+      },
+      "mask": {
+        "path": "mask/101.png",
+        "sha256": "da0048db3ef01565efad1fe022ec9f586613aa2103d8eecb8c7f12295ea3ec77",
+        "bytes": 8925
+      },
+      "target": {
+        "path": "target/101.png",
+        "sha256": "8f498a12e967aaf4b9b4760a912bfafc2e2642011cc971f1078fea59ac2bf939",
+        "bytes": 7566302
+      },
+      "comparison": {
+        "path": "comparison/101.jpg",
+        "sha256": "0e3d1c72d107b76a8dd329acf700c8ed031108551c5903e17425d53fd5f5382a",
+        "bytes": 147413
+      }
+    }
+  },
+  {
+    "id": "102",
+    "source_size": [
+      3840,
+      2560
+    ],
+    "working_size": [
+      2496,
+      1664
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove both people and the turquoise scooter being ridden, together with all their long cast shadows and contact shadows. Reconstruct the empty crosswalk naturally. Keep the road, crosswalk stripes, lighting and everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3
+    ],
+    "mask_source": "YOLO11m instance segmentation plus reviewed entity-class selection; NOT image difference",
+    "mask_review_status": "user_approved_pilot",
+    "review_status": "user_approved_pilot",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "102.jpg",
+    "files": {
+      "input": {
+        "path": "input/102.png",
+        "sha256": "a76cb0d4a22602d18bcf5e8f4d430f687155ddef6b4979b877e7d82134718cc9",
+        "bytes": 6821175
+      },
+      "mask": {
+        "path": "mask/102.png",
+        "sha256": "0bca53bbd071c4d66fbf9491db0d46e1ee86aab51a753b7d3e776ce42d5e7aa0",
+        "bytes": 11080
+      },
+      "target": {
+        "path": "target/102.png",
+        "sha256": "55c287bd6b6226f13b200e6d4ead1f99295b9cad4d33a3769529e1e0164a962d",
+        "bytes": 7330062
+      },
+      "comparison": {
+        "path": "comparison/102.jpg",
+        "sha256": "a59944b0179aec7894e59ee117474a24e1a743bd24b99f3507d676fbc3df90a8",
+        "bytes": 147860
+      }
+    }
+  },
+  {
+    "id": "105",
+    "source_size": [
+      3264,
+      2224
+    ],
+    "working_size": [
+      2464,
+      1679
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "105.jpg",
+    "files": {
+      "input": {
+        "path": "input/105.png",
+        "sha256": "eab2b3f9eb558603f7b56699423f501450f1a1262415e34e4f0451a77590371a",
+        "bytes": 4137954
+      },
+      "mask": {
+        "path": "mask/105.png",
+        "sha256": "16b476e6db0838eaef90e858a6bb0c9b468d016d6ee3991e20ea80e24f95a452",
+        "bytes": 15325
+      },
+      "target": {
+        "path": "target/105.png",
+        "sha256": "0fb03b86f4ec1c4f263a2b5257f056141fa6558f166b2baac865354719018fe5",
+        "bytes": 4382889
+      },
+      "comparison": {
+        "path": "comparison/105.jpg",
+        "sha256": "b30b4befbfc2d34c41295193f994a40c8dad8043eb1eb2077ccd1b30e711d502",
+        "bytes": 122406
+      }
+    },
+    "input_resampled_to_actual_output": true,
+    "submitted_size": [
+      2467,
+      1681
+    ]
+  },
+  {
+    "id": "106",
+    "source_size": [
+      1706,
+      2560
+    ],
+    "working_size": [
+      1664,
+      2496
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Also remove vehicles being ridden and dogs being led by these people, including their shadows and reflections. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "106.jpg",
+    "files": {
+      "input": {
+        "path": "input/106.png",
+        "sha256": "ce066ca3a586896ddbc85f873935e15f4262c7018b4c2ab1759e5f4d67f4dce3",
+        "bytes": 6467468
+      },
+      "mask": {
+        "path": "mask/106.png",
+        "sha256": "70a42ecbc0f7c59d2de03a9b255e1de056ec95b4ca16c6b3aefb34a72a4aaeba",
+        "bytes": 7379
+      },
+      "target": {
+        "path": "target/106.png",
+        "sha256": "28141d3fa86f7f9cca1a16174a53286657854026f6dcd043a980c7ee82973450",
+        "bytes": 6447708
+      },
+      "comparison": {
+        "path": "comparison/106.jpg",
+        "sha256": "8d3d1f78056e034b151cff482822372bd58840eb923bb9acf9166949860efa93",
+        "bytes": 252933
+      }
+    }
+  },
+  {
+    "id": "107",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including all distant and partially occluded people, and all of their reflections and shadows on the polished floor and glass. Reconstruct the empty terminal naturally. Preserve architecture, railings, signs, kiosks, lighting and reflections of the architecture.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "mask_source": "YOLO11m instance segmentation plus reviewed entity-class selection; NOT image difference",
+    "mask_review_status": "user_approved_pilot",
+    "review_status": "user_approved_pilot",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "107.jpg",
+    "files": {
+      "input": {
+        "path": "input/107.png",
+        "sha256": "7e979ca1711d08c24cd6f56ab201492a38e3b95fb001dfe0a02b8a9b4f2f7d40",
+        "bytes": 7142229
+      },
+      "mask": {
+        "path": "mask/107.png",
+        "sha256": "7f3f467fe8f16eecbcb340e748d937192cca9ad535a2cc7f46299dc8a9f9c6ec",
+        "bytes": 6168
+      },
+      "target": {
+        "path": "target/107.png",
+        "sha256": "f8ba31bd68f68ecb5efa6c093bcae188f83a621070b793ac1d658a42213cc4d6",
+        "bytes": 7137555
+      },
+      "comparison": {
+        "path": "comparison/107.jpg",
+        "sha256": "e61ab8a9264c9aaa262e6e12db28e073da02a932dd534eebd8b99c745038211e",
+        "bytes": 358332
+      }
+    }
+  },
+  {
+    "id": "108",
+    "source_size": [
+      4000,
+      3000
+    ],
+    "working_size": [
+      2347,
+      1760
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "108.jpg",
+    "files": {
+      "input": {
+        "path": "input/108.png",
+        "sha256": "52f11fc350de1cde46ffca47aed95d5dd82550701f5bd6f0c75676109e50805b",
+        "bytes": 6698047
+      },
+      "mask": {
+        "path": "mask/108.png",
+        "sha256": "7ca2a468f15461910ab4986c1a4cec3f8865ebad5b28ee77ec6869915ce63f96",
+        "bytes": 5083
+      },
+      "target": {
+        "path": "target/108.png",
+        "sha256": "80face3f59b1f5948528e38463eadc4f17cbbd4b735dad283d544e60ac9ea167",
+        "bytes": 6695868
+      },
+      "comparison": {
+        "path": "comparison/108.jpg",
+        "sha256": "53226cb6e5d2495eef98cc1e3fc117381b773526c6ce9adba2a3f28d0980d539",
+        "bytes": 180126
+      }
+    }
+  },
+  {
+    "id": "109",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person strip tiling; explicit non-person exclusions",
+    "mask_review_status": "tiled_entity_mask_reviewed_body_only",
+    "review_status": "visual_review_passed_after_tiling_portrait_excluded",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "109.jpg",
+    "files": {
+      "input": {
+        "path": "input/109.png",
+        "sha256": "6fb55122012fd431cb5bf3168ece53f609cf7960510e5d1eb109ee71b3cf570a",
+        "bytes": 5819400
+      },
+      "mask": {
+        "path": "mask/109.png",
+        "sha256": "645b6e9455cb5552a1774b048ba334927cca3c9d64c74aa140779789f92fe67c",
+        "bytes": 12453
+      },
+      "target": {
+        "path": "target/109.png",
+        "sha256": "b656cefdbaa22db3210c0858dbbfd7509f2cebdfdef99c6950ee523072d26b1b",
+        "bytes": 5813669
+      },
+      "comparison": {
+        "path": "comparison/109.jpg",
+        "sha256": "78add4bd1937730c84b49053a4776d8e422e67550c89887723570113b230741e",
+        "bytes": 292212
+      }
+    }
+  },
+  {
+    "id": "110",
+    "source_size": [
+      1754,
+      2339
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every person and both dogs being walked, including their leashes, cast shadows, contact shadows and any reflections. Preserve the parked trucks, other vehicles, buildings, trees and paving. Reconstruct the empty foreground naturally.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "mask_source": "YOLO11m instance segmentation plus reviewed entity-class selection; NOT image difference",
+    "mask_review_status": "user_approved_pilot",
+    "review_status": "user_approved_pilot",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "110.jpg",
+    "files": {
+      "input": {
+        "path": "input/110.png",
+        "sha256": "c011d7be48d08e7f29fb628c883b9556bb98419e4bf52241020b649884485d0c",
+        "bytes": 3347629
+      },
+      "mask": {
+        "path": "mask/110.png",
+        "sha256": "fc27eb1eec62ec61685982a35b6435e3defacdcc793d2a3c79917c01d8f9b83a",
+        "bytes": 10533
+      },
+      "target": {
+        "path": "target/110.png",
+        "sha256": "15c147ae9072a05b06bcd749aaac800ce7e4efa366ab4fe3a9b7e47a5044e33b",
+        "bytes": 3323250
+      },
+      "comparison": {
+        "path": "comparison/110.jpg",
+        "sha256": "44cd207cf9745eb4e5672e56e010262b3f203111e2154f005b48d8f11ab23511",
+        "bytes": 231045
+      }
+    }
+  },
+  {
+    "id": "111",
+    "source_size": [
+      4000,
+      2667
+    ],
+    "working_size": [
+      2496,
+      1664
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "111.jpg",
+    "files": {
+      "input": {
+        "path": "input/111.png",
+        "sha256": "c1d3f8b560b15302cee347829181aefda26bbaef47891bcb3027541ccfbfca4e",
+        "bytes": 5909491
+      },
+      "mask": {
+        "path": "mask/111.png",
+        "sha256": "214805d40e44074718ddff2a02f41015203437a0fd5744211cddb51c8f867843",
+        "bytes": 10393
+      },
+      "target": {
+        "path": "target/111.png",
+        "sha256": "4727535194375202437a096502a4c54c758ba2fadee1eb2a1801b190a6419261",
+        "bytes": 5895436
+      },
+      "comparison": {
+        "path": "comparison/111.jpg",
+        "sha256": "f6ae609a598b9246fe6c2a228aba44addc2c12e2e4fcd7daa88b2ef43aeb6b2d",
+        "bytes": 179837
+      }
+    }
+  },
+  {
+    "id": "112",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "112.jpg",
+    "files": {
+      "input": {
+        "path": "input/112.png",
+        "sha256": "82e821949113775218a5dfe5b28e8cb96a99b73dbedb39335065f15769db19be",
+        "bytes": 7361339
+      },
+      "mask": {
+        "path": "mask/112.png",
+        "sha256": "0f4f7af163c29b135b2e67c8941c34e64cafe6c791f6c0dde52f7a474bec1681",
+        "bytes": 9637
+      },
+      "target": {
+        "path": "target/112.png",
+        "sha256": "fa5e982cfc75fa224a79cfc953e0326f2a84f001dbeb4d2f0e425aef14130f6f",
+        "bytes": 7330097
+      },
+      "comparison": {
+        "path": "comparison/112.jpg",
+        "sha256": "a364248ef65b40bba494807782996cabc39bdbb72114a8c4b5e67121b3e94ebe",
+        "bytes": 391733
+      }
+    }
+  },
+  {
+    "id": "113",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "113.jpg",
+    "files": {
+      "input": {
+        "path": "input/113.png",
+        "sha256": "12df6932bf06ef43261e37c1b117ccd913ca49f407160d1184e8d72ab8a0ff9e",
+        "bytes": 6445280
+      },
+      "mask": {
+        "path": "mask/113.png",
+        "sha256": "174534a2b1af6e65d64c01eb9c278e2fc281d90236680007f6147fe7f7354fe6",
+        "bytes": 7714
+      },
+      "target": {
+        "path": "target/113.png",
+        "sha256": "869ae11f89da2c30c80f9b3ee64e1e4193648590d96b37da8a806b98112c2544",
+        "bytes": 6433435
+      },
+      "comparison": {
+        "path": "comparison/113.jpg",
+        "sha256": "256b223b961a8b141801d91f73236a68420912ec548209eefa5a9e43c942454a",
+        "bytes": 367215
+      }
+    }
+  },
+  {
+    "id": "114",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "114.jpg",
+    "files": {
+      "input": {
+        "path": "input/114.png",
+        "sha256": "aef0ac11232d17eafcb3348f504f537625ce1e6ed8cb66df196886c943c739bb",
+        "bytes": 6325917
+      },
+      "mask": {
+        "path": "mask/114.png",
+        "sha256": "a5a3bcca78e32b653356aa5c0c5ab7dd24f9f8a04566673dd8e49eadb2e87a82",
+        "bytes": 12861
+      },
+      "target": {
+        "path": "target/114.png",
+        "sha256": "9595d0c3746b58421be2bdf02b82de3b817699e99a68f71eb7f0d6813d484607",
+        "bytes": 6344668
+      },
+      "comparison": {
+        "path": "comparison/114.jpg",
+        "sha256": "1233a7db6675a4a28a37f67e3cd7cac9ac278fff77c8ba000b52515a0864fd37",
+        "bytes": 370434
+      }
+    }
+  },
+  {
+    "id": "116",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_and_contact_shadows_removed_railing_and_pavement_reconstructed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "116.jpg",
+    "files": {
+      "input": {
+        "path": "input/116.png",
+        "sha256": "f2d69d1bc3429136871bb4f3a99151e47709b5d2e1c32108dece4098245224d9",
+        "bytes": 7218990
+      },
+      "mask": {
+        "path": "mask/116.png",
+        "sha256": "6e7c7d5f73d65ccc783648f73c191568ceb850e72990c1edc6f747c94150471a",
+        "bytes": 12885
+      },
+      "target": {
+        "path": "target/116.png",
+        "sha256": "62cbc280a462b95cddf0bb187bc92f6ed8c4dcd8e5ef1b656772bc65afc09158",
+        "bytes": 7277194
+      },
+      "comparison": {
+        "path": "comparison/116.jpg",
+        "sha256": "8a9f6a10b67a3cfa32f1d9dd45278a766062a8655382faf6e9650c90088af90a",
+        "bytes": 271304
+      }
+    }
+  },
+  {
+    "id": "117",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21
+    ],
+    "excluded_instance_ids": [
+      17
+    ],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "reviewed_real_people_only_closed_umbrella_excluded",
+    "review_status": "visual_pass_people_and_contact_shadows_removed_closed_umbrella_preserved_and_excluded_from_mask",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "117.jpg",
+    "files": {
+      "input": {
+        "path": "input/117.png",
+        "sha256": "6c5dba9d62a04f1d790f2d7673a8fb610abef7b896506b418627c73b39fd6e6b",
+        "bytes": 5860792
+      },
+      "mask": {
+        "path": "mask/117.png",
+        "sha256": "d0162141aec0a011019d95cd860217a3244fa0c13749d5cd21c6920dfa8ce9a0",
+        "bytes": 13598
+      },
+      "target": {
+        "path": "target/117.png",
+        "sha256": "008dca3fe057966fad258d102386fe1f584f242a77915263155b1ab038059c3f",
+        "bytes": 5862013
+      },
+      "comparison": {
+        "path": "comparison/117.jpg",
+        "sha256": "d85e25264352c363464af70a53596bea4d5f24255dc1ae112b3d17d50bee594d",
+        "bytes": 281180
+      }
+    }
+  },
+  {
+    "id": "118",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "118.jpg",
+    "files": {
+      "input": {
+        "path": "input/118.png",
+        "sha256": "3021d1e93d955cbba17eb08d833dd7f99c306bb671f919108ffdb6beafc9f7b1",
+        "bytes": 5802948
+      },
+      "mask": {
+        "path": "mask/118.png",
+        "sha256": "c93dc7c7312b52fa035b5234f21a86c410fd82f3c17f1b398a178d49df63ea82",
+        "bytes": 12371
+      },
+      "target": {
+        "path": "target/118.png",
+        "sha256": "394c6b0657ac06fd32319725b04d93fddce75224b282a10c554c824b8f1b6e89",
+        "bytes": 5717231
+      },
+      "comparison": {
+        "path": "comparison/118.jpg",
+        "sha256": "c7168f3accf49cb1685508650f046f7fa0f2e5dca3d612b9eff20f8c250b1462",
+        "bytes": 296904
+      }
+    }
+  },
+  {
+    "id": "119",
+    "source_size": [
+      1680,
+      3648
+    ],
+    "working_size": [
+      1376,
+      2988
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person-strip tiling; semantic masks only",
+    "mask_review_status": "tiled_entity_proposal_reviewed_excludes_visible_shadows_reflections",
+    "review_status": "visual_review_passed_after_dense_mask_tiling",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "119.jpg",
+    "files": {
+      "input": {
+        "path": "input/119.png",
+        "sha256": "10e4455ada8ed76ed954abdcda772cf87e1d3faec7ed55ff0660587e369771df",
+        "bytes": 6928631
+      },
+      "mask": {
+        "path": "mask/119.png",
+        "sha256": "8780d77ccc271e2566c9f368ca8f3e657b8427f9a0debb6323f9dcf81c7a8036",
+        "bytes": 12225
+      },
+      "target": {
+        "path": "target/119.png",
+        "sha256": "97740f1fdd7fff0850686f745100bfe3c1b8fc92c3811400fcb0199888411622",
+        "bytes": 6932140
+      },
+      "comparison": {
+        "path": "comparison/119.jpg",
+        "sha256": "73a47fa95faac46d1619c40d0bd430e623ee4c6e4b8291cee7c1e4809489c683",
+        "bytes": 647200
+      }
+    },
+    "input_resampled_to_actual_output": true,
+    "submitted_size": [
+      1382,
+      3001
+    ]
+  },
+  {
+    "id": "120",
+    "source_size": [
+      1847,
+      4000
+    ],
+    "working_size": [
+      1360,
+      2944
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "120.jpg",
+    "files": {
+      "input": {
+        "path": "input/120.png",
+        "sha256": "b2a51089aa810754295a4e4630f6e75a431cc44bfdcc64db13e9c61cfe81965f",
+        "bytes": 5882059
+      },
+      "mask": {
+        "path": "mask/120.png",
+        "sha256": "cb0fc121c89f9cfa37a3bd04bf568608dd3b6b80886891ece776a0694520b043",
+        "bytes": 7879
+      },
+      "target": {
+        "path": "target/120.png",
+        "sha256": "6e737e151c6d24e84c539b8accdcf3cb74d49b813ef84f1a34921b46ab36dd7d",
+        "bytes": 5903176
+      },
+      "comparison": {
+        "path": "comparison/120.jpg",
+        "sha256": "bf714568c3a308ee76d846e1ff36c44ba31244074329d8d56320dbb8f73bf14f",
+        "bytes": 531836
+      }
+    },
+    "input_resampled_to_actual_output": true,
+    "submitted_size": [
+      1384,
+      2997
+    ]
+  },
+  {
+    "id": "121",
+    "source_size": [
+      2658,
+      4000
+    ],
+    "working_size": [
+      1664,
+      2496
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "121.jpg",
+    "files": {
+      "input": {
+        "path": "input/121.png",
+        "sha256": "d4e68e55699deaf47d3391351df77aecf0dfbb0bdb39dcf056c8d066496565f8",
+        "bytes": 6353278
+      },
+      "mask": {
+        "path": "mask/121.png",
+        "sha256": "b0c33f5a0c67f22d2172b11436c377f071098a849905e118a9f3f50a98d6591f",
+        "bytes": 16302
+      },
+      "target": {
+        "path": "target/121.png",
+        "sha256": "9cfc2769b9285052b9503860059d23778c7b354c8da921df16a574cadc5c5e70",
+        "bytes": 6102921
+      },
+      "comparison": {
+        "path": "comparison/121.jpg",
+        "sha256": "2c1164520b1e3fa89586275e7c537c47afd9bb9594f7d9cc5d2e96594a809cd1",
+        "bytes": 347342
+      }
+    }
+  },
+  {
+    "id": "122",
+    "source_size": [
+      2658,
+      4000
+    ],
+    "working_size": [
+      1664,
+      2496
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "122.jpg",
+    "files": {
+      "input": {
+        "path": "input/122.png",
+        "sha256": "4a459014c6c897564a233796d42c5b9d86f143140f163e5628c98e6fa9ed69e2",
+        "bytes": 6763634
+      },
+      "mask": {
+        "path": "mask/122.png",
+        "sha256": "04c50ebddc0c857a510ecc674ac15e57ec2bdd7cbd01e86e36cfd55d6b46276f",
+        "bytes": 13342
+      },
+      "target": {
+        "path": "target/122.png",
+        "sha256": "35168536c119ecef8be3d757a95f74b6092c6f9e483ecd7b05ea2dfe47f55085",
+        "bytes": 6667954
+      },
+      "comparison": {
+        "path": "comparison/122.jpg",
+        "sha256": "bfefe57cd929b3b1b1adc562fc855ba1c4d93a9dd30b881e67e7e2747770eebf",
+        "bytes": 389212
+      }
+    }
+  },
+  {
+    "id": "125",
+    "source_size": [
+      4000,
+      3012
+    ],
+    "working_size": [
+      2347,
+      1760
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "125.jpg",
+    "files": {
+      "input": {
+        "path": "input/125.png",
+        "sha256": "90bc522f342d39cae80c826b212e12bfd03a3ae9956ad4c37a2765957b3348f2",
+        "bytes": 5414488
+      },
+      "mask": {
+        "path": "mask/125.png",
+        "sha256": "594034fc16d1436b126fc7cf21b8838cb88f09ad66bec57140facc5ce35aa9fa",
+        "bytes": 10082
+      },
+      "target": {
+        "path": "target/125.png",
+        "sha256": "09a365afb41fa380b07ae4ad5a1d7da7db8d9c06ff5bf2a1a7fcf3c3b0c38695",
+        "bytes": 5395493
+      },
+      "comparison": {
+        "path": "comparison/125.jpg",
+        "sha256": "5f14c934992f87f8f2e89f9bd23f1e18e8cde3eab729f3bb0058913f31f6b414",
+        "bytes": 160290
+      }
+    }
+  },
+  {
+    "id": "126",
+    "source_size": [
+      3012,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "126.jpg",
+    "files": {
+      "input": {
+        "path": "input/126.png",
+        "sha256": "d601649947b6101ef96c0976045f3d131052d384949d0d7a3f6ab52874c187f3",
+        "bytes": 5588956
+      },
+      "mask": {
+        "path": "mask/126.png",
+        "sha256": "78420ae3335f8dea9fafadf70da992c56e6b499575edd81a9fe486e964354276",
+        "bytes": 12637
+      },
+      "target": {
+        "path": "target/126.png",
+        "sha256": "8861f42ba2f9f305fc6cf24cc1539e004130b7fbeb4dcb8102711abdb4d91f37",
+        "bytes": 5459460
+      },
+      "comparison": {
+        "path": "comparison/126.jpg",
+        "sha256": "6aca0437e9b0131868cabeefd2cebb8b9ad804679d307138d26119dcca7d113d",
+        "bytes": 292211
+      }
+    }
+  },
+  {
+    "id": "127",
+    "source_size": [
+      3012,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "127.jpg",
+    "files": {
+      "input": {
+        "path": "input/127.png",
+        "sha256": "1b2da674a7b4f619503ac624726bcaaf0d3b43e117adbdab0a757494643b9871",
+        "bytes": 5660338
+      },
+      "mask": {
+        "path": "mask/127.png",
+        "sha256": "52a5e20708b499f8938e9707d952e4d5ecc3190773a50b066633e72ff2051b2e",
+        "bytes": 5865
+      },
+      "target": {
+        "path": "target/127.png",
+        "sha256": "e377d0c52431781fe3cdf04993717276570d50d95897c028537ed4e4de370dc5",
+        "bytes": 5641457
+      },
+      "comparison": {
+        "path": "comparison/127.jpg",
+        "sha256": "bd81c5608b67eeee28b8acaf4902283ec362b5d69c61bafa076da2b336c1a7f3",
+        "bytes": 295565
+      }
+    }
+  },
+  {
+    "id": "128",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "128.jpg",
+    "files": {
+      "input": {
+        "path": "input/128.png",
+        "sha256": "04fad38b2ea0b3712ee9694278135644163c359a51b0586a4f3450568f972d68",
+        "bytes": 7150140
+      },
+      "mask": {
+        "path": "mask/128.png",
+        "sha256": "4ed36fabb4ba9e624a05d804bf3aefdbc0bd14782e1022978523f258de96e885",
+        "bytes": 13664
+      },
+      "target": {
+        "path": "target/128.png",
+        "sha256": "a10ccc9d2f71e99d4e171296be9e3c5e3126d5411cda1356f2b2bf07a420f07f",
+        "bytes": 6925956
+      },
+      "comparison": {
+        "path": "comparison/128.jpg",
+        "sha256": "c9254cfabfe43d5aea670a58b4d36fe4c8ee45cb444c54597ae71cc4724e873f",
+        "bytes": 403066
+      }
+    }
+  },
+  {
+    "id": "129",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "129.jpg",
+    "files": {
+      "input": {
+        "path": "input/129.png",
+        "sha256": "11e316863883497dd648d9a09234106093e2f425b33c0e4996f1613a58dbbfd9",
+        "bytes": 4675606
+      },
+      "mask": {
+        "path": "mask/129.png",
+        "sha256": "01403d15b538a1f1ab5fdb5be8bd68193cbd7d7fd000e5cbd1134f5ee5acf4dd",
+        "bytes": 6449
+      },
+      "target": {
+        "path": "target/129.png",
+        "sha256": "b4604cf3ee43191e13040a57ef42c681c9bdaa0b61519c4161dcecf1042dd1ca",
+        "bytes": 4690710
+      },
+      "comparison": {
+        "path": "comparison/129.jpg",
+        "sha256": "bdf16b7f627ab03e28ea5837335376e459600915bda6054f4bde0d12bb2321ea",
+        "bytes": 238708
+      }
+    }
+  },
+  {
+    "id": "130",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "130.jpg",
+    "files": {
+      "input": {
+        "path": "input/130.png",
+        "sha256": "e4b6f58eccabdfe5cf3488b4d784dacb29bec11e295e5310f120957bf5480c9f",
+        "bytes": 6025951
+      },
+      "mask": {
+        "path": "mask/130.png",
+        "sha256": "035e3f7c7553df9d8ce13eff3936ccd3235f56807ee9c7c237d340656905e6f9",
+        "bytes": 10212
+      },
+      "target": {
+        "path": "target/130.png",
+        "sha256": "152654d4cf51d508372401ab1e4c55f08a98ae376e914c2ea22d03efa6166b09",
+        "bytes": 6031431
+      },
+      "comparison": {
+        "path": "comparison/130.jpg",
+        "sha256": "482144c4f1c5957aa2b4a45dd4454404a3f687ed447ffa17f4ff0293e8f9375d",
+        "bytes": 341410
+      }
+    }
+  },
+  {
+    "id": "131",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "131.jpg",
+    "files": {
+      "input": {
+        "path": "input/131.png",
+        "sha256": "e7f9658538d72cf03fd90f9997350867442a811613e055eaed740c1f6f405b9b",
+        "bytes": 5515067
+      },
+      "mask": {
+        "path": "mask/131.png",
+        "sha256": "ef182a16e863bf252f3aee8583372be9cc5f110274274dee887c7f8582e8550f",
+        "bytes": 9167
+      },
+      "target": {
+        "path": "target/131.png",
+        "sha256": "33e72f5ae75883b8362cdc62c4c6764819a3a916a92e4c379930f52e47452899",
+        "bytes": 5538129
+      },
+      "comparison": {
+        "path": "comparison/131.jpg",
+        "sha256": "db167c270f475b6fba4b2b5115b50023551d8fa00573457c25d1101b9f902614",
+        "bytes": 272718
+      }
+    }
+  },
+  {
+    "id": "132",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person strip tiling; explicit non-person exclusions",
+    "mask_review_status": "tiled_entity_mask_reviewed_body_only",
+    "review_status": "visual_review_passed_after_tiling_folded_umbrella_excluded",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "132.jpg",
+    "files": {
+      "input": {
+        "path": "input/132.png",
+        "sha256": "c6a35f38698a82cc29b6477ec4c0bb61490ec122f1710ac26b5361481d13cb29",
+        "bytes": 6168354
+      },
+      "mask": {
+        "path": "mask/132.png",
+        "sha256": "3e4ac5a862413c88422acc614339a1e48206ee5799ed75593a7844e509fde5ec",
+        "bytes": 10128
+      },
+      "target": {
+        "path": "target/132.png",
+        "sha256": "71a820bda02111714677c2f7f3f3e8bcd0ffa5dcb0f672fa392fef70e65057b1",
+        "bytes": 6229582
+      },
+      "comparison": {
+        "path": "comparison/132.jpg",
+        "sha256": "bcd4c9980158cac5b7035537faceca2071483523a018553ce20b0653a3d2f0b0",
+        "bytes": 328310
+      }
+    }
+  },
+  {
+    "id": "134",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed_selected_entities_and_parked_vehicle_preserved",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "134.jpg",
+    "files": {
+      "input": {
+        "path": "input/134.png",
+        "sha256": "b8dfe5fd38c6a83ffc8743203e261033ce562b8268696507d3848b6e5ac57eec",
+        "bytes": 6338469
+      },
+      "mask": {
+        "path": "mask/134.png",
+        "sha256": "47661e7e31bb7213207328ae0698a8b2df779a134354d27498530a7797e29cca",
+        "bytes": 6715
+      },
+      "target": {
+        "path": "target/134.png",
+        "sha256": "f06b244f5aa58bc2b889922cc9cc6a7ebf87e2d41044c7bb60fe0dc1d37ad64a",
+        "bytes": 6378199
+      },
+      "comparison": {
+        "path": "comparison/134.jpg",
+        "sha256": "3745c445d8bb4707d6e836c229cbc129483ce72bb12801495b2f747a11a5c126",
+        "bytes": 271846
+      }
+    }
+  },
+  {
+    "id": "135",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "135.jpg",
+    "files": {
+      "input": {
+        "path": "input/135.png",
+        "sha256": "03d148e3fd447458bd1cfdfa6c739d0c078cd8d8300b1aad428b7d116ebd5e85",
+        "bytes": 8478991
+      },
+      "mask": {
+        "path": "mask/135.png",
+        "sha256": "7d171ad77df6d9ba43d2955fb0ce2a01f23b8061d496e8f44e72bfcf13a02674",
+        "bytes": 5629
+      },
+      "target": {
+        "path": "target/135.png",
+        "sha256": "0ed21b11241f422a8dadb7268d9b6d05d9301b704ee9b9a999606a18fdabe5f2",
+        "bytes": 8493050
+      },
+      "comparison": {
+        "path": "comparison/135.jpg",
+        "sha256": "9fa6bbe9ee86c7ed65b4b722d204c1c1404fe070ca33c616cb5cf8b1c3180183",
+        "bytes": 395306
+      }
+    }
+  },
+  {
+    "id": "137",
+    "source_size": [
+      4000,
+      3000
+    ],
+    "working_size": [
+      2347,
+      1760
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person-strip tiling; semantic masks only",
+    "mask_review_status": "tiled_entity_proposal_reviewed_excludes_visible_shadows_reflections",
+    "review_status": "visual_review_passed_after_distant_crowd_mask_tiling",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "137.jpg",
+    "files": {
+      "input": {
+        "path": "input/137.png",
+        "sha256": "2d7dcfc60f2af66beeb1f1d6c74e550189619df08f2eac9f3e2c22909cfa76e2",
+        "bytes": 7632497
+      },
+      "mask": {
+        "path": "mask/137.png",
+        "sha256": "b9403f3884e80025a59d87de85420cd8b3dbfa971b327e976145a448aecc6b0f",
+        "bytes": 23994
+      },
+      "target": {
+        "path": "target/137.png",
+        "sha256": "dec8a7d9bfe245f08818d0753ab64c53d1cf638d6da7a63868db04c1f1db9db0",
+        "bytes": 7452535
+      },
+      "comparison": {
+        "path": "comparison/137.jpg",
+        "sha256": "dc782c40aa0ff865a0b4df7b9f732021389b2993597c5f9255e178ffb7e9aaf3",
+        "bytes": 208822
+      }
+    }
+  },
+  {
+    "id": "138",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "138.jpg",
+    "files": {
+      "input": {
+        "path": "input/138.png",
+        "sha256": "f2948a5510f44fed8144f6d0b012cca09c9b8fdc67de59114a3a7274b714f43a",
+        "bytes": 5652936
+      },
+      "mask": {
+        "path": "mask/138.png",
+        "sha256": "0bd45d22a5b3b44237ee4e725cd771f36a5175327731f64a58730bd6ae2cda77",
+        "bytes": 5392
+      },
+      "target": {
+        "path": "target/138.png",
+        "sha256": "ffde7e8af194e430bd92478c2bd51d4c14f8698a2d56ab14a141061a8c31f491",
+        "bytes": 5651710
+      },
+      "comparison": {
+        "path": "comparison/138.jpg",
+        "sha256": "5a15b3f0aabee0566edf55d32597365b69ffee89cd76cae2c7f1bba70874d397",
+        "bytes": 225057
+      }
+    }
+  },
+  {
+    "id": "139",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "139.jpg",
+    "files": {
+      "input": {
+        "path": "input/139.png",
+        "sha256": "d7a8c6b54c6e7a7260005b5b44a2ece970730f325e6129f2a8fd136d0f09d869",
+        "bytes": 6106872
+      },
+      "mask": {
+        "path": "mask/139.png",
+        "sha256": "1fe9cd6734fb5b350185728f2b69f4a2e3ee18c5e1eb8d8d6b4a771bb1c20670",
+        "bytes": 8245
+      },
+      "target": {
+        "path": "target/139.png",
+        "sha256": "12791cee3ff287d913be9103567c65676d2792068e0c2d0cdc5bb775994b8a65",
+        "bytes": 6151477
+      },
+      "comparison": {
+        "path": "comparison/139.jpg",
+        "sha256": "21ee191756fc401ba08aeb069387dce7fe3b7b940fe736b3520838d0feb2a50d",
+        "bytes": 241680
+      }
+    }
+  },
+  {
+    "id": "140",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "140.jpg",
+    "files": {
+      "input": {
+        "path": "input/140.png",
+        "sha256": "d41d1c7dadaa160dcb4152c210fdca7684875acfa83c294fe632f218b56d4535",
+        "bytes": 5151774
+      },
+      "mask": {
+        "path": "mask/140.png",
+        "sha256": "1cbc5f5f27bd227cd52c8f4ca1903fcdbeffdddc2665f75d78ddbfaa4f3fc7a7",
+        "bytes": 11125
+      },
+      "target": {
+        "path": "target/140.png",
+        "sha256": "1ea8cd6b8ddf112c788137810f77d62e53239d0cf62893716b13ebbff152b3df",
+        "bytes": 5432409
+      },
+      "comparison": {
+        "path": "comparison/140.jpg",
+        "sha256": "994fbaf0a8f30d58c4d8f44e24624b6145a94a7dd05032c71d7c6a8c01f625ef",
+        "bytes": 289814
+      }
+    }
+  },
+  {
+    "id": "141",
+    "source_size": [
+      1536,
+      2560
+    ],
+    "working_size": [
+      1584,
+      2640
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2
+    ],
+    "excluded_instance_ids": [
+      3,
+      4,
+      5
+    ],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "141.jpg",
+    "files": {
+      "input": {
+        "path": "input/141.png",
+        "sha256": "0e7b88f6bbd985cd5ef2b0c3f4a229bb3f326b34b32c4f1f440862dfadfe1032",
+        "bytes": 2203574
+      },
+      "mask": {
+        "path": "mask/141.png",
+        "sha256": "4011830818c5a0037900a4d6252c7be58e026c1005df8faf49bf1d9ad9b6ea25",
+        "bytes": 6944
+      },
+      "target": {
+        "path": "target/141.png",
+        "sha256": "d4492c3a358844d635493f6a0968752e9c9432c132f726fc2d9cefcdd5d1e8d8",
+        "bytes": 2444213
+      },
+      "comparison": {
+        "path": "comparison/141.jpg",
+        "sha256": "9e8f5d17a8e6ed8e88521019e99be310bedf63305dd11ff8a9ea0a91613edfe8",
+        "bytes": 289754
+      }
+    },
+    "input_resampled_to_actual_output": true,
+    "submitted_size": [
+      1577,
+      2629
+    ]
+  },
+  {
+    "id": "142",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed_people_reflections_removed_architecture_reflections_preserved",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "142.jpg",
+    "files": {
+      "input": {
+        "path": "input/142.png",
+        "sha256": "e3fc0765b06e4afedcf4baefe55d10aedec6ef4adca8c204afec966fb94fb9a4",
+        "bytes": 6961090
+      },
+      "mask": {
+        "path": "mask/142.png",
+        "sha256": "9a4270435eaf7f331330502395ac63bdf5edb024f002a5e4dcf9ccead58641ac",
+        "bytes": 6999
+      },
+      "target": {
+        "path": "target/142.png",
+        "sha256": "216d816774e044b0187d3e76faf79ca71355fdba0796a8a37f786290ce06c765",
+        "bytes": 6949210
+      },
+      "comparison": {
+        "path": "comparison/142.jpg",
+        "sha256": "b0857406e2842288bae4e1739e43b1ffacdd6af01d528309851d6f3b0ce6f1c8",
+        "bytes": 324750
+      }
+    }
+  },
+  {
+    "id": "143",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "143.jpg",
+    "files": {
+      "input": {
+        "path": "input/143.png",
+        "sha256": "73dc224be620c14eb3ad01f1b3d4168913b908fc2e57cb39efc46b598654398e",
+        "bytes": 8248543
+      },
+      "mask": {
+        "path": "mask/143.png",
+        "sha256": "3ec447f5e94c969bac320d80757cb903b25e9264b8ae375c86e75894b602474d",
+        "bytes": 6641
+      },
+      "target": {
+        "path": "target/143.png",
+        "sha256": "4ff5b38f2b91121cf6bc7b42034f5aa5965f5d163338958e09440b61dadf2668",
+        "bytes": 8254712
+      },
+      "comparison": {
+        "path": "comparison/143.jpg",
+        "sha256": "1f999c30930f166b6708159af91f84fab8841d1702bd624c964668ae348cefd2",
+        "bytes": 367002
+      }
+    }
+  },
+  {
+    "id": "144",
+    "source_size": [
+      1812,
+      4000
+    ],
+    "working_size": [
+      1376,
+      3037
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "144.jpg",
+    "files": {
+      "input": {
+        "path": "input/144.png",
+        "sha256": "7d3416ef46dc491fff0032ea6a37a4f687f628efecd4d918873be3013bc8401b",
+        "bytes": 8093167
+      },
+      "mask": {
+        "path": "mask/144.png",
+        "sha256": "5d9b20bc0cf37b0bfc195ba964a8cc47a697a72c59b8a7a18dcbc18710fae36a",
+        "bytes": 5268
+      },
+      "target": {
+        "path": "target/144.png",
+        "sha256": "85db14a2793b93a0ab53d13cb41bf19a8bacd1487c05344528e5b6eb2892591c",
+        "bytes": 8069980
+      },
+      "comparison": {
+        "path": "comparison/144.jpg",
+        "sha256": "703fb7b5449c044de96130e9381bc9e0d50725557abda07aefc7d74cd9d8816f",
+        "bytes": 650388
+      }
+    },
+    "input_resampled_to_actual_output": true,
+    "submitted_size": [
+      1371,
+      3026
+    ]
+  },
+  {
+    "id": "145",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "145.jpg",
+    "files": {
+      "input": {
+        "path": "input/145.png",
+        "sha256": "4cdd7319cbe6d042d4ee9ec7d842cd37abd6fea0c0eb521f129ed103c1aaacf9",
+        "bytes": 7716718
+      },
+      "mask": {
+        "path": "mask/145.png",
+        "sha256": "b2f991abd615a7ae293aff88f33fd67245cad4ebddc5f96dfab336ecef0ec02e",
+        "bytes": 6735
+      },
+      "target": {
+        "path": "target/145.png",
+        "sha256": "a8483cd0d6f25140c21751ecc1a15d24c69ce1a98fe20acfcefb7ba56d40196f",
+        "bytes": 7722087
+      },
+      "comparison": {
+        "path": "comparison/145.jpg",
+        "sha256": "9d1a2dc18a1321a27a5360c675abf3948c8beb3ac96f4b1f9e881d20b5f70314",
+        "bytes": 357870
+      }
+    }
+  },
+  {
+    "id": "146",
+    "source_size": [
+      4000,
+      2661
+    ],
+    "working_size": [
+      2496,
+      1664
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_water_crowd_and_reflections_removed_balloon_and_its_reflection_preserved",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "146.jpg",
+    "files": {
+      "input": {
+        "path": "input/146.png",
+        "sha256": "53f9ba6dd9a67f452c903f2d28a6e8de9c162b41dc794d1695b7621e5f0f96f3",
+        "bytes": 5731863
+      },
+      "mask": {
+        "path": "mask/146.png",
+        "sha256": "ec334dd1c3f9e42998a92a906146954b381a499d9db5a7b189948b8277b91c97",
+        "bytes": 11540
+      },
+      "target": {
+        "path": "target/146.png",
+        "sha256": "10f9978686da1cd7cd69ad7ca844798066794408c25a959763eff1f8f1335687",
+        "bytes": 5675899
+      },
+      "comparison": {
+        "path": "comparison/146.jpg",
+        "sha256": "f7e3fa7abd1adec6eaa02c427ba86b752d886682ae99724d9598ea599468a012",
+        "bytes": 128833
+      }
+    }
+  },
+  {
+    "id": "147",
+    "source_size": [
+      4000,
+      2661
+    ],
+    "working_size": [
+      2496,
+      1664
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Preserve hot-air balloons, boats, mountains and their reflections unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed_water_reflections_removed_balloons_preserved",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "147.jpg",
+    "files": {
+      "input": {
+        "path": "input/147.png",
+        "sha256": "3deedc7909938e5d0637ba5bba22265e434c428a204b5396b86cfa44caea19a3",
+        "bytes": 4877032
+      },
+      "mask": {
+        "path": "mask/147.png",
+        "sha256": "0c7bbc69aa53c512b791e49f95b8def76969c068e95b175d12ef9b2ab4bd7664",
+        "bytes": 8759
+      },
+      "target": {
+        "path": "target/147.png",
+        "sha256": "2465a45538fda31af8b706f41e6df6f50f84d347a4637102efdd15ee0d6d189e",
+        "bytes": 4815093
+      },
+      "comparison": {
+        "path": "comparison/147.jpg",
+        "sha256": "2bc5cb6e51e75de0aeef39506ef76de9af8e4ef67dde8e921de0a9111e61deba",
+        "bytes": 107521
+      }
+    }
+  },
+  {
+    "id": "148",
+    "source_size": [
+      4000,
+      2661
+    ],
+    "working_size": [
+      2496,
+      1664
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Preserve hot-air balloons, boats, mountains and their reflections unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed_dark_water_reflections_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "148.jpg",
+    "files": {
+      "input": {
+        "path": "input/148.png",
+        "sha256": "96f23430dbefdcd9b5fd056116359e6aba811533a1a8813f7e21c6e7be7a1d22",
+        "bytes": 4981749
+      },
+      "mask": {
+        "path": "mask/148.png",
+        "sha256": "3bd04983d9c91aac34e08e45c2e98b5672c4a5848586595ce884685364ed2963",
+        "bytes": 6321
+      },
+      "target": {
+        "path": "target/148.png",
+        "sha256": "0d38b5f0e4ba8cc7b69ae8f6d4b6f068eb9e5cc3253e32e2f2ebb3a3bcf7d13a",
+        "bytes": 4993647
+      },
+      "comparison": {
+        "path": "comparison/148.jpg",
+        "sha256": "7f239bfcc89e1196f5c3d621ccf0dc3e84c521d6bf8e4c4f604a8bb9bfcf8b48",
+        "bytes": 99274
+      }
+    }
+  },
+  {
+    "id": "150",
+    "source_size": [
+      4000,
+      2661
+    ],
+    "working_size": [
+      2496,
+      1664
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Preserve hot-air balloons, boats, mountains and their reflections unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_distant_water_people_and_reflections_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "150.jpg",
+    "files": {
+      "input": {
+        "path": "input/150.png",
+        "sha256": "9a8af834ba93c8ef19870f600db7842fed448c375e1cfea18f57de7811d291ad",
+        "bytes": 4047945
+      },
+      "mask": {
+        "path": "mask/150.png",
+        "sha256": "ba91d50e787d44e0f8e80f3bcfd2b7205fac25231eb84d5450cecff7a7f62911",
+        "bytes": 6539
+      },
+      "target": {
+        "path": "target/150.png",
+        "sha256": "6f0cafebb3dee9be33216a85e3e6afb37961b6eeb252031bd348a3150380f512",
+        "bytes": 3951849
+      },
+      "comparison": {
+        "path": "comparison/150.jpg",
+        "sha256": "799f7586daaacd21d60e8f5ce0fd23a4ebe45937fb0bb3803ed4a348bd161b23",
+        "bytes": 78338
+      }
+    }
+  },
+  {
+    "id": "153",
+    "source_size": [
+      4000,
+      2661
+    ],
+    "working_size": [
+      2496,
+      1664
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Preserve hot-air balloons, boats, mountains and their reflections unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed_people_reflections_removed_structure_preserved",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "153.jpg",
+    "files": {
+      "input": {
+        "path": "input/153.png",
+        "sha256": "851684b60cd0754c8225d0317d5725001561ab8e5d65ace4c745a9881b0b3806",
+        "bytes": 4860799
+      },
+      "mask": {
+        "path": "mask/153.png",
+        "sha256": "cca73f5ff2aad29835fa0f1198cee55f3b98881b1835494cc63e0539e6910f55",
+        "bytes": 7999
+      },
+      "target": {
+        "path": "target/153.png",
+        "sha256": "478da0bb2102c891cfa404f90e81a7521251c17193082605aec57492584b0f05",
+        "bytes": 4813066
+      },
+      "comparison": {
+        "path": "comparison/153.jpg",
+        "sha256": "274b4fe7291df7219450ff0119145355673d08aefc1e9562476cf2112f2f06d2",
+        "bytes": 95933
+      }
+    }
+  },
+  {
+    "id": "154",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Preserve hot-air balloons, boats, mountains and their reflections unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed_selected_near_people_and_water_reflections_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "154.jpg",
+    "files": {
+      "input": {
+        "path": "input/154.png",
+        "sha256": "6c50630b1495e29112d91505be8ac0380a983f023ac58c4c6a1a017bb9dc57a9",
+        "bytes": 4146926
+      },
+      "mask": {
+        "path": "mask/154.png",
+        "sha256": "8cf27e3933cc4bd997d449862c688690b83461ad26c053105e60cd48aa6b8282",
+        "bytes": 6096
+      },
+      "target": {
+        "path": "target/154.png",
+        "sha256": "5de9684214a49caf80d8d95af25bfae1c9b51a05690cda8559b231cd97ca037b",
+        "bytes": 4121666
+      },
+      "comparison": {
+        "path": "comparison/154.jpg",
+        "sha256": "616f5ee46179591328faf68a37ea3e44f97495d21674f781a2023970be142da7",
+        "bytes": 180025
+      }
+    }
+  },
+  {
+    "id": "155",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every person and their complete mirrored silhouettes from the shallow water, including the foreground group and all distant people. Fill their entire former body and reflection areas with continuous natural water, with no dark streaks or residual silhouettes. Preserve the boats, mountains, sky, reflections of the sky, exact lighting and everything else.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed_second_candidate_dark_reflection_streak_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "155.jpg",
+    "files": {
+      "input": {
+        "path": "input/155.png",
+        "sha256": "d33f1515f8de96a61e476a4ae31013b5e525659253dbb6aab6e1adfb66a7f64b",
+        "bytes": 3678201
+      },
+      "mask": {
+        "path": "mask/155.png",
+        "sha256": "77da8e0cd74d3594acb765b25af501db8ebe4983fae5ba93aa5c1f47196d5b27",
+        "bytes": 5141
+      },
+      "target": {
+        "path": "target/155.png",
+        "sha256": "4547360879dca4dbe91ed1a5f8063b51bbaa554f7af3216371645b342f6b7cb7",
+        "bytes": 3650187
+      },
+      "comparison": {
+        "path": "comparison/155.jpg",
+        "sha256": "dca9db3ae36b12d79a828fbe95c27fb6d622a583d97dc689c039a4701c0555d7",
+        "bytes": 155397
+      }
+    }
+  },
+  {
+    "id": "156",
+    "source_size": [
+      3840,
+      2160
+    ],
+    "working_size": [
+      2703,
+      1520
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Preserve hot-air balloons, boats, mountains and their reflections unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed_group_and_water_reflections_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "156.jpg",
+    "files": {
+      "input": {
+        "path": "input/156.png",
+        "sha256": "4319b88844b1e9ce978aababe27616360821f84ebe2ab97a574f9f9026a287f9",
+        "bytes": 2050716
+      },
+      "mask": {
+        "path": "mask/156.png",
+        "sha256": "ecf060008af2dc41e6355994730e33e799ded64f6737af6a26ebe4936d67998c",
+        "bytes": 4822
+      },
+      "target": {
+        "path": "target/156.png",
+        "sha256": "808cc209abedad620c70599ee39d91c015c7b8e5ea6bfbfc3679b0e0e75041ad",
+        "bytes": 2029781
+      },
+      "comparison": {
+        "path": "comparison/156.jpg",
+        "sha256": "d6a78133b0522dda00613f07ac5d6621cd7afb92f1049b51aa7a8fddae46f410",
+        "bytes": 60833
+      }
+    },
+    "input_resampled_to_actual_output": true,
+    "submitted_size": [
+      2715,
+      1527
+    ]
+  },
+  {
+    "id": "157",
+    "source_size": [
+      3840,
+      2160
+    ],
+    "working_size": [
+      2703,
+      1520
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Preserve hot-air balloons, boats, mountains and their reflections unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed_people_and_reflections_removed_boat_preserved",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "157.jpg",
+    "files": {
+      "input": {
+        "path": "input/157.png",
+        "sha256": "44a32b034007bee95db6fa3dc69ad0cfbd45bc7044a407fd990f5cc7000ab206",
+        "bytes": 1982848
+      },
+      "mask": {
+        "path": "mask/157.png",
+        "sha256": "5697c6f409cd49f4beabf3879f2c25a886aaca9a853cd0ffbef95fc17a210b32",
+        "bytes": 6287
+      },
+      "target": {
+        "path": "target/157.png",
+        "sha256": "050508b710b54e51ff4b0ac629c27e347e2e3f0c8e0ba77ed1781e213b0edcf7",
+        "bytes": 1948125
+      },
+      "comparison": {
+        "path": "comparison/157.jpg",
+        "sha256": "f3d842b1380ca9973f403c922891c98cff4f22fe04b6b133305ef35e698f1175",
+        "bytes": 57269
+      }
+    },
+    "input_resampled_to_actual_output": true,
+    "submitted_size": [
+      2715,
+      1527
+    ]
+  },
+  {
+    "id": "158",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_review_passed_people_and_wet_ground_reflections_removed_building_reflection_preserved",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "158.jpg",
+    "files": {
+      "input": {
+        "path": "input/158.png",
+        "sha256": "622e1829df2cdc2c0f363be6c5a10c8006bd59d3631c22cc6a50f0b97e0ef054",
+        "bytes": 5473138
+      },
+      "mask": {
+        "path": "mask/158.png",
+        "sha256": "8646c0d813f9554ae332cb14e546f0d164acf2d23a516e62e1dc0c320fa9ca88",
+        "bytes": 12892
+      },
+      "target": {
+        "path": "target/158.png",
+        "sha256": "24359c61bb1675e793235c172e2b4008e6e147c5c5ef8e188b0186d67b2902c2",
+        "bytes": 5675782
+      },
+      "comparison": {
+        "path": "comparison/158.jpg",
+        "sha256": "de94ac9ff3c1f1a8d5ebb6c98232d56f80e0f80ed3849c9516dcf67ea6559de0",
+        "bytes": 311619
+      }
+    }
+  },
+  {
+    "id": "160",
+    "source_size": [
+      2442,
+      3257
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "excluded_instance_ids": [
+      16
+    ],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_and_wet_ground_reflections_removed_false_building_mask_excluded",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "160.jpg",
+    "files": {
+      "input": {
+        "path": "input/160.png",
+        "sha256": "3ddbfbe3bb34433c115565d402632d25e04e20cd5c5221bdb56f766824abc89c",
+        "bytes": 5277351
+      },
+      "mask": {
+        "path": "mask/160.png",
+        "sha256": "6be686645cc435fe1e761e276c443cd9912e16b06874e218a6346cc55ea3a73e",
+        "bytes": 13914
+      },
+      "target": {
+        "path": "target/160.png",
+        "sha256": "65448f09f9f74d1f9f93ef1c55155de3ecbbf48f96c9d994b3ce824239552163",
+        "bytes": 5519366
+      },
+      "comparison": {
+        "path": "comparison/160.jpg",
+        "sha256": "1e030f2b9ec7fcc08e60617dffcca41d535c4bae3db28fe092f58527cd66799f",
+        "bytes": 306478
+      }
+    }
+  },
+  {
+    "id": "162",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "excluded_instance_ids": [
+      26
+    ],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_crowd_and_wet_reflections_removed_awning_false_positive_excluded",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "162.jpg",
+    "files": {
+      "input": {
+        "path": "input/162.png",
+        "sha256": "4076ef15be5801b80201164b46321d12972a47d87cbb255675dadb3c9b767344",
+        "bytes": 6116899
+      },
+      "mask": {
+        "path": "mask/162.png",
+        "sha256": "e30bf5d46187283a61618cfa7a9dc05771f265c10f8f35a956eb2849e83639a0",
+        "bytes": 11274
+      },
+      "target": {
+        "path": "target/162.png",
+        "sha256": "27816d712d7b340ae6fc70d4d357125fadb6698fbc57d9f76aa3b844a91d755b",
+        "bytes": 6170145
+      },
+      "comparison": {
+        "path": "comparison/162.jpg",
+        "sha256": "d246ed2ebdefd486e83f16a5d202aacebf2e13c03e422c5e58652c8f8bcc269d",
+        "bytes": 352172
+      }
+    }
+  },
+  {
+    "id": "163",
+    "source_size": [
+      2801,
+      3737
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_crowd_and_wet_pavement_silhouettes_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "163.jpg",
+    "files": {
+      "input": {
+        "path": "input/163.png",
+        "sha256": "9831c92432fb05e7e08e837d51a1bcf1a5cee37c02c6f832f0853cc6f0d18416",
+        "bytes": 5940712
+      },
+      "mask": {
+        "path": "mask/163.png",
+        "sha256": "fc0714f7e337f46d28416c4e12433b088c758b1a4ff1a92e3f85dd63098f2e45",
+        "bytes": 8676
+      },
+      "target": {
+        "path": "target/163.png",
+        "sha256": "ec3ce73740870dbb9acc1f918e79237813c1fb57c36c404fa83d7269a7fae5dc",
+        "bytes": 5892045
+      },
+      "comparison": {
+        "path": "comparison/163.jpg",
+        "sha256": "99110c79b97664588bce93c50176d07fa0900dd054d575ac6a8222b31a71f7b7",
+        "bytes": 348988
+      }
+    }
+  },
+  {
+    "id": "164",
+    "source_size": [
+      2194,
+      2927
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_and_reflections_removed_environment_statue_retained",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "164.jpg",
+    "files": {
+      "input": {
+        "path": "input/164.png",
+        "sha256": "efec8183f8b59fa049efa35f7d103671b3e9ed251275a9a28dc224e856f2a6db",
+        "bytes": 6658833
+      },
+      "mask": {
+        "path": "mask/164.png",
+        "sha256": "3545c5f4c3190d0dd0e6a9dbfda6df7865bfb73a7dd18839b6d7e5ff4d24bb85",
+        "bytes": 8179
+      },
+      "target": {
+        "path": "target/164.png",
+        "sha256": "7943fd5b2ca9b19045b8b3ef9f63ac48972e749aefd0cb464d080ceb542fa526",
+        "bytes": 6735195
+      },
+      "comparison": {
+        "path": "comparison/164.jpg",
+        "sha256": "d963cfcc627478f423b7afbf838a87b5be034c8ca9ecd0b7e4e1e06630f5e7f5",
+        "bytes": 351779
+      }
+    }
+  },
+  {
+    "id": "166",
+    "source_size": [
+      2889,
+      3854
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_crowd_and_long_wet_pavement_reflections_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "166.jpg",
+    "files": {
+      "input": {
+        "path": "input/166.png",
+        "sha256": "a692e84a38aca286dff996a81a567b5674079cea12226725ffff0a4624fd8fe6",
+        "bytes": 5756892
+      },
+      "mask": {
+        "path": "mask/166.png",
+        "sha256": "ae7f52096e3c74177e670e755b1a1e72fa28ff8cb5d48a89359fbbff016a6825",
+        "bytes": 13964
+      },
+      "target": {
+        "path": "target/166.png",
+        "sha256": "93e4deb6255f5491fb736b1a44fa8e8900d655e1e345317f92f2b109d3cd411f",
+        "bytes": 5896847
+      },
+      "comparison": {
+        "path": "comparison/166.jpg",
+        "sha256": "c7ddb8821e95e005883865e9fdf13642c9d28b75c92f7afa83a32d602b1b2860",
+        "bytes": 310042
+      }
+    }
+  },
+  {
+    "id": "167",
+    "source_size": [
+      2184,
+      2914
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_reflections_removed_sign_architecture_kept",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "167.jpg",
+    "files": {
+      "input": {
+        "path": "input/167.png",
+        "sha256": "f919e7c902a3f04345eea98299af2eae372b504e29edb702aebdef796b2d3621",
+        "bytes": 6385308
+      },
+      "mask": {
+        "path": "mask/167.png",
+        "sha256": "4db33024530fc9f55f5bda64196628fa6ccfaee99e85b03e6f96234fbb86805c",
+        "bytes": 11472
+      },
+      "target": {
+        "path": "target/167.png",
+        "sha256": "57b4e1863f98cb3516d44d92c15760c5cb3bede7ec9eb79769aa7223533ac69a",
+        "bytes": 6404295
+      },
+      "comparison": {
+        "path": "comparison/167.jpg",
+        "sha256": "62e61a8e9c16e31db78c75adc695b298fa392c09b5ec6f4e014801b639728417",
+        "bytes": 356208
+      }
+    }
+  },
+  {
+    "id": "168",
+    "source_size": [
+      2634,
+      3514
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_and_mirrored_silhouettes_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "168.jpg",
+    "files": {
+      "input": {
+        "path": "input/168.png",
+        "sha256": "5bb14b6934bfb9ef8e2b560009c2af6b11763a3472718c76264f0d1bb36751a0",
+        "bytes": 6819318
+      },
+      "mask": {
+        "path": "mask/168.png",
+        "sha256": "66688da6099ddf78641a567ea507b087f9d21d3bfa354b32718bec26999baf51",
+        "bytes": 13141
+      },
+      "target": {
+        "path": "target/168.png",
+        "sha256": "f7b8816d8da227eae8309fca68db5d2cf2df3bac36c45e47496b4e8531f976fd",
+        "bytes": 6905094
+      },
+      "comparison": {
+        "path": "comparison/168.jpg",
+        "sha256": "ed57a9fc6575e13e07e3c320ac3b6621b43aa088e9da116db6af4615b4d42dc6",
+        "bytes": 389129
+      }
+    }
+  },
+  {
+    "id": "169",
+    "source_size": [
+      2617,
+      3491
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_near_and_distant_people_removed_wet_pavement_retained",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "169.jpg",
+    "files": {
+      "input": {
+        "path": "input/169.png",
+        "sha256": "07a31861aafbcec9c1fbd48e205af584dcdc4dfb0cdad5c99b4a81a764460f26",
+        "bytes": 5502570
+      },
+      "mask": {
+        "path": "mask/169.png",
+        "sha256": "67de9639bd426754ad90af77007d3ef9c47fd51f17bcb50b27ca1ce9abd12e9f",
+        "bytes": 9500
+      },
+      "target": {
+        "path": "target/169.png",
+        "sha256": "aaae4e73ca9af37fefb63fb2a21283b82a216591d8837a30a2404cf9e59bbdfc",
+        "bytes": 5516708
+      },
+      "comparison": {
+        "path": "comparison/169.jpg",
+        "sha256": "a77da1d33b93bc32433241419be47acda88ce885eb2908ae715bd824470f01b6",
+        "bytes": 332327
+      }
+    }
+  },
+  {
+    "id": "170",
+    "source_size": [
+      2614,
+      3487
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_crowd_and_wet_reflections_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "170.jpg",
+    "files": {
+      "input": {
+        "path": "input/170.png",
+        "sha256": "76a0aedb09e661596a48bdcac0b3ddf6c2d415e28c0a912f13f348d9dfb9b892",
+        "bytes": 6341754
+      },
+      "mask": {
+        "path": "mask/170.png",
+        "sha256": "b7c74b4479ba3e637a79821b51971473a1349fac8a7314522c0467cf7510d8c2",
+        "bytes": 12815
+      },
+      "target": {
+        "path": "target/170.png",
+        "sha256": "a0f3803b6767ca40e7c640ca2e1627138c15703809507057ed02bb5ba4c73404",
+        "bytes": 6625079
+      },
+      "comparison": {
+        "path": "comparison/170.jpg",
+        "sha256": "4f5472e8ca107cb978d9b2f973689e2b99ea55f78c36485639961f4668497f27",
+        "bytes": 343333
+      }
+    }
+  },
+  {
+    "id": "171",
+    "source_size": [
+      1638,
+      2048
+    ],
+    "working_size": [
+      1791,
+      2240
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "reviewed_body_tiling_reflected_detection_excluded",
+    "review_status": "visual_pass_store_people_and_floor_reflections_removed_mask_reflections_excluded",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "171.jpg",
+    "files": {
+      "input": {
+        "path": "input/171.png",
+        "sha256": "6c7b987c439756d82121a4f7ebe4120aa7f48ac821c1243f72a4db83773e40e5",
+        "bytes": 4990198
+      },
+      "mask": {
+        "path": "mask/171.png",
+        "sha256": "3491ad6741249cfd3f24bb24146ec63c6fb5aaf1a33cef7ffab7e4353dd60c2d",
+        "bytes": 9436
+      },
+      "target": {
+        "path": "target/171.png",
+        "sha256": "41f6dc3b1285dbfc1e6d594941ca2b8f7500d9cc8fe9cf757d6827352006f6b1",
+        "bytes": 4910516
+      },
+      "comparison": {
+        "path": "comparison/171.jpg",
+        "sha256": "377d3351dcd9a6e062b4d1bc0b1493022409cf9abf5ba42fa5d9070367bf8965",
+        "bytes": 271696
+      }
+    },
+    "input_resampled_to_actual_output": true,
+    "submitted_size": [
+      1821,
+      2277
+    ]
+  },
+  {
+    "id": "172",
+    "source_size": [
+      1638,
+      2048
+    ],
+    "working_size": [
+      1791,
+      2240
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_and_shadows_removed_shop_display_retained",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "172.jpg",
+    "files": {
+      "input": {
+        "path": "input/172.png",
+        "sha256": "b9a738200ae4700a8ae926992ceab5cbcb8f7af100bc58d8910da18755644e03",
+        "bytes": 3686043
+      },
+      "mask": {
+        "path": "mask/172.png",
+        "sha256": "b52b052e827ec0da61d1e69ed63f95fd8e50b4cb1f6d52cb11c165e16776d31b",
+        "bytes": 11349
+      },
+      "target": {
+        "path": "target/172.png",
+        "sha256": "c6efe20583f83bfb2cbc9c18003ab7648dbbc8c46fab72f108fde14b081efd7a",
+        "bytes": 3778715
+      },
+      "comparison": {
+        "path": "comparison/172.jpg",
+        "sha256": "e822137e9724884eb9b8b93ee6cc6ea08f845b07cf60eb428cb9a01bc2430168",
+        "bytes": 256186
+      }
+    },
+    "input_resampled_to_actual_output": true,
+    "submitted_size": [
+      1821,
+      2277
+    ]
+  },
+  {
+    "id": "173",
+    "source_size": [
+      1638,
+      2048
+    ],
+    "working_size": [
+      1791,
+      2240
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person strip tiling; explicit non-person exclusions",
+    "mask_review_status": "tiled_entity_mask_reviewed_body_only",
+    "review_status": "visual_pass_dense_store_crowd_and_puddle_reflections_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "173.jpg",
+    "files": {
+      "input": {
+        "path": "input/173.png",
+        "sha256": "2abd4aec0d80f47c304b24fb7709647d10482c086c30fdfc6cd56a42522beb07",
+        "bytes": 3008323
+      },
+      "mask": {
+        "path": "mask/173.png",
+        "sha256": "7d937a9df76631c00d43051af5e400471c2a1db77838349370e879f277f8a3ff",
+        "bytes": 14206
+      },
+      "target": {
+        "path": "target/173.png",
+        "sha256": "4e629ee063bafaee8b175a351417805c373ea510b20c908b436e7a75b1128c41",
+        "bytes": 3107211
+      },
+      "comparison": {
+        "path": "comparison/173.jpg",
+        "sha256": "02d446f07c57e931e020bf9f51dcead6e31305040e730cf4bbb469548468e7ea",
+        "bytes": 230675
+      }
+    },
+    "input_resampled_to_actual_output": true,
+    "submitted_size": [
+      1821,
+      2277
+    ]
+  },
+  {
+    "id": "174",
+    "source_size": [
+      1638,
+      2048
+    ],
+    "working_size": [
+      1791,
+      2240
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person strip tiling; explicit non-person exclusions",
+    "mask_review_status": "tiled_entity_mask_reviewed_body_only",
+    "review_status": "visual_pass_depth_crowd_and_contact_shadows_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "174.jpg",
+    "files": {
+      "input": {
+        "path": "input/174.png",
+        "sha256": "f8ff8f261502a87ed4f16e2b61e9665058d9a15096fdfe986c0354ce5e168259",
+        "bytes": 4450561
+      },
+      "mask": {
+        "path": "mask/174.png",
+        "sha256": "98cb56b2d5a37ddd7e72266d7931f8a231eea64214acc2b490332d3ac0fa556e",
+        "bytes": 14942
+      },
+      "target": {
+        "path": "target/174.png",
+        "sha256": "05cf9fff06783254f6bb9c4b5bc50f595df018c42b5dc057d60b08efbfee6778",
+        "bytes": 4308800
+      },
+      "comparison": {
+        "path": "comparison/174.jpg",
+        "sha256": "e532c8c331eea3a5fbfc29c196e1cb458a3c36142ac8936b9d35b3047dfb9c50",
+        "bytes": 276080
+      }
+    },
+    "input_resampled_to_actual_output": true,
+    "submitted_size": [
+      1821,
+      2277
+    ]
+  },
+  {
+    "id": "176",
+    "source_size": [
+      1920,
+      2560
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_two_people_and_cast_shadows_removed_wall_decoration_preserved",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "176.jpg",
+    "files": {
+      "input": {
+        "path": "input/176.png",
+        "sha256": "6d251a9f2231115ba776c0052f21e581a45e962a57ea1dea5f1e1ed35730d83f",
+        "bytes": 4983662
+      },
+      "mask": {
+        "path": "mask/176.png",
+        "sha256": "a147f4792cd313ef52ea86e70782a3711945f14aded1118a81c074a4c6fa7f53",
+        "bytes": 5116
+      },
+      "target": {
+        "path": "target/176.png",
+        "sha256": "01b77f9ace8166a7cb15d066e9344d99174a4ad560d6ccd7ed7b7247aee05f96",
+        "bytes": 5010838
+      },
+      "comparison": {
+        "path": "comparison/176.jpg",
+        "sha256": "5048dd4edbeb94bb8c760e4ba73e4ce48055941b524a6f1fc3b7d4d5749af735",
+        "bytes": 220327
+      }
+    }
+  },
+  {
+    "id": "177",
+    "source_size": [
+      1920,
+      2560
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_body_mask_excludes_reflection_target_removes_people_and_associated_reflections",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "177.jpg",
+    "files": {
+      "input": {
+        "path": "input/177.png",
+        "sha256": "f35c9eec13b704466c54050ca783665f9e2d8b9601b0eb1416eb19f08b9350a0",
+        "bytes": 5342366
+      },
+      "mask": {
+        "path": "mask/177.png",
+        "sha256": "b2a5486f5402a1b7a188a8433fe9f6c222362e8f30ab20a9d58c25836b7cb5b4",
+        "bytes": 5015
+      },
+      "target": {
+        "path": "target/177.png",
+        "sha256": "a0d00e02884d5f8b3555c13164ff0e1627a2784b51de7c0343d41bf82f111f1c",
+        "bytes": 5353096
+      },
+      "comparison": {
+        "path": "comparison/177.jpg",
+        "sha256": "a1b95f0232fdc51ff55038179f670351b76b0cc5ee4e1e16e8f55437c0eb0705",
+        "bytes": 237544
+      }
+    }
+  },
+  {
+    "id": "178",
+    "source_size": [
+      1920,
+      2560
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      3,
+      4
+    ],
+    "excluded_instance_ids": [
+      2
+    ],
+    "mask_source": "Reviewed body segmentation with local native-resolution refinement; reflected silhouette explicitly excluded",
+    "mask_review_status": "entity_body_only_refined_no_reflection",
+    "review_status": "visual_pass_body_mask_excludes_reflection_target_removes_people_and_associated_reflections",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "178.jpg",
+    "files": {
+      "input": {
+        "path": "input/178.png",
+        "sha256": "5161f43f2557c525df7159899c6827e82dfc2bfd19a3f73c36637fb48421d4a9",
+        "bytes": 6829309
+      },
+      "mask": {
+        "path": "mask/178.png",
+        "sha256": "a7d3182647b2aec87bf60e547a52be30a620ed3e4e0b1bece0b5428dba58c699",
+        "bytes": 5858
+      },
+      "target": {
+        "path": "target/178.png",
+        "sha256": "4dc6272c6fe3f0f4f23387b1d18e361df15b5c19dd0b98b4a47532d03203641a",
+        "bytes": 6855227
+      },
+      "comparison": {
+        "path": "comparison/178.jpg",
+        "sha256": "7360be5e1cbda845fcb99659feb7351f9448c392230a75cff6ece9abe5f08fe9",
+        "bytes": 341271
+      }
+    }
+  },
+  {
+    "id": "180",
+    "source_size": [
+      1709,
+      2560
+    ],
+    "working_size": [
+      1664,
+      2496
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person strip tiling; explicit non-person exclusions",
+    "mask_review_status": "tiled_entity_mask_reviewed_body_only",
+    "review_status": "visual_pass_people_and_mirrored_silhouettes_removed_bus_architectural_reflections_kept",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "180.jpg",
+    "files": {
+      "input": {
+        "path": "input/180.png",
+        "sha256": "c8aecb363d7109a4f9154500402d4cf69f3c8ffe8aa9600e701f5ae9ff0e485f",
+        "bytes": 5957211
+      },
+      "mask": {
+        "path": "mask/180.png",
+        "sha256": "033aff75469766212b699d13c9b8408941d7f2d9f2274417b3ccfc3852e52e35",
+        "bytes": 10058
+      },
+      "target": {
+        "path": "target/180.png",
+        "sha256": "a40e461ba7694f989377f812a73da627795ab0d17ef284fa8cbc54dc005ee2fd",
+        "bytes": 6357813
+      },
+      "comparison": {
+        "path": "comparison/180.jpg",
+        "sha256": "c1a013d2308e230179b575f1360dc134b73685a98c4fb5b01111aa9d726f57c8",
+        "bytes": 408908
+      }
+    }
+  },
+  {
+    "id": "181",
+    "source_size": [
+      2670,
+      4000
+    ],
+    "working_size": [
+      1664,
+      2496
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person and their complete reflections in the puddle. Replace their former areas with continuous empty pavement and the naturally matching background. Do not add boxes, bins, pillars, barriers, people or other objects. Preserve the existing planters, vehicles, architecture, lighting and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_reflections_removed_original_source_crop_confirms_existing_cabinets_are_background",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "181.jpg",
+    "files": {
+      "input": {
+        "path": "input/181.png",
+        "sha256": "78b8c72b0db437c50503b035956cf06836311e1fb05b779d303c0743f79491d6",
+        "bytes": 7189298
+      },
+      "mask": {
+        "path": "mask/181.png",
+        "sha256": "628eb1abb70d0b01d878577ed7bf658d1d269f6070c5a1c9ea85e7079fd30875",
+        "bytes": 8170
+      },
+      "target": {
+        "path": "target/181.png",
+        "sha256": "d63b1132d6b44ca152662eb3f37d7f1af5ccb862f21985e3ab7b71cd283e72b3",
+        "bytes": 7268621
+      },
+      "comparison": {
+        "path": "comparison/181.jpg",
+        "sha256": "b1694840f05ba3c1d226d14c2c400a08f53a633c04792de3384089065b5b8b00",
+        "bytes": 415515
+      }
+    }
+  },
+  {
+    "id": "183",
+    "source_size": [
+      2670,
+      4000
+    ],
+    "working_size": [
+      1664,
+      2496
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person and their complete mirrored silhouettes in the puddle. Fill their former areas with continuous empty pavement and the naturally matching background. Do not add boxes, cabinets, bins, pillars, barriers or any new objects. Preserve the existing planters, buses, architecture, road signs, lights and their reflections. Keep everything else unchanged.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_reflections_removed_original_source_crop_confirms_existing_cabinets_are_background",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "183.jpg",
+    "files": {
+      "input": {
+        "path": "input/183.png",
+        "sha256": "17b52d03f81b7e651b4adb44e2580816433bb5fdd32772328fe51a60fce4d14b",
+        "bytes": 6279918
+      },
+      "mask": {
+        "path": "mask/183.png",
+        "sha256": "f218bbb138525360ce1fdf4e4bd725e94842d548c63a0c8a60d3417d0b56eb67",
+        "bytes": 9912
+      },
+      "target": {
+        "path": "target/183.png",
+        "sha256": "94926bb05149a6ddd9bb46899775456c4825bb27a13f66a7d8d531050fc8ac7e",
+        "bytes": 6532712
+      },
+      "comparison": {
+        "path": "comparison/183.jpg",
+        "sha256": "098b2260a2857201d21499cf01770d7c22d60de8ce691db12704cc7fd9502f1f",
+        "bytes": 377929
+      }
+    }
+  },
+  {
+    "id": "184",
+    "source_size": [
+      2670,
+      4000
+    ],
+    "working_size": [
+      1664,
+      2496
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Fill former body areas with continuous matching background; do not add boxes, cabinets, bins, pillars or other new objects.",
+    "selected_instance_ids": [
+      1
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_edge_person_and_reflection_removed_bus_and_building_reflections_preserved",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "184.jpg",
+    "files": {
+      "input": {
+        "path": "input/184.png",
+        "sha256": "4e2a633a66459e0e0365c583913c8ea40523f9de6aa19fe5bfc13b3d501acd1b",
+        "bytes": 6336506
+      },
+      "mask": {
+        "path": "mask/184.png",
+        "sha256": "ac2a81fd76432c9484cceb546831ad6885c3fb13f3388ecd61d991c60c19e471",
+        "bytes": 4679
+      },
+      "target": {
+        "path": "target/184.png",
+        "sha256": "92a0c8076833ba564c0ad9074164203c8d3aa3f942e89dc1f9cc11314e79bcb6",
+        "bytes": 6352502
+      },
+      "comparison": {
+        "path": "comparison/184.jpg",
+        "sha256": "ed800d21c64e789fa552b532f3f41b7e781e82a37c0a9383a47362ff7fc43a35",
+        "bytes": 356476
+      }
+    }
+  },
+  {
+    "id": "186",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Fill former body areas with continuous matching background; do not add boxes, cabinets, bins, pillars or other new objects.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_and_reflections_removed_after_close_crop_review",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "186.jpg",
+    "files": {
+      "input": {
+        "path": "input/186.png",
+        "sha256": "e6a5aba724ff77c67bff8e09e581dfd586450f8c8582dedfd1b0654e6cc249e8",
+        "bytes": 6756471
+      },
+      "mask": {
+        "path": "mask/186.png",
+        "sha256": "2632146653fc9f5deca7bc5183fb45a361d110dc37e22c0f71095b809b0d2c4d",
+        "bytes": 6781
+      },
+      "target": {
+        "path": "target/186.png",
+        "sha256": "5af1f69fefdc35a96262cf4f2fe6d6fda697ef080bcaf2b2e672215570e6f527",
+        "bytes": 6817955
+      },
+      "comparison": {
+        "path": "comparison/186.jpg",
+        "sha256": "082eb69befa1a78acd6f59837add4df0396d308ea775a6aac3054c27ece6f630",
+        "bytes": 390728
+      }
+    }
+  },
+  {
+    "id": "187",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Fill former body areas with continuous matching background; do not add boxes, cabinets, bins, pillars or other new objects.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+    ],
+    "excluded_instance_ids": [
+      12
+    ],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "reviewed_people_only_right_statue_false_detection_excluded",
+    "review_status": "visual_pass_people_reflections_removed_statue_retained_and_excluded_from_mask",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "187.jpg",
+    "files": {
+      "input": {
+        "path": "input/187.png",
+        "sha256": "cf7cc4610a62191d4d76e7dc3485298185ffef22c4b7f0c6568a1d115fb670fd",
+        "bytes": 6245140
+      },
+      "mask": {
+        "path": "mask/187.png",
+        "sha256": "45257653b08e99bfe3e5977f4f334ca1b6485d8721a39fd5b2b52eacf1d104d0",
+        "bytes": 7732
+      },
+      "target": {
+        "path": "target/187.png",
+        "sha256": "b7c5bcf70089757fa9cd516a9e8f5f1d99df39815a43964f6a449026d0fb392c",
+        "bytes": 6316963
+      },
+      "comparison": {
+        "path": "comparison/187.jpg",
+        "sha256": "b4354d52aea7ce640af420f8ced5fb14521e0347958208331f658759bc71aa7f",
+        "bytes": 348112
+      }
+    }
+  },
+  {
+    "id": "188",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Fill former body areas with continuous matching background; do not add boxes, cabinets, bins, pillars or other new objects.",
+    "selected_instance_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_and_wet_ground_silhouettes_removed_bollards_signs_kept",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "188.jpg",
+    "files": {
+      "input": {
+        "path": "input/188.png",
+        "sha256": "4dabf26f77cfb68323068c902355ef14d9b7bb4d35d0cfd12c3a05afc22fb900",
+        "bytes": 6241798
+      },
+      "mask": {
+        "path": "mask/188.png",
+        "sha256": "d40db5621df323106d751a62ff4a7a113c23b92321c0e40fe88318cd8756d05b",
+        "bytes": 9100
+      },
+      "target": {
+        "path": "target/188.png",
+        "sha256": "551b646c6fd4f825dff3e5610bf11aa0e04f1ab58832eedc0ca1f884c23de0a7",
+        "bytes": 6384214
+      },
+      "comparison": {
+        "path": "comparison/188.jpg",
+        "sha256": "5e99d792e75c07258479e9e57fe1f8db342ea8a213f83b7fe0d328c223db3503",
+        "bytes": 367527
+      }
+    }
+  },
+  {
+    "id": "189",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Fill former body areas with continuous matching background; do not add boxes, cabinets, bins, pillars or other new objects.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_and_reflections_removed_after_close_crop_review",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "189.jpg",
+    "files": {
+      "input": {
+        "path": "input/189.png",
+        "sha256": "3d6cf1b704490f8eb83837998b335b73606e4f0eb9ff56d7485e76b3eb484b28",
+        "bytes": 6447077
+      },
+      "mask": {
+        "path": "mask/189.png",
+        "sha256": "28376bd2c78c7883e008c163df159873f5ccc66123ba4ad5bfc7b9aeb4a5df60",
+        "bytes": 9692
+      },
+      "target": {
+        "path": "target/189.png",
+        "sha256": "c3a1dde9e99e43e5205721e0ddaffcb9934ad86589a3910fc9bc0d7dec0e62c3",
+        "bytes": 6485851
+      },
+      "comparison": {
+        "path": "comparison/189.jpg",
+        "sha256": "6221030d18b38d1c7330ca743bd8717a5fea9878ba739565064a3cdd5e2957df",
+        "bytes": 401891
+      }
+    }
+  },
+  {
+    "id": "193",
+    "source_size": [
+      3000,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Fill former body areas with continuous matching background; do not add boxes, cabinets, bins, pillars or other new objects.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person strip tiling; explicit non-person exclusions",
+    "mask_review_status": "tiled_entity_mask_reviewed_body_only",
+    "review_status": "visual_pass_dense_crowd_and_wet_pavement_reflections_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "193.jpg",
+    "files": {
+      "input": {
+        "path": "input/193.png",
+        "sha256": "08e2b6c7c7f2706ead344809a4105ea320bd5d4757aa9217beedef7c5b4e67f4",
+        "bytes": 5723331
+      },
+      "mask": {
+        "path": "mask/193.png",
+        "sha256": "122bd7a6a7f55bf04076d3813c5da06dde15579e53e27325bd83b25b725698bb",
+        "bytes": 13093
+      },
+      "target": {
+        "path": "target/193.png",
+        "sha256": "ff7fdd511ca002d5cb0d96f3b16cd6752edc32a6b35a6062dfb14f372208bfe0",
+        "bytes": 5984215
+      },
+      "comparison": {
+        "path": "comparison/193.jpg",
+        "sha256": "41ca253a3ec6fd2915e9be82ce24faee5d956a7e1bb3c7764c720ec7fb9602f3",
+        "bytes": 323809
+      }
+    }
+  },
+  {
+    "id": "195",
+    "source_size": [
+      3012,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Fill former body areas with continuous matching background; do not add boxes, cabinets, bins, pillars or other new objects.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person strip tiling; explicit non-person exclusions",
+    "mask_review_status": "tiled_entity_mask_reviewed_body_only",
+    "review_status": "visual_pass_people_and_complete_puddle_silhouettes_removed_building_reflection_preserved",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "195.jpg",
+    "files": {
+      "input": {
+        "path": "input/195.png",
+        "sha256": "bad5900cc17b4ce1fdf780b8b4f555d8739b4f101d109aecd160551ca5181e4b",
+        "bytes": 6834972
+      },
+      "mask": {
+        "path": "mask/195.png",
+        "sha256": "f633e8c5ec45e1361625d05bd342e15f130f5e2dda261e70bd55cad9de24d1db",
+        "bytes": 10288
+      },
+      "target": {
+        "path": "target/195.png",
+        "sha256": "d3d590d90af76872b1ff84c46852cd9efdd45f295f8d2ed4016bdbde89233bca",
+        "bytes": 6905384
+      },
+      "comparison": {
+        "path": "comparison/195.jpg",
+        "sha256": "47c88d501ca316f629e2dee49bbe5eee84855af54ec3fa7570d39762234215dd",
+        "bytes": 352661
+      }
+    }
+  },
+  {
+    "id": "196",
+    "source_size": [
+      3012,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Fill former body areas with continuous matching background; do not add boxes, cabinets, bins, pillars or other new objects.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person strip tiling; explicit non-person exclusions",
+    "mask_review_status": "tiled_entity_mask_reviewed_body_only",
+    "review_status": "visual_pass_people_and_wet_pavement_silhouettes_removed_signs_and_street_furniture_kept",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "196.jpg",
+    "files": {
+      "input": {
+        "path": "input/196.png",
+        "sha256": "ab7e49a31b1e79d875bca02816037efdbf95d04bea33c33213682095cb2bd3ee",
+        "bytes": 6281276
+      },
+      "mask": {
+        "path": "mask/196.png",
+        "sha256": "9849d50d4cf8bca7b0cd263523a8317fadb69db3d175bbdeeaaed7485f08c353",
+        "bytes": 12057
+      },
+      "target": {
+        "path": "target/196.png",
+        "sha256": "ab0153a0593e92742ec12fe89692f452c764e73563b182216f7f6b7163830f9e",
+        "bytes": 6475962
+      },
+      "comparison": {
+        "path": "comparison/196.jpg",
+        "sha256": "79864751953762a0fc6ab0cd5ee79717b3e8d37771a63ba9b969c96261f8cbdd",
+        "bytes": 340502
+      }
+    }
+  },
+  {
+    "id": "197",
+    "source_size": [
+      3012,
+      4000
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Fill former body areas with continuous matching background; do not add boxes, cabinets, bins, pillars or other new objects.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m semantic segmentation with explicit entity selection; never image difference",
+    "mask_review_status": "entity_selection_reviewed_boundary_approximate",
+    "review_status": "visual_pass_people_and_wet_pavement_silhouettes_removed_signs_and_street_furniture_kept",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "197.jpg",
+    "files": {
+      "input": {
+        "path": "input/197.png",
+        "sha256": "1b544ae21ff3ddcf4a974df737d18606a08824a0da0b0b01f896677c728aa495",
+        "bytes": 6622699
+      },
+      "mask": {
+        "path": "mask/197.png",
+        "sha256": "ec5e3aa5bf2cfbca49d42536b4e857ef4c90c63284151723b023836faf58e302",
+        "bytes": 7315
+      },
+      "target": {
+        "path": "target/197.png",
+        "sha256": "9899ff0b0463d41cf16847b270867168da4d748da253d2a3fec0e6b3dbdc20e6",
+        "bytes": 6643509
+      },
+      "comparison": {
+        "path": "comparison/197.jpg",
+        "sha256": "98f0d2571be042419f28b297505336290b3e09f02e98cc05f0b60def27c74f37",
+        "bytes": 342852
+      }
+    }
+  },
+  {
+    "id": "199",
+    "source_size": [
+      1919,
+      2560
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Fill former body areas with continuous matching background; do not add boxes, cabinets, bins, pillars or other new objects.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person strip tiling; explicit non-person exclusions",
+    "mask_review_status": "tiled_entity_mask_reviewed_body_only",
+    "review_status": "visual_pass_motion_blurred_people_and_long_reflections_removed",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "199.jpg",
+    "files": {
+      "input": {
+        "path": "input/199.png",
+        "sha256": "33ed632c74ea1d94544ca0de5ed35a85355bd8a5732a2e0e3058dcd22df09d8f",
+        "bytes": 5857934
+      },
+      "mask": {
+        "path": "mask/199.png",
+        "sha256": "e47f58ce47bd8a869403e80aefd756985bbcbeb7c24539a6a6ec248da3e6c5b9",
+        "bytes": 11474
+      },
+      "target": {
+        "path": "target/199.png",
+        "sha256": "a06af66f2a480f740c838962bced419595da6a6d97bc46d5581e0ac2595ffc1d",
+        "bytes": 5993652
+      },
+      "comparison": {
+        "path": "comparison/199.jpg",
+        "sha256": "3b1db14331f623da63f7524b82c0af5ec2844eeae5e9b792d9a0d908e9f5e16a",
+        "bytes": 357685
+      }
+    }
+  },
+  {
+    "id": "200",
+    "source_size": [
+      1920,
+      2560
+    ],
+    "working_size": [
+      1760,
+      2347
+    ],
+    "model": "FLUX 3 Large",
+    "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Fill former body areas with continuous matching background; do not add boxes, cabinets, bins, pillars or other new objects.",
+    "selected_instance_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "excluded_instance_ids": [],
+    "mask_source": "YOLO11m original plus reviewed native-resolution person strip tiling; explicit non-person exclusions",
+    "mask_review_status": "tiled_entity_mask_reviewed_body_only",
+    "review_status": "visual_pass_night_people_and_mirrored_silhouettes_removed_car_lights_reflections_preserved",
+    "training_mask_definition": "Selected real entity bodies only; cast shadows and reflections excluded by semantic selection, pending visual boundary review",
+    "outside_changed_pixels": 0,
+    "source_file_name": "200.jpg",
+    "files": {
+      "input": {
+        "path": "input/200.png",
+        "sha256": "a6ff5cf99d2323a495569f71a01914a402fc1edd6ff4f7770447692cb1c5cf4e",
+        "bytes": 7131820
+      },
+      "mask": {
+        "path": "mask/200.png",
+        "sha256": "5305ae56b959b046835526e1321d1546c01225b22d04bab10c547c58c7f3c20c",
+        "bytes": 9213
+      },
+      "target": {
+        "path": "target/200.png",
+        "sha256": "137dff9e9dc311d60e4a73f12290e3c88bad03667dd430fcb6551e3c4c4d7f16",
+        "bytes": 7421474
+      },
+      "comparison": {
+        "path": "comparison/200.jpg",
+        "sha256": "60980ab8cb067cea87214a90520bf5675293c7a4a598030dfaabaa5d73f37080",
+        "bytes": 393796
+      }
+    }
+  }
+]

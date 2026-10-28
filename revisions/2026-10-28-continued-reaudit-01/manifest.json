@@ -1,0 +1,697 @@
+{
+  "revision": "2026-10-28-continued-reaudit-01",
+  "baseline_commit": "18ac7c0cf08ccc1605f605e462d7bab2627b092d",
+  "sample_count": 23,
+  "samples": [
+    {
+      "id": "153",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Full final merged mask and all seven accessory crops plus native partial-person/arch region reviewed.",
+      "accessory_review": "Seven real carried bags included; reviewed SAM covers visible partial person behind right decorative arch, excluding fixed arch and water reflections.",
+      "target_review": "Selected people and possessions removed with their mirror silhouettes; train, arch, railing and environmental reflections retained.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/153.png",
+          "sha256": "851684b60cd0754c8225d0317d5725001561ab8e5d65ace4c745a9881b0b3806",
+          "bytes": 4860799
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/153.png",
+          "sha256": "56b27e2c93976c53d4f633c2bbbf1f044da27deb7a3498bfe0be1d0881df8bb4",
+          "bytes": 8114
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/153.png",
+          "sha256": "478da0bb2102c891cfa404f90e81a7521251c17193082605aec57492584b0f05",
+          "bytes": 4813066
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/153.jpg",
+          "sha256": "0e8cc3752d4ca0d87c2dabe75d5df565002875f3b0da59f7fd9128af053ea861",
+          "bytes": 81623
+        }
+      }
+    },
+    {
+      "id": "154",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "All six real backpack/bag crops and full current merged mask/target reviewed.",
+      "accessory_review": "Six physical worn/carried bags included; no external water reflections added.",
+      "target_review": "Selected foreground wading people, belongings and associated reflections removed; distant unselected boardwalk background preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/154.png",
+          "sha256": "6c50630b1495e29112d91505be8ac0380a983f023ac58c4c6a1a017bb9dc57a9",
+          "bytes": 4146926
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/154.png",
+          "sha256": "60a32765f60b4f153e78c344a3852c3ada34ffcd602792201326c94a4e059de7",
+          "bytes": 6169
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/154.png",
+          "sha256": "5de9684214a49caf80d8d95af25bfae1c9b51a05690cda8559b231cd97ca037b",
+          "bytes": 4121666
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/154.jpg",
+          "sha256": "31d14e8e04e3388a275933ba08f1e1fb7abdf6d5ab0e81a10e65e9b356b0ab53",
+          "bytes": 150439
+        }
+      }
+    },
+    {
+      "id": "155",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Both backpack proposals and corrected full source/mask/target reviewed.",
+      "accessory_review": "Both physical backpacks selected; fixed left sail/sign false person component removed. External water reflections excluded.",
+      "target_review": "People and their backpacks/reflections removed; fixed sail, water, mountains and existing distant fixtures preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/155.png",
+          "sha256": "d33f1515f8de96a61e476a4ae31013b5e525659253dbb6aab6e1adfb66a7f64b",
+          "bytes": 3678201
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/155.png",
+          "sha256": "3f73369b22f780755f005a18d8c56c63a527be6a155231eddf4e48536e89a103",
+          "bytes": 5107
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/155.png",
+          "sha256": "4547360879dca4dbe91ed1a5f8063b51bbaa554f7af3216371645b342f6b7cb7",
+          "bytes": 3650187
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/155.jpg",
+          "sha256": "ba716612d132c1772f8f9b33dbba734bc89e47ffa64e58bef7b0f6b120883149",
+          "bytes": 128631
+        }
+      }
+    },
+    {
+      "id": "156",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Native held-red-cloth region and full final mask/target reviewed.",
+      "accessory_review": "Reviewed held red fabric silhouette supplemented above waterline only; remaining visible body/held items covered, no reflected cloth mask.",
+      "target_review": "Group and held cloth removed with their water silhouettes; fixed sign and walkway preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/156.png",
+          "sha256": "4319b88844b1e9ce978aababe27616360821f84ebe2ab97a574f9f9026a287f9",
+          "bytes": 2050716
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/156.png",
+          "sha256": "9c52fe899df630bd962352fbbb88def670c612c7da6a6e9a5b93cd71000637ff",
+          "bytes": 4837
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/156.png",
+          "sha256": "808cc209abedad620c70599ee39d91c015c7b8e5ea6bfbfc3679b0e0e75041ad",
+          "bytes": 2029781
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/156.jpg",
+          "sha256": "86f7782de13505d87a6ebffc54358a7687cd821f1b1c140159181f73ee754313",
+          "bytes": 51313
+        }
+      }
+    },
+    {
+      "id": "157",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Both accessory crops and full merged mask/target reviewed.",
+      "accessory_review": "Real side handbag included; worn/held hat-like umbrella candidate belongs to selected person. External water reflections excluded.",
+      "target_review": "Selected people, their belongings and water mirror silhouettes removed; fixed decorative boat/hearts preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/157.png",
+          "sha256": "44a32b034007bee95db6fa3dc69ad0cfbd45bc7044a407fd990f5cc7000ab206",
+          "bytes": 1982848
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/157.png",
+          "sha256": "51ef1eb72392aafd13c2f2baadb011b7a0eb1f73612d48cf84f6195ab3b1d942",
+          "bytes": 6294
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/157.png",
+          "sha256": "050508b710b54e51ff4b0ac629c27e347e2e3f0c8e0ba77ed1781e213b0edcf7",
+          "bytes": 1948125
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/157.jpg",
+          "sha256": "4d45c1d44b51e9234ebb2abd364a1a2a65c233fba489d9211e25c1c20bdd464c",
+          "bytes": 49001
+        }
+      }
+    },
+    {
+      "id": "160",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "All ten proposal crops, corrected poster/foreground native detail and full final merged overlay reviewed.",
+      "accessory_review": "Real carried open/closed umbrellas, handbags and phone included; architectural false umbrella10 excluded. Printed ad component cleared with reviewed SAM restoring overlapping real foreground heads.",
+      "target_review": "Real people, belongings and associated ground silhouettes removed; printed ad and storefront/lighting preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/160.png",
+          "sha256": "3ddbfbe3bb34433c115565d402632d25e04e20cd5c5221bdb56f766824abc89c",
+          "bytes": 5277351
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/160.png",
+          "sha256": "8411c519ac8cf600ca84d3cfc5b36beb72280aae94ac3d2e395dd60527b9dcc9",
+          "bytes": 13546
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/160.png",
+          "sha256": "65448f09f9f74d1f9f93ef1c55155de3ecbbf48f96c9d994b3ce824239552163",
+          "bytes": 5519366
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/160.jpg",
+          "sha256": "e09b9e6758304c3faf3cc57c64112846ed950d1142d1f53844c3735e84296b6d",
+          "bytes": 261032
+        }
+      }
+    },
+    {
+      "id": "162",
+      "mask_changed": true,
+      "target_changed": true,
+      "review_note": "Full final merged source/mask/target and native fixed-display restoration reviewed.",
+      "accessory_review": "Three real carried bags selected; icecream model and its weighted base excluded from entity mask, together with fixed awning false umbrella.",
+      "target_review": "Real people and their shadows/reflections removed. Fixed icecream display/base restored from original with local outer blend, disjoint from actual selected entities. Retained original support and explicit fixture protection require pixel validation.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/162.png",
+          "sha256": "4076ef15be5801b80201164b46321d12972a47d87cbb255675dadb3c9b767344",
+          "bytes": 6116899
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/162.png",
+          "sha256": "ec37d2446a5607f147be9c94a395bada9167a6f1428746aadaaff9ed2f96bcde",
+          "bytes": 11147
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/162.png",
+          "sha256": "215a0ff67fa555af8ee6edde7471463a466f37065d16af222e7a557bbeb9a7fa",
+          "bytes": 6174596
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/162.jpg",
+          "sha256": "95a2ef75efe43a43bce62b67a570dba4eb81d61197603b76ac4692c025e7fafe",
+          "bytes": 299220
+        }
+      }
+    },
+    {
+      "id": "163",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Full current merged overlay and native stroller proposal/canopy outline reviewed.",
+      "accessory_review": "Visible pushed stroller hood, frame, wheels and associated bag supplemented with reviewed SAM plus native approximate canopy polygon; real side handbag included; fixed awning excluded.",
+      "target_review": "Selected people, stroller and associated shadows/reflections removed; architectural awning, storefronts and floor lighting preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/163.png",
+          "sha256": "9831c92432fb05e7e08e837d51a1bcf1a5cee37c02c6f832f0853cc6f0d18416",
+          "bytes": 5940712
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/163.png",
+          "sha256": "b029c9486e691669b2c6d905e86f487882a362b55f3f1a956086c6006e1973d5",
+          "bytes": 9244
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/163.png",
+          "sha256": "ec3ce73740870dbb9acc1f918e79237813c1fb57c36c404fa83d7269a7fae5dc",
+          "bytes": 5892045
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/163.jpg",
+          "sha256": "42cdd107f8e7d88f522b54fdb4dc18c38801c31dfc0406cc76c74ddbeaaf40ad",
+          "bytes": 298557
+        }
+      }
+    },
+    {
+      "id": "169",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "All eight accessory crops and final full merged overlay/target reviewed.",
+      "accessory_review": "Physical carried/worn bags and closed umbrella selected; unrelated off-frame/fixed side bag3 retained in target excluded. No external reflections selected.",
+      "target_review": "Selected people, belongings and associated floor silhouettes removed; planters, storefronts, fixed furniture and environmental lighting preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/169.png",
+          "sha256": "07a31861aafbcec9c1fbd48e205af584dcdc4dfb0cdad5c99b4a81a764460f26",
+          "bytes": 5502570
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/169.png",
+          "sha256": "f231a2278d28f2151616ec6b2653fe82e68278033c828d1b2f8cf550f3c9f73e",
+          "bytes": 9957
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/169.png",
+          "sha256": "aaae4e73ca9af37fefb63fb2a21283b82a216591d8837a30a2404cf9e59bbdfc",
+          "bytes": 5516708
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/169.jpg",
+          "sha256": "d79791a6c7eb2c96dbfba5088f9b2de00c2446a1c153c44342de86a357c7103f",
+          "bytes": 284001
+        }
+      }
+    },
+    {
+      "id": "172",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Five accessory crops and final merged overlay/target reviewed.",
+      "accessory_review": "Five physical side bags/tote bags included after native identity check, including low-difference bag2; fixed window mannequin/display excluded.",
+      "target_review": "Selected real people, belongings and associated shadows removed; fixed LV display, planter and architecture retained.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/172.png",
+          "sha256": "b9a738200ae4700a8ae926992ceab5cbcb8f7af100bc58d8910da18755644e03",
+          "bytes": 3686043
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/172.png",
+          "sha256": "f54d1f269b6910466c8a7b09d3a4e37ccd3c2a96350eba3e7f5130d94467a9f2",
+          "bytes": 11153
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/172.png",
+          "sha256": "c6efe20583f83bfb2cbc9c18003ab7648dbbc8c46fab72f108fde14b081efd7a",
+          "bytes": 3778715
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/172.jpg",
+          "sha256": "62084785a2341ae6d739f5277f4a14a07fc86ff3c5469b7789b6c34ed98883bf",
+          "bytes": 218552
+        }
+      }
+    },
+    {
+      "id": "177",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Both physical accessory crops and full current merged overlay/target reviewed.",
+      "accessory_review": "Held striped umbrella and carried plastic bag included; exterior ground silhouettes not selected.",
+      "target_review": "Pair and associated long human/umbrella reflections removed; fixed signs, glass railing, street furniture and their reflections preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/177.png",
+          "sha256": "f35c9eec13b704466c54050ca783665f9e2d8b9601b0eb1416eb19f08b9350a0",
+          "bytes": 5342366
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/177.png",
+          "sha256": "ea7cc73a2d5164ca1f73cce36e1bb07ffd97b74eafb22d5883b64910e93a0998",
+          "bytes": 5343
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/177.png",
+          "sha256": "a0d00e02884d5f8b3555c13164ff0e1627a2784b51de7c0343d41bf82f111f1c",
+          "bytes": 5353096
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/177.jpg",
+          "sha256": "2a660ca612c49f4941458fc5db3fd18a190f19f301546169f8dc3e79efcb0d55",
+          "bytes": 201007
+        }
+      }
+    },
+    {
+      "id": "178",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Native foreground phone candidate, background shoulder-bag crop and final merged source/mask/target reviewed.",
+      "accessory_review": "Reviewed SAM includes physically held foreground phone; background worn bag already body-covered. Reflections remain excluded.",
+      "target_review": "Selected people and phone/bag removed with puddle reflections; lit architecture and environmental reflections retained.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/178.png",
+          "sha256": "5161f43f2557c525df7159899c6827e82dfc2bfd19a3f73c36637fb48421d4a9",
+          "bytes": 6829309
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/178.png",
+          "sha256": "87237a3c10633e92f0dd298730192951ece45eb4fa08221530e944b1d19c5a26",
+          "bytes": 5857
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/178.png",
+          "sha256": "4dc6272c6fe3f0f4f23387b1d18e361df15b5c19dd0b98b4a47532d03203641a",
+          "bytes": 6855227
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/178.jpg",
+          "sha256": "b81ea529380e6d3def21f5db5ba0d204407ace3191e4295ca55554285e7fe490",
+          "bytes": 289951
+        }
+      }
+    },
+    {
+      "id": "180",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "All nine proposal crops and full merged overlay/target reviewed.",
+      "accessory_review": "Real worn/carried bags and phone included; proposal8 is an unrelated parked-cycle wheel and is excluded by low change/contact selection.",
+      "target_review": "Selected real pedestrians and associated reflections removed; buses, parked cycle, planters and building lighting preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/180.png",
+          "sha256": "c8aecb363d7109a4f9154500402d4cf69f3c8ffe8aa9600e701f5ae9ff0e485f",
+          "bytes": 5957211
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/180.png",
+          "sha256": "513b95034948e7b1688c52abc6262c91044795e6c9298a4c486272f906b2f7b9",
+          "bytes": 9893
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/180.png",
+          "sha256": "a40e461ba7694f989377f812a73da627795ab0d17ef284fa8cbc54dc005ee2fd",
+          "bytes": 6357813
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/180.jpg",
+          "sha256": "13f81e4886127501d463b7d194dc8cdf9b83ed2c00432ee77e682f03e7a1b569",
+          "bytes": 348648
+        }
+      }
+    },
+    {
+      "id": "181",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "All five proposals and full source/mask/target reviewed.",
+      "accessory_review": "Real side bags, held bags and small phone pixels selected; source-boundary proposals remain approximate, no reflected bodies selected.",
+      "target_review": "Selected people and their associated reflections removed; cars, planters, buildings, lights and environmental reflections preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/181.png",
+          "sha256": "78b8c72b0db437c50503b035956cf06836311e1fb05b779d303c0743f79491d6",
+          "bytes": 7189298
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/181.png",
+          "sha256": "acc44f611d5545c78a1aa8ea955359d16ebc993123ce87f63a05ef41116ac152",
+          "bytes": 7888
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/181.png",
+          "sha256": "d63b1132d6b44ca152662eb3f37d7f1af5ccb862f21985e3ab7b71cd283e72b3",
+          "bytes": 7268621
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/181.jpg",
+          "sha256": "5fe235d54534ef1d650070025548de669ff3027781ab55e5ddac28be8a42dfc2",
+          "bytes": 353104
+        }
+      }
+    },
+    {
+      "id": "183",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "All eleven crops and corrected final merged overlay/target reviewed.",
+      "accessory_review": "Ten real carried bags/backpacks/paper bag selected; false phone10 on bus taillight explicitly excluded. No water reflections selected.",
+      "target_review": "Selected people, belongings and their reflections removed; buses, streetlights, planters and building reflections retained.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/183.png",
+          "sha256": "17b52d03f81b7e651b4adb44e2580816433bb5fdd32772328fe51a60fce4d14b",
+          "bytes": 6279918
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/183.png",
+          "sha256": "257a2532f8c635821af8a15e9b5924b849451f81fdba94e95c9539e0081466b8",
+          "bytes": 9679
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/183.png",
+          "sha256": "94926bb05149a6ddd9bb46899775456c4825bb27a13f66a7d8d531050fc8ac7e",
+          "bytes": 6532712
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/183.jpg",
+          "sha256": "d03b3ce1eb47441e522a5389ae0414a83d457741a550d3599247ca45e5453176",
+          "bytes": 320303
+        }
+      }
+    },
+    {
+      "id": "188",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "All thirteen accessory crops and final full merged overlay/target reviewed.",
+      "accessory_review": "Human-held umbrella canopies, shopping/side bags and covered worn bag selected. Hair/hat-like candidate10 is within physical subject; no external floor reflections or fixed signs selected.",
+      "target_review": "Real people, belongings and complete human/umbrella wet-floor silhouettes removed; bollards, posts, storefronts, signs and environmental reflections retained.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/188.png",
+          "sha256": "4dabf26f77cfb68323068c902355ef14d9b7bb4d35d0cfd12c3a05afc22fb900",
+          "bytes": 6241798
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/188.png",
+          "sha256": "94444660f099d236d3a8e5e8549b6e6460706de0b57e109f613c9a40e6e82f4a",
+          "bytes": 11089
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/188.png",
+          "sha256": "551b646c6fd4f825dff3e5610bf11aa0e04f1ab58832eedc0ca1f884c23de0a7",
+          "bytes": 6384214
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/188.jpg",
+          "sha256": "3ca28298fd092c7f3d7570199b48c9601634578104f3c9702f4a7aaf515c82e8",
+          "bytes": 317583
+        }
+      }
+    },
+    {
+      "id": "211",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "All four accessory crops and final full merged overlay/target reviewed.",
+      "accessory_review": "Held rider umbrella1 and physical side bag3 selected; large fixed street-stall parasol2 and stationary distant shelter4 remain excluded. Parked scooter retained.",
+      "target_review": "Selected pedestrians/riders and their belongings and associated reflections removed; unrelated parked scooter, fixed umbrellas, bins and cars preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/211.png",
+          "sha256": "d6e64510f5dd11f71c42acf29813230011d35440501a7bb3632a31a0ecef7429",
+          "bytes": 6457335
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/211.png",
+          "sha256": "6ee69961e08187751de0be1fef240258f22231064a26fe8c844855025164bd30",
+          "bytes": 6522
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/211.png",
+          "sha256": "0ccb5572afe350b73e5cd1b72f8439f257c65b5e9d2233c8ce83bfe3f934de91",
+          "bytes": 6467370
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/211.jpg",
+          "sha256": "cb250af101a3b32dc821423f8477ea3e30e5c483d532e46bb4b0e02bb8078cca",
+          "bytes": 385940
+        }
+      }
+    },
+    {
+      "id": "235",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Five accessory crops and full final source/mask/target reviewed.",
+      "accessory_review": "Four human-held umbrellas selected; printed handbag5 in advertising excluded.",
+      "target_review": "Real people, umbrellas and human/umbrella floor silhouettes removed; printed campaign figures and architecture preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/235.png",
+          "sha256": "e6dc5325ec04ffeabcf48694f6f3bb62d55759bce9b6895ba92358457124ac74",
+          "bytes": 7039021
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/235.png",
+          "sha256": "99090d9b0661a8c5adee1de97fc74c5884a11688d7bec065b10f1568eb94451d",
+          "bytes": 6436
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/235.png",
+          "sha256": "55ce2a813d4146caa62d163a04fd0d0741848a45a2bf9460138ab9926d045eb2",
+          "bytes": 7032587
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/235.jpg",
+          "sha256": "720269194ee4926e65f51e9ae8aa6c200646ea9bd646638a9d10d85d89cdbd9a",
+          "bytes": 283468
+        }
+      }
+    },
+    {
+      "id": "262",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Five accessory crops and full final source/mask/target reviewed.",
+      "accessory_review": "Four real carried umbrella silhouettes selected; mixed fixed white parasol proposal5 excluded.",
+      "target_review": "Selected real shoppers/staff and carried umbrellas/reflections removed; merchandise, fixed white parasol and colored environmental reflections retained.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/262.png",
+          "sha256": "da798114a85dd01f1da164f62c52c74a0f85567f498adf31be93fcbbee55f488",
+          "bytes": 6121224
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/262.png",
+          "sha256": "48421b5c6ae9fb35b60c52905c7d8a91380af2a3af16c8d538178e0d4ba6842f",
+          "bytes": 12333
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/262.png",
+          "sha256": "4a47230081f7ac5f254ed828d70050380ffa8ef750da55d10fe04ac5ba5be76f",
+          "bytes": 6586438
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/262.jpg",
+          "sha256": "1f6e7934bd7ca1d80730d0f643eeccb6b647212c39381fbfca957e1f5e258b4c",
+          "bytes": 380265
+        }
+      }
+    },
+    {
+      "id": "273",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Three accessory crops and full final source/mask/target reviewed.",
+      "accessory_review": "Real carried side bag2 selected; printed advertising bags1/3 excluded.",
+      "target_review": "Selected pedestrians and associated wet-floor shadows/reflections removed; fixed advertising and store lighting preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/273.png",
+          "sha256": "f6bd5113ebe960cf208a5fde9e88b62ee4c28a4cc0e4a8bfdf406b7bae32335a",
+          "bytes": 6186209
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/273.png",
+          "sha256": "09f5c0ad9fddbd02386c410a08b96fff6f2903cdb225e103c269f4a4890d7082",
+          "bytes": 4917
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/273.png",
+          "sha256": "12e2f973ae05835cd9c4e9f9116da6f23dd2d75c4c2453f991ecfdbb0ad4e3d3",
+          "bytes": 6181620
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/273.jpg",
+          "sha256": "d0a422317abef94b5e711fdb32dbc6b303ba8597e41062f93eeeb30a9c6ef366",
+          "bytes": 283395
+        }
+      }
+    },
+    {
+      "id": "274",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Three accessory crops and full final source/mask/target reviewed.",
+      "accessory_review": "Two real human-held umbrellas and side bag3 selected; unrelated parked scooter excluded.",
+      "target_review": "People, carried belongings and mirror silhouettes removed; parked scooter, buildings, signs and their reflections preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/274.png",
+          "sha256": "3cb62e3a3c75faf5e9377fe57d50d598639d7e0af2558a67bc54f4e6c4762677",
+          "bytes": 6641360
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/274.png",
+          "sha256": "47b64459c3b92b8944c42d7ffb2c4c3a03019b3739486e64c0681667b65d2cc5",
+          "bytes": 5379
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/274.png",
+          "sha256": "7ddc749b391136fa82b5f61355fd1dc6fb3afa69029cc3224e30a6d016e3c06e",
+          "bytes": 6671482
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/274.jpg",
+          "sha256": "ce634df77d6f03c0bdc813ce604f6785b22313028a2973275a10c959019292a4",
+          "bytes": 247127
+        }
+      }
+    },
+    {
+      "id": "275",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Both physical accessory crops and updated final overlay/target reviewed.",
+      "accessory_review": "Side bag and held black umbrella included after semantic review despite dark-on-dark low difference. External floor reflections excluded.",
+      "target_review": "Selected people, belongings and associated human/umbrella silhouettes removed; architecture and sign/lighting reflections retained.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/275.png",
+          "sha256": "c0fdd4955b2f0aa1eb006c95fb6850a0ee224cc04aff9bab6fe910a15d501aab",
+          "bytes": 5848964
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/275.png",
+          "sha256": "0ce544fb022af328d8f60a778d3907d1d76d4f1a41405200e795e3574dfc8473",
+          "bytes": 9467
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/275.png",
+          "sha256": "9458a60bc147a640fb0206612b6db08aeef9cc9a38faf1ec93c833d49a2365f5",
+          "bytes": 6153373
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/275.jpg",
+          "sha256": "6680b2f561322e9ec1d71e1190fdad4e62c173485d17d019da9d41d0edfd9f70",
+          "bytes": 276550
+        }
+      }
+    },
+    {
+      "id": "299",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Four accessory crops and full final source/mask/target reviewed.",
+      "accessory_review": "Both carried umbrellas and physical printed tote included; small held phone already body-covered; advertising remains excluded. Ridden vehicles remain part of existing selected entities.",
+      "target_review": "Selected people, ridden vehicles and belongings removed with cast/contact shadows; fixed signs/storefronts and traffic-light glow preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/input/299.png",
+          "sha256": "af8361555bc7debd106961dcd2c6127f7afe7b89024648a35b96894f99ceb0cc",
+          "bytes": 5705970
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/mask/299.png",
+          "sha256": "ba950b9f5592dffa4d7877e46285083f143dcdc8d4f04a5ee739c90fd7b83cdb",
+          "bytes": 11476
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/target/299.png",
+          "sha256": "fea0d6a6a64eada98008d0bed5132f13dd54c00aed31f64d0dab17f511eeecc6",
+          "bytes": 5518807
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-01/comparison/299.jpg",
+          "sha256": "00206fc1893c0f26196f1335cd3d7660d959c0dc16ac5e44df073b59ad7a1ecd",
+          "bytes": 390492
+        }
+      }
+    }
+  ]
+}

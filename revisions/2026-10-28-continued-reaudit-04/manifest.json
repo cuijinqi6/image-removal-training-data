@@ -1,0 +1,67 @@
+{
+  "revision": "2026-10-28-continued-reaudit-04",
+  "baseline_commit": "18ac7c0cf08ccc1605f605e462d7bab2627b092d",
+  "sample_count": 2,
+  "samples": [
+    {
+      "id": "250",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "原尺寸核对伞下区域，直接街道人群均被清除，固定遮阳伞及柜台内环境保留。",
+      "accessory_review": "全部8附件裁图与最终三联已核对。1为固定商铺遮阳伞，不并入；2/3/5/6/7为实际持伞或实体伞片并入，包带本体覆盖。没有将地面影子作为实体。",
+      "target_review": "追加原尺寸原图/target商铺伞下对照：街边站坐行人已消失，先前疑似残留为柜台/座椅及商铺内部环境；固定遮阳伞、店招与室内区域保留。完整target未见直接街道人群残留或明显接缝。",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-04/input/250.png",
+          "sha256": "b103b87d4b497520e305c67c2c9b7c2d1ac1ac9ccfa9ca401c81569ac17ff74e",
+          "bytes": 6448910
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-04/mask/250.png",
+          "sha256": "c246d4129a66c08e402bf62f72faf789eabc20db01fd70b2126746bbb64b7860",
+          "bytes": 9276
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-04/target/250.png",
+          "sha256": "f1597048ef5ca46b122b733fed22268d3a2d76b83c6fc01bd62d6597cb34d9d6",
+          "bytes": 6519277
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-04/comparison/250.jpg",
+          "sha256": "91e5afe94e2b174362d409a6a46a3754560f36d21bee494ac9464c833f10bec4",
+          "bytes": 167035
+        }
+      }
+    },
+    {
+      "id": "279",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "原尺寸核实橱窗反射与狭长广告，排除本体误选。",
+      "accessory_review": "全部6附件候选及最终三联已查看。1为前景举起的透明防雨物，2/6真实包袋，3实际持伞；4为玻璃内反射人形/伞，5为狭长固定广告中的形体，均排除。原始body mask中的玻璃反射连通分量1815像素已剔除。原尺寸上下文证据保留，未把反射加入实体。",
+      "target_review": "追加查看原图/raw/target对照和橱窗原尺寸上下文。直接街道人群、随身附件及其地面投影消失；固定广告、无关橱窗反射、建筑灯光保留。先前残留判断经上下文复核撤销，最终未见明显直接人物残留或接缝。",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-04/input/279.png",
+          "sha256": "7d6a489edba98569a0bbf2575336e0e700a9ec5081037762eeb90b17cf33ff68",
+          "bytes": 7128843
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-04/mask/279.png",
+          "sha256": "67a2f7d459ec5850a851632a84a310444b7d1a1a0e417538929edd6534af0d8e",
+          "bytes": 10291
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-04/target/279.png",
+          "sha256": "9fe9670106bff069069dc04ce2dc56602a3509ba718d507d5e8f012f402b9f0c",
+          "bytes": 7450648
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-04/comparison/279.jpg",
+          "sha256": "83179eddb201a9155026b290747b27e39a341a1e78ae3708278684b039e01cd2",
+          "bytes": 379075
+        }
+      }
+    }
+  ]
+}

@@ -61,3 +61,7 @@ Batch 4 的实体 mask 来自语义模型候选并经目视审查，边界为近
 ## 后续复查增量：2026-10-28-continued-reaudit-03
 
 [2 组新增审核修订](revisions/2026-10-28-continued-reaudit-03/README.md)，逐样本说明见清单。原始 134 组基线不覆盖；全量复查尚未结束，未通过项不在修订目录内。
+
+## 后续复查增量：2026-10-28-continued-reaudit-04
+
+[2 组新增审核修订](revisions/2026-10-28-continued-reaudit-04/README.md)，逐样本说明见清单。原始 134 组基线不覆盖；全量复查尚未结束，未通过项不在修订目录内。

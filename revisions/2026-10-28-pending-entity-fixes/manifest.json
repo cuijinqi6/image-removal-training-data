@@ -1,0 +1,157 @@
+{
+  "revision": "2026-10-28-pending-entity-fixes",
+  "baseline_commit": "18ac7c0cf08ccc1605f605e462d7bab2627b092d",
+  "sample_count": 5,
+  "samples": [
+    {
+      "id": "132",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Full merged source/mask/target and native trolley/edge crops reviewed.",
+      "accessory_review": "Both shopping trolleys include fabric baskets, handles, frames and wheels; held bottle, edge bag and black item included. Fixed parasol and pavement shadows excluded.",
+      "target_review": "Selected people and wheeled possessions removed, associated cast shadows cleared; unrelated kiosk, buildings and architectural shading preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/input/132.png",
+          "sha256": "c6a35f38698a82cc29b6477ec4c0bb61490ec122f1710ac26b5361481d13cb29",
+          "bytes": 6168354
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/mask/132.png",
+          "sha256": "cca47e1d92270ee034a7cf2d39849808a0f5b5bb939143d9186a65a43079d0cb",
+          "bytes": 10360
+        },
+        "target": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/target/132.png",
+          "sha256": "71a820bda02111714677c2f7f3f3e8bcd0ffa5dcb0f672fa392fef70e65057b1",
+          "bytes": 6229582
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/comparison/132.jpg",
+          "sha256": "6fc415ed42975e9a672b2c4c858c1b7220dfa6bcd06d7f68523b35493219e0c9",
+          "bytes": 281489
+        }
+      }
+    },
+    {
+      "id": "140",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Full merged overlay and native child-hat/orange-bag source/target reviewed.",
+      "accessory_review": "Add reviewed child hat and crouching adult orange crossbody bag to existing real carried items; no external cast shadows.",
+      "target_review": "People, hats, toys and bags removed with shadows; beach, rocks, waves and pier retained.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/input/140.png",
+          "sha256": "d41d1c7dadaa160dcb4152c210fdca7684875acfa83c294fe632f218b56d4535",
+          "bytes": 5151774
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/mask/140.png",
+          "sha256": "fa51648d96c82597fd729fba76c44d8c8f0369031bce0700534a4b726e98a2a5",
+          "bytes": 11309
+        },
+        "target": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/target/140.png",
+          "sha256": "1ea8cd6b8ddf112c788137810f77d62e53239d0cf62893716b13ebbff152b3df",
+          "bytes": 5432409
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/comparison/140.jpg",
+          "sha256": "49bf20e4b12a017e82b11925b04834f55a76023427da164047652e089d675705",
+          "bytes": 248992
+        }
+      }
+    },
+    {
+      "id": "143",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Full merged overlay plus native bench-object detail reviewed after explicit physical outlines.",
+      "accessory_review": "Colorful bench bag, transparent food bag/handle, black backpack and other selected carried bags included. Rejected SAM candidates that selected fixed bench/rail; native outlines approximate.",
+      "target_review": "Selected people, their physical bags/food possessions and floor reflections removed while bench, railing and floor structure remain.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/input/143.png",
+          "sha256": "73dc224be620c14eb3ad01f1b3d4168913b908fc2e57cb39efc46b598654398e",
+          "bytes": 8248543
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/mask/143.png",
+          "sha256": "64d047f667f21afbc5df7d52a271ff31b2764b26c71e1bd320086ca670736bba",
+          "bytes": 6917
+        },
+        "target": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/target/143.png",
+          "sha256": "4ff5b38f2b91121cf6bc7b42034f5aa5965f5d163338958e09440b61dadf2668",
+          "bytes": 8254712
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/comparison/143.jpg",
+          "sha256": "1a46a10b31568b8264f844384cd85c4f873ccf99a8951822fa5008284e6fa0c2",
+          "bytes": 317800
+        }
+      }
+    },
+    {
+      "id": "144",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "Native glass/source identity and corrected full merged overlay reviewed.",
+      "accessory_review": "Direct walking corridor people and bags selected. Left storefront seated cafe figures are glass reflections of off-frame/unselected people, not direct corridor instances; excluded from entity mask.",
+      "target_review": "Direct corridor people and their floor reflections removed; unrelated glass reflections, storefront displays and architecture preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/input/144.png",
+          "sha256": "7d3416ef46dc491fff0032ea6a37a4f687f628efecd4d918873be3013bc8401b",
+          "bytes": 8093167
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/mask/144.png",
+          "sha256": "399a5bf734b9312d0b26c54d44dae5b44c607158db899b14ac83480d2dcc9248",
+          "bytes": 4827
+        },
+        "target": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/target/144.png",
+          "sha256": "85db14a2793b93a0ab53d13cb41bf19a8bacd1487c05344528e5b6eb2892591c",
+          "bytes": 8069980
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/comparison/144.jpg",
+          "sha256": "17fa62c2e359142480cd03f7cb57a8127c4d0ef77ef9137ba1432e3c83e7e767",
+          "bytes": 559981
+        }
+      }
+    },
+    {
+      "id": "150",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "All seven accessory crops and full final source/mask/target reviewed.",
+      "accessory_review": "Six genuine bags/backpacks included, mostly already covered by bodies; printed sweatshirt false backpack excluded. Corrected small carried-bag edge only; external water reflections excluded.",
+      "target_review": "People and their carried belongings and water mirror silhouettes removed; sign and water/horizon scene preserved.",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/input/150.png",
+          "sha256": "9a8af834ba93c8ef19870f600db7842fed448c375e1cfea18f57de7811d291ad",
+          "bytes": 4047945
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/mask/150.png",
+          "sha256": "34a934c46d3125bf318bd4dcb36d79286ff16d655ec990d1f425f3a1b6df083b",
+          "bytes": 6541
+        },
+        "target": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/target/150.png",
+          "sha256": "6f0cafebb3dee9be33216a85e3e6afb37961b6eeb252031bd348a3150380f512",
+          "bytes": 3951849
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-pending-entity-fixes/comparison/150.jpg",
+          "sha256": "44c7708a8796d66f06bf8314bcc0c03426c7ec8dce52889b6ab07f88e5525ea6",
+          "bytes": 66474
+        }
+      }
+    }
+  ]
+}

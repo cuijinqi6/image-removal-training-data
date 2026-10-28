@@ -1,0 +1,37 @@
+{
+  "revision": "2026-10-28-continued-reaudit-05",
+  "baseline_commit": "18ac7c0cf08ccc1605f605e462d7bab2627b092d",
+  "sample_count": 1,
+  "samples": [
+    {
+      "id": "187",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "原图/raw/target原尺寸核实花箱装饰，撤销人头残留疑点。",
+      "accessory_review": "全部12附件裁图已查；追加原尺寸12确认红色片为固定花篮包装，不是行人袋子。固定远端伞11和花篮包装12不选，真实持伞包袋并入；最终合并三联核对。",
+      "target_review": "完整三联及原图/raw/target花箱后方原尺寸对照：疑似人头均为原图已有花箱圆头立柱，背景行人已消失；保留固定伞、花篮、树木与设施。湿地人物反射清除，无明显人物残留或接缝。",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-05/input/187.png",
+          "sha256": "cf7cc4610a62191d4d76e7dc3485298185ffef22c4b7f0c6568a1d115fb670fd",
+          "bytes": 6245140
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-05/mask/187.png",
+          "sha256": "b77798e1e9619432543649a11d81a2e9d2a172beb8aad5ff68be588ea841d8c4",
+          "bytes": 9761
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-05/target/187.png",
+          "sha256": "b7c5bcf70089757fa9cd516a9e8f5f1d99df39815a43964f6a449026d0fb392c",
+          "bytes": 6316963
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-05/comparison/187.jpg",
+          "sha256": "d7e23e5ac31ae140c59083cc8092e9a358b5178820730f1d3351bc6913a4c5ba",
+          "bytes": 300921
+        }
+      }
+    }
+  ]
+}

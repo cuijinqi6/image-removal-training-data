@@ -1,0 +1,67 @@
+{
+  "revision": "2026-10-28-continued-reaudit-03",
+  "baseline_commit": "18ac7c0cf08ccc1605f605e462d7bab2627b092d",
+  "sample_count": 2,
+  "samples": [
+    {
+      "id": "199",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "补入运动模糊粉色手提包实体范围。",
+      "accessory_review": "此前全部4附件裁图已逐项检查；本次原尺寸查看粉红包SAM轮廓及最终合并三联。补齐运动模糊手提包，人物、实际包袋覆盖；脚下倒影不作为实体mask。边界保留运动模糊近似范围。",
+      "target_review": "完整原图和最终target复查，人群、所持包及湿地倒影已清除，商店建筑、台阶、室内家具保留，未见明显人形残留或回贴接缝。",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-03/input/199.png",
+          "sha256": "33ed632c74ea1d94544ca0de5ed35a85355bd8a5732a2e0e3058dcd22df09d8f",
+          "bytes": 5857934
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-03/mask/199.png",
+          "sha256": "2fb7f1a962213030faa6309be8f3bef57b8b595760af40228f6d388ac847c0b1",
+          "bytes": 11557
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-03/target/199.png",
+          "sha256": "a06af66f2a480f740c838962bced419595da6a6d97bc46d5581e0ac2595ffc1d",
+          "bytes": 5993652
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-03/comparison/199.jpg",
+          "sha256": "ca98d49ee91f3ea89fecb85d9135be6348037a931e0c72251297044cfc3f166e",
+          "bytes": 304235
+        }
+      }
+    },
+    {
+      "id": "221",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "补齐随身包袋、折叠伞与手持手机。",
+      "accessory_review": "全部8附件候选逐项查看，均为真实行人物理附件；手机已覆盖，新增肩包与折叠伞，不含地面投影。最终合并mask三联复核，固定铜器装置与吉祥物不选。",
+      "target_review": "完整原图与target、全部附件裁图已查看。直接人群和随身物品清除；装置喷水、灯光反射、建筑与固定吉祥物保留，无明显人物残留或接缝。",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-continued-reaudit-03/input/221.png",
+          "sha256": "c7a44866d1410d4b1480ee3ea15dd0e491117c611050753b28cf0408ac14a7cf",
+          "bytes": 6953465
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-continued-reaudit-03/mask/221.png",
+          "sha256": "6e520f21db78ae8804ee667b527d0a5413b4b22d800d523c5e3d2187b9cda4c6",
+          "bytes": 8738
+        },
+        "target": {
+          "path": "revisions/2026-10-28-continued-reaudit-03/target/221.png",
+          "sha256": "596cfaa970cc6a6a2b68e3d76e9e6abf15f3efbff0a0ec25423442c30b89c84f",
+          "bytes": 6951306
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-continued-reaudit-03/comparison/221.jpg",
+          "sha256": "1673ab5e71d0425b424bdf15689bf67482348e09ef1aefd4a27208e89025c7b1",
+          "bytes": 274196
+        }
+      }
+    }
+  ]
+}

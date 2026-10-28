@@ -1,0 +1,2556 @@
+{
+  "revision": "2026-10-28-entity-accessory-mask-reaudit",
+  "baseline_commit": "18ac7c0cf08ccc1605f605e462d7bab2627b092d",
+  "scope": "Only validated samples whose entity mask or target changed during the 2026-10-28 re-audit. Samples 108 and 138 were reviewed unchanged and are intentionally omitted. The original 134-sample baseline is preserved outside this revision directory.",
+  "sample_count": 34,
+  "mask_changed_count": 34,
+  "target_changed_count": 1,
+  "samples": [
+    {
+      "id": "101",
+      "source_group": "101",
+      "working_size": [
+        2496,
+        1664
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove both pedestrians and their carried bags, together with their entire long cast shadows and contact shadows. Reconstruct the empty crosswalk naturally. Preserve the road, crosswalk stripes, lighting and everything else.",
+      "selected_instance_ids": [
+        1,
+        2
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Corrected both carried bags missing from published body mask; original clean target retained.",
+      "accessories_review": "Viewed full-source old mask/target comparison, individually labelled bag proposals and final merged mask at enlarged resolution. Both black and translucent carried bags, including handles, are covered; external long cast shadows excluded.",
+      "target_review": "Reviewed complete source/target crosswalk and long cast shadows. Both people and bags removed, shadows cleared; no other physical objects removed; road and stripes retained. Target SHA unchanged from published baseline.",
+      "selected_accessory_proposals": [
+        1,
+        2
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/101.png",
+          "sha256": "2126efadbb64011baff7c09bcad2c0b9db553c448951b1e4a7abc481d645f680",
+          "bytes": 7433650
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/101.png",
+          "sha256": "df52aa6023e8b7cb3bd9abdd7399b5580398873d81bcd3e63c1496f1abcfdcb8",
+          "bytes": 9523
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/101.png",
+          "sha256": "8f498a12e967aaf4b9b4760a912bfafc2e2642011cc971f1078fea59ac2bf939",
+          "bytes": 7566302
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/101.jpg",
+          "sha256": "54e5540b37f0915429f32f7e57cc8da6021d8fec1c9eadf56076dd28b9485e97",
+          "bytes": 125653
+        }
+      }
+    },
+    {
+      "id": "102",
+      "source_group": "102",
+      "working_size": [
+        2496,
+        1664
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove both people and the turquoise scooter being ridden, together with all their long cast shadows and contact shadows. Reconstruct the empty crosswalk naturally. Keep the road, crosswalk stripes, lighting and everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Include rider handheld phone; other selected scooter/people already covered.",
+      "accessories_review": "Viewed enlarged source/body/scooter mask and corrected overlay. Carried phone proposals included; entire ridden scooter selected, no external long shadow included.",
+      "target_review": "Source/target crosswalk reviewed: two people and ridden scooter removed with cast shadows; road stripes retained. Target unchanged.",
+      "selected_accessory_proposals": [
+        1,
+        2
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/102.png",
+          "sha256": "a76cb0d4a22602d18bcf5e8f4d430f687155ddef6b4979b877e7d82134718cc9",
+          "bytes": 6821175
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/102.png",
+          "sha256": "9b935e66a727bb467d0859969e0783a976a014cf24815855bc4cc15bc9f5feb6",
+          "bytes": 11097
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/102.png",
+          "sha256": "55c287bd6b6226f13b200e6d4ead1f99295b9cad4d33a3769529e1e0164a962d",
+          "bytes": 7330062
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/102.jpg",
+          "sha256": "d9b4f73326cb94269f8f1825fc38782237ef736ea83c258e78af44262a705b25",
+          "bytes": 124523
+        }
+      }
+    },
+    {
+      "id": "105",
+      "source_group": "105",
+      "working_size": [
+        2464,
+        1679
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Include carried book, takeaway cup, handbag, phone and visible knitted hat.",
+      "accessories_review": "Viewed all 16 individual proposals and final merged source overlay; selected physical carried book/cup/bag/phone only. Fixed vending machine products explicitly excluded; left-edge cap manually added.",
+      "target_review": "Complete source/target shopfront and ground comparison reviewed. Fixed vending machine, contents, chairs, planter, signs and facade preserved; carried items and people removed with ground shadows. Target unchanged.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        4,
+        14
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/105.png",
+          "sha256": "eab2b3f9eb558603f7b56699423f501450f1a1262415e34e4f0451a77590371a",
+          "bytes": 4137954
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/105.png",
+          "sha256": "915d416f209d3ca0ed69ed9a2b7866afa07f5e49473bcfe608706405a8c40906",
+          "bytes": 16110
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/105.png",
+          "sha256": "0fb03b86f4ec1c4f263a2b5257f056141fa6558f166b2baac865354719018fe5",
+          "bytes": 4382889
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/105.jpg",
+          "sha256": "5720dace7cde72a33e47b1916f3a23979c741015a0c6b5f8e26cb875a5785b6d",
+          "bytes": 106027
+        }
+      }
+    },
+    {
+      "id": "106",
+      "source_group": "106",
+      "working_size": [
+        1664,
+        2496
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Also remove vehicles being ridden and dogs being led by these people, including their shadows and reflections. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Native rear/front vehicle contour crops and merged overlay reviewed.",
+      "accessories_review": "Ridden scooters, green delivery box, handlebars and visible wheels included. Closed seat/pale item seam. External vehicle/person shadows excluded.",
+      "target_review": "Both selected riders and scooters fully removed with ground shadows; manhole covers and crosswalk geometry retained.",
+      "selected_accessory_proposals": [
+        1
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/106.png",
+          "sha256": "ce066ca3a586896ddbc85f873935e15f4262c7018b4c2ab1759e5f4d67f4dce3",
+          "bytes": 6467468
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/106.png",
+          "sha256": "98802d73bfe55bfd92fb80ea51688f92b98ed4c72c82682c57a74b48fab9b03d",
+          "bytes": 7259
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/106.png",
+          "sha256": "28141d3fa86f7f9cca1a16174a53286657854026f6dcd043a980c7ee82973450",
+          "bytes": 6447708
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/106.jpg",
+          "sha256": "977f11c96f17c137f27a0a35b3c8a583e4cb83e52e2cadd0317eb2ead61b0e83",
+          "bytes": 207581
+        }
+      }
+    },
+    {
+      "id": "107",
+      "source_group": "107",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including all distant and partially occluded people, and all of their reflections and shadows on the polished floor and glass. Reconstruct the empty terminal naturally. Preserve architecture, railings, signs, kiosks, lighting and reflections of the architecture.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Small gaps in two carried bags filled from inspected semantic proposals.",
+      "accessories_review": "Viewed both individual bag proposals and final merged mask overlay; only bags carried by selected pedestrians added. Fixed luggage gates, signage and railing excluded.",
+      "target_review": "Source/target station and full ground reflection range inspected: people and associated reflections removed; gates, railing and fixtures retained. Target unchanged.",
+      "selected_accessory_proposals": [
+        1,
+        2
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/107.png",
+          "sha256": "7e979ca1711d08c24cd6f56ab201492a38e3b95fb001dfe0a02b8a9b4f2f7d40",
+          "bytes": 7142229
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/107.png",
+          "sha256": "4f441ec8e26b4407b493ca20ecfeb6761d4cfd22d82eb62cb76c229c65f55163",
+          "bytes": 6152
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/107.png",
+          "sha256": "f8ba31bd68f68ecb5efa6c093bcae188f83a621070b793ac1d658a42213cc4d6",
+          "bytes": 7137555
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/107.jpg",
+          "sha256": "b323c604c25b0a52c05dd56908921bb4062ad3e400fce5af1573e0381f42bbce",
+          "bytes": 309078
+        }
+      }
+    },
+    {
+      "id": "109",
+      "source_group": "109",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Reviewed all 47 accessory crops and final union; excluded fixed upper terrace canopies, stone lion and clothing false positives.",
+      "accessories_review": "41 selected umbrella/bag/suitcase proposals merged into entity mask. Full union reviewed against source; fixed canopies, chains and statues remain unselected.",
+      "target_review": "Reviewed full target and accessory crops; crowd, held umbrellas/bags and associated ground shadows removed. Foreground stanchions, chain barriers, wall, statues and fixed terrace canopies preserved.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        33,
+        34,
+        35,
+        37,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/109.png",
+          "sha256": "6fb55122012fd431cb5bf3168ece53f609cf7960510e5d1eb109ee71b3cf570a",
+          "bytes": 5819400
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/109.png",
+          "sha256": "e1ecfbe2aff4ac352a2875cfc3db315cee87577f7d6bf60f2a179429ba70cb12",
+          "bytes": 12407
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/109.png",
+          "sha256": "b656cefdbaa22db3210c0858dbbfd7509f2cebdfdef99c6950ee523072d26b1b",
+          "bytes": 5813669
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/109.jpg",
+          "sha256": "3b0f93c376cf57eee2e2ef845a0130f128d68525c1a569551a56d0ed67574431",
+          "bytes": 248376
+        }
+      }
+    },
+    {
+      "id": "110",
+      "source_group": "110",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every person and both dogs being walked, including their leashes, cast shadows, contact shadows and any reflections. Preserve the parked trucks, other vehicles, buildings, trees and paving. Reconstruct the empty foreground naturally.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Reviewed handler pouch, native physical leash/bundle detail and final merged overlay/target.",
+      "accessories_review": "Pouch, thin physical dog leashes and round handled leash equipment added using reviewed source coordinates; boundary polygon padded 3px. External person/dog shadows remain outside entity mask.",
+      "target_review": "Reviewed full target: real people, led dogs and associated physical equipment removed, truck, parked transport machinery, fence and vegetation retained; ground is clean.",
+      "selected_accessory_proposals": [
+        1
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/110.png",
+          "sha256": "c011d7be48d08e7f29fb628c883b9556bb98419e4bf52241020b649884485d0c",
+          "bytes": 3347629
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/110.png",
+          "sha256": "8e0df62b7f9a5f18e5288cced877944db23465f18d5113848f1c0b45928d5fdd",
+          "bytes": 10905
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/110.png",
+          "sha256": "15c147ae9072a05b06bcd749aaac800ce7e4efa366ab4fe3a9b7e47a5044e33b",
+          "bytes": 3323250
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/110.jpg",
+          "sha256": "1f2da92a88c49492f7bb48d5a4e96b32932c83dc2a4805abd59bcda8fb26dbea",
+          "bytes": 195974
+        }
+      }
+    },
+    {
+      "id": "111",
+      "source_group": "111",
+      "working_size": [
+        2496,
+        1664
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Reviewed physical carried bag coverage; clean target retained.",
+      "accessories_review": "Inspected all individual carried bag/backpack proposals, enlarged source and final merged mask. Only carried physical items selected; printed figures, fixed objects and external shadows excluded.",
+      "target_review": "Full source/target environment and ground reviewed. Real people and carried items removed; nearby fixed facilities, parked vehicles, posters and environmental lighting retained. Existing target unchanged.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/111.png",
+          "sha256": "c1d3f8b560b15302cee347829181aefda26bbaef47891bcb3027541ccfbfca4e",
+          "bytes": 5909491
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/111.png",
+          "sha256": "7fb959e9ff4b7a3405c480181f2db9f431594947524da493f072aa33dc486899",
+          "bytes": 10384
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/111.png",
+          "sha256": "4727535194375202437a096502a4c54c758ba2fadee1eb2a1801b190a6419261",
+          "bytes": 5895436
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/111.jpg",
+          "sha256": "79266277c069ba018295fb9e547dacdc803baa3e93668d764233743ba9c8d73f",
+          "bytes": 155695
+        }
+      }
+    },
+    {
+      "id": "112",
+      "source_group": "112",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Reviewed physical carried bag coverage; clean target retained.",
+      "accessories_review": "Inspected all individual carried bag/backpack proposals, enlarged source and final merged mask. Only carried physical items selected; printed figures, fixed objects and external shadows excluded.",
+      "target_review": "Full source/target environment and ground reviewed. Real people and carried items removed; nearby fixed facilities, parked vehicles, posters and environmental lighting retained. Existing target unchanged.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/112.png",
+          "sha256": "82e821949113775218a5dfe5b28e8cb96a99b73dbedb39335065f15769db19be",
+          "bytes": 7361339
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/112.png",
+          "sha256": "c11a6e64fece7e0922f78d31b3a6d82204936da426c34711df784d8151acc040",
+          "bytes": 9634
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/112.png",
+          "sha256": "fa5e982cfc75fa224a79cfc953e0326f2a84f001dbeb4d2f0e425aef14130f6f",
+          "bytes": 7330097
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/112.jpg",
+          "sha256": "be603c7ff01d15b9373827e04e8fdb8682974a0440da767891c0e01229b5ff8d",
+          "bytes": 337481
+        }
+      }
+    },
+    {
+      "id": "113",
+      "source_group": "113",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Reviewed physical carried bag coverage; clean target retained.",
+      "accessories_review": "Inspected all individual carried bag/backpack proposals, enlarged source and final merged mask. Only carried physical items selected; printed figures, fixed objects and external shadows excluded.",
+      "target_review": "Full source/target environment and ground reviewed. Real people and carried items removed; nearby fixed facilities, parked vehicles, posters and environmental lighting retained. Existing target unchanged.",
+      "selected_accessory_proposals": [
+        1
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/113.png",
+          "sha256": "12df6932bf06ef43261e37c1b117ccd913ca49f407160d1184e8d72ab8a0ff9e",
+          "bytes": 6445280
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/113.png",
+          "sha256": "0fae5e31cf41827336bf29334b20be358f2b30047b690131f58cb3d1ab3e8eed",
+          "bytes": 7726
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/113.png",
+          "sha256": "869ae11f89da2c30c80f9b3ee64e1e4193648590d96b37da8a806b98112c2544",
+          "bytes": 6433435
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/113.jpg",
+          "sha256": "b6a4478f9d761a0beff03e0e0d35ff267ba3e2a1bebb9cb0a47994fea4227498",
+          "bytes": 316628
+        }
+      }
+    },
+    {
+      "id": "114",
+      "source_group": "114",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Reviewed source/target broad seated-person context, all accessory crops and final union including A8 black bag.",
+      "accessories_review": "All 12 carried-bag proposals included; A8 low-difference black handbag belongs to real seated pedestrian. Preserved advertisement portraits remain excluded.",
+      "target_review": "Real walking and seated people and their bags removed; bench, planter, storefront advertisements and paving retained. Final merged overlay and target reviewed.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/114.png",
+          "sha256": "aef0ac11232d17eafcb3348f504f537625ce1e6ed8cb66df196886c943c739bb",
+          "bytes": 6325917
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/114.png",
+          "sha256": "8c3bc3f87c253afd54aea4621721fa3a7fb2a24bde927cca297cf45ab39c8531",
+          "bytes": 12854
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/114.png",
+          "sha256": "9595d0c3746b58421be2bdf02b82de3b817699e99a68f71eb7f0d6813d484607",
+          "bytes": 6344668
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/114.jpg",
+          "sha256": "fcd653119a943cca1ea74e5d1f4542ca08b7bce204920d91e24004b57b3cf0ca",
+          "bytes": 320700
+        }
+      }
+    },
+    {
+      "id": "116",
+      "source_group": "116",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory contacts and final merged overlay reviewed.",
+      "accessories_review": "Reviewed genuine bags, backpack straps and handheld items against final merged mask. Fixed furniture/patio umbrella excluded.",
+      "target_review": "Full target reviewed; selected real people and carried items removed, no obvious residual human shadow. Skyline, railings, flowers and fixed structures retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/116.png",
+          "sha256": "f2d69d1bc3429136871bb4f3a99151e47709b5d2e1c32108dece4098245224d9",
+          "bytes": 7218990
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/116.png",
+          "sha256": "04c38c82938ef905f4fa6aeeafb634651b41294d820a0cefe94036efa17ed65c",
+          "bytes": 13060
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/116.png",
+          "sha256": "62cbc280a462b95cddf0bb187bc92f6ed8c4dcd8e5ef1b656772bc65afc09158",
+          "bytes": 7277194
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/116.jpg",
+          "sha256": "01b7fff680843cd8462ebd3f2bd688e2190d1852686a0c4834151d34ddba466f",
+          "bytes": 231132
+        }
+      }
+    },
+    {
+      "id": "117",
+      "source_group": "117",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory contacts and final merged overlay reviewed.",
+      "accessories_review": "Reviewed genuine bags, backpack straps and handheld items against final merged mask. Fixed furniture/patio umbrella excluded.",
+      "target_review": "Full target reviewed; selected real people and carried items removed, no obvious residual human shadow. Skyline, railings, flowers and fixed structures retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/117.png",
+          "sha256": "6c5dba9d62a04f1d790f2d7673a8fb610abef7b896506b418627c73b39fd6e6b",
+          "bytes": 5860792
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/117.png",
+          "sha256": "14d75da7ca1c3bc44de144a46e7270563d6dee57d89e767e2b88e76d577d180e",
+          "bytes": 13897
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/117.png",
+          "sha256": "008dca3fe057966fad258d102386fe1f584f242a77915263155b1ab038059c3f",
+          "bytes": 5862013
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/117.jpg",
+          "sha256": "a5c68091bf041446de26db20c5eff977269bfe5805fea1020ad334ac0efb6a38",
+          "bytes": 241753
+        }
+      }
+    },
+    {
+      "id": "118",
+      "source_group": "118",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory crops and final union/source/target reviewed.",
+      "accessories_review": "13 reviewed carried bags/backpacks/phone or body-overlap accessory proposals included. Full union covers detached items; external shadows/reflections excluded.",
+      "target_review": "Walking crowd and accessories removed. Vehicles, shop displays, fixed decorations, lamps and pavement retained; no obvious person or accessory residual in reviewed target.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/118.png",
+          "sha256": "3021d1e93d955cbba17eb08d833dd7f99c306bb671f919108ffdb6beafc9f7b1",
+          "bytes": 5802948
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/118.png",
+          "sha256": "de5e0a408b3d8e94550b7e19f09616e230caff7b445b2ba8214e3a42119be6dd",
+          "bytes": 12449
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/118.png",
+          "sha256": "394c6b0657ac06fd32319725b04d93fddce75224b282a10c554c824b8f1b6e89",
+          "bytes": 5717231
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/118.jpg",
+          "sha256": "ea625b171490f21dc6f95b25113d04e5ee3555e743b0c86600748f86a2568f0d",
+          "bytes": 254820
+        }
+      }
+    },
+    {
+      "id": "119",
+      "source_group": "119",
+      "working_size": [
+        1376,
+        2988
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory crops and final union/source/target reviewed.",
+      "accessories_review": "13 reviewed carried bags/backpacks/phone or body-overlap accessory proposals included. Full union covers detached items; external shadows/reflections excluded.",
+      "target_review": "Walking crowd and accessories removed. Vehicles, shop displays, fixed decorations, lamps and pavement retained; no obvious person or accessory residual in reviewed target.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/119.png",
+          "sha256": "10e4455ada8ed76ed954abdcda772cf87e1d3faec7ed55ff0660587e369771df",
+          "bytes": 6928631
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/119.png",
+          "sha256": "0d6390674f3dba891d2004e06b34fdd167cd8c3ed976840426d5313c903c8471",
+          "bytes": 11596
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/119.png",
+          "sha256": "97740f1fdd7fff0850686f745100bfe3c1b8fc92c3811400fcb0199888411622",
+          "bytes": 6932140
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/119.jpg",
+          "sha256": "2b61886b607c597a5d7ea03f3aa846def246db8212532e29a6adad1a37b3daa6",
+          "bytes": 548176
+        }
+      }
+    },
+    {
+      "id": "120",
+      "source_group": "120",
+      "working_size": [
+        1360,
+        2944
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Reviewed eight accessory crops, native board/two-suitcase details and final union.",
+      "accessories_review": "Bags/backpacks, both rolling suitcases and long hand-carried board included; training mask excludes people reflections on glass and pavement.",
+      "target_review": "Reviewed full target including foreground glass: real crowd and its reflected silhouettes removed; fixed glass panels, barriers, displays and shop-light reflections retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/120.png",
+          "sha256": "b2a51089aa810754295a4e4630f6e75a431cc44bfdcc64db13e9c61cfe81965f",
+          "bytes": 5882059
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/120.png",
+          "sha256": "1e5401b06ae8c186f72e9c399c2c41481a7778aab049e138a13b82c62fb55fdb",
+          "bytes": 7945
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/120.png",
+          "sha256": "6e737e151c6d24e84c539b8accdcf3cb74d49b813ef84f1a34921b46ab36dd7d",
+          "bytes": 5903176
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/120.jpg",
+          "sha256": "89c4ca8e70410b30ef410c551c216a66f9f15b0277edcd642a9cf7b8cfa0b164",
+          "bytes": 452504
+        }
+      }
+    },
+    {
+      "id": "121",
+      "source_group": "121",
+      "working_size": [
+        1664,
+        2496
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "22 accessory crops and final merged mask/target reviewed.",
+      "accessories_review": "Bags, both open umbrellas, folded hanging umbrella, backpack and phone included; original vehicle/fixtures excluded.",
+      "target_review": "Full cleaned street reviewed. Crowd and all reviewed accessories removed, white service vehicle and fixed storefronts retained; no obvious human shadow residual.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/121.png",
+          "sha256": "d4e68e55699deaf47d3391351df77aecf0dfbb0bdb39dcf056c8d066496565f8",
+          "bytes": 6353278
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/121.png",
+          "sha256": "e35a57833e91847682d46b9273f7eaf7a8fc2709f969145c7ce61736a9c64d9f",
+          "bytes": 17188
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/121.png",
+          "sha256": "9cfc2769b9285052b9503860059d23778c7b354c8da921df16a574cadc5c5e70",
+          "bytes": 6102921
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/121.jpg",
+          "sha256": "adf981815a9c0e08daa531e0bd7bc7c0c9db881db8a624165867c00a9bd010a4",
+          "bytes": 296473
+        }
+      }
+    },
+    {
+      "id": "122",
+      "source_group": "122",
+      "working_size": [
+        1664,
+        2496
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "15 semantic accessory contacts and final union reviewed.",
+      "accessories_review": "Bags, backpack straps, water bottles, phones and folded umbrella at feet included. Fixed fence/tree shade kept outside.",
+      "target_review": "Full target reviewed: crowd and accessories removed, temple entrance, fence and tree-cast pavement shade retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/122.png",
+          "sha256": "4a459014c6c897564a233796d42c5b9d86f143140f163e5628c98e6fa9ed69e2",
+          "bytes": 6763634
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/122.png",
+          "sha256": "dbd02dbdc1d510f25d8ea4a65af21554f2b5af9dc033159f5975123df1a675a8",
+          "bytes": 13889
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/122.png",
+          "sha256": "35168536c119ecef8be3d757a95f74b6092c6f9e483ecd7b05ea2dfe47f55085",
+          "bytes": 6667954
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/122.jpg",
+          "sha256": "52b0ce3cb3701584a9c713dad452cc5a2a9e9e29629e67578b04bea9433fcf3c",
+          "bytes": 330375
+        }
+      }
+    },
+    {
+      "id": "125",
+      "source_group": "125",
+      "working_size": [
+        2347,
+        1760
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Accessory contacts, full final merged mask/target and supplementary SAM physical-object crops reviewed.",
+      "accessories_review": "Include selected bags/phones/backpacks and complete pushchairs. Manual rough hulls replaced by reviewed SAM proposal silhouettes. Transparent patterned barrier boundaries are approximate; fixed parasols and retained draped coat excluded. 126 white vertical shapes confirmed to be trousers, not bags.",
+      "target_review": "Full target reviewed: selected people, pushchairs and carried items removed with associated silhouettes/reflections; architecture, transparent safety barrier, fixtures and scene lighting retained. 126 far-left source/raw/target crop confirms real group and pushchair removed.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        9,
+        11,
+        12
+      ],
+      "supplementary_masks": [
+        "125_stroller1.png",
+        "125_stroller2.png"
+      ],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/125.png",
+          "sha256": "90bc522f342d39cae80c826b212e12bfd03a3ae9956ad4c37a2765957b3348f2",
+          "bytes": 5414488
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/125.png",
+          "sha256": "7950db118fb2d0b8a76d5e5e182fc7df98adba77f1299ef1ad9bd7605af378fa",
+          "bytes": 14677
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/125.png",
+          "sha256": "09a365afb41fa380b07ae4ad5a1d7da7db8d9c06ff5bf2a1a7fcf3c3b0c38695",
+          "bytes": 5395493
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/125.jpg",
+          "sha256": "1ff80de92b1ab79de3552bfe1141610dc6fc2303d30f519b34e00f1be6168927",
+          "bytes": 138479
+        }
+      }
+    },
+    {
+      "id": "126",
+      "source_group": "126",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Accessory contacts, full final merged mask/target and supplementary SAM physical-object crops reviewed.",
+      "accessories_review": "Include selected bags/phones/backpacks and complete pushchairs. Manual rough hulls replaced by reviewed SAM proposal silhouettes. Transparent patterned barrier boundaries are approximate; fixed parasols and retained draped coat excluded. 126 white vertical shapes confirmed to be trousers, not bags.",
+      "target_review": "Full target reviewed: selected people, pushchairs and carried items removed with associated silhouettes/reflections; architecture, transparent safety barrier, fixtures and scene lighting retained. 126 far-left source/raw/target crop confirms real group and pushchair removed.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "supplementary_masks": [
+        "126_left_stroller.png"
+      ],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/126.png",
+          "sha256": "d601649947b6101ef96c0976045f3d131052d384949d0d7a3f6ab52874c187f3",
+          "bytes": 5588956
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/126.png",
+          "sha256": "e3462283a64c84417ac7298ae63eca28743a4ff2d3f364654126c211e6d4d32d",
+          "bytes": 12897
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/126.png",
+          "sha256": "8861f42ba2f9f305fc6cf24cc1539e004130b7fbeb4dcb8102711abdb4d91f37",
+          "bytes": 5459460
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/126.jpg",
+          "sha256": "6751b28e12eb933e212cf53cc057279faf65d917c5ca1407c5f5a0627fe06110",
+          "bytes": 250096
+        }
+      }
+    },
+    {
+      "id": "128",
+      "source_group": "128",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory contacts, supplementary physical contours where applicable and final full union/source/target reviewed.",
+      "accessories_review": "Selected physical bags/backpacks/worn or carried items included;128 wheelchair and three pushchair masks explicitly added. Fixed parasols excluded. Approximate model boundaries recorded.",
+      "target_review": "Full target reviewed; people and associated physical items/shadows removed; unrelated street lamps, fixed shade structures, fence, architecture and paving retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "supplementary_masks": [
+        "128_wheelchair.png",
+        "128_stroller.png",
+        "128_stroller_left.png",
+        "128_stroller_middle.png"
+      ],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/128.png",
+          "sha256": "04fad38b2ea0b3712ee9694278135644163c359a51b0586a4f3450568f972d68",
+          "bytes": 7150140
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/128.png",
+          "sha256": "fd25bfbb0290f3cbf722c2f2d4377f1bf4c4614c360af5415ec1217a99dfc278",
+          "bytes": 15216
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/128.png",
+          "sha256": "a10ccc9d2f71e99d4e171296be9e3c5e3126d5411cda1356f2b2bf07a420f07f",
+          "bytes": 6925956
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/128.jpg",
+          "sha256": "26c0398c81e9caf166a0cdf16eca0ad5e82170005985c473882fecaa88ee2ba2",
+          "bytes": 348183
+        }
+      }
+    },
+    {
+      "id": "129",
+      "source_group": "129",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory contacts, supplementary physical contours where applicable and final full union/source/target reviewed.",
+      "accessories_review": "Selected physical bags/backpacks/worn or carried items included;128 wheelchair and three pushchair masks explicitly added. Fixed parasols excluded. Approximate model boundaries recorded.",
+      "target_review": "Full target reviewed; people and associated physical items/shadows removed; unrelated street lamps, fixed shade structures, fence, architecture and paving retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/129.png",
+          "sha256": "11e316863883497dd648d9a09234106093e2f425b33c0e4996f1613a58dbbfd9",
+          "bytes": 4675606
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/129.png",
+          "sha256": "a47445fd5a10903303cde22f92aca6a7e8c46fb32e003aca6a2a32925e12a5b5",
+          "bytes": 6547
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/129.png",
+          "sha256": "b4604cf3ee43191e13040a57ef42c681c9bdaa0b61519c4161dcecf1042dd1ca",
+          "bytes": 4690710
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/129.jpg",
+          "sha256": "5765a5b7fb35ea510833427bf5c6f5dd9960ad2c520f8add491b9e2b09c89bb4",
+          "bytes": 203953
+        }
+      }
+    },
+    {
+      "id": "130",
+      "source_group": "130",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory crops, native ambiguous-object details and final merged mask/target reviewed.",
+      "accessories_review": "Bags, hanging plush toys, headband, double pushchairs and floor bag included. Waste bins excluded; retained foreground cup remains outside mask.",
+      "target_review": "Full target and selected accessory contexts reviewed: people and relevant removed items/ground shadows gone, unselected physical scene elements retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3
+      ],
+      "supplementary_masks": [
+        "130_plush_bag.png",
+        "130_headband.png",
+        "130_pushchairs.png",
+        "130_plush_top.png",
+        "130_plush_bottom.png",
+        "130_floor_bag.png"
+      ],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/130.png",
+          "sha256": "e4b6f58eccabdfe5cf3488b4d784dacb29bec11e295e5310f120957bf5480c9f",
+          "bytes": 6025951
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/130.png",
+          "sha256": "c0fcf0a791115fd11f88050846a57b66dbaf602f5a8ce00dec2c1b3b0eac107d",
+          "bytes": 11084
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/130.png",
+          "sha256": "152654d4cf51d508372401ab1e4c55f08a98ae376e914c2ea22d03efa6166b09",
+          "bytes": 6031431
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/130.jpg",
+          "sha256": "8fd90b6388025e2232a4fe3d6dd6212442b06f5736e8271fde9dc1c4414829fe",
+          "bytes": 293880
+        }
+      }
+    },
+    {
+      "id": "131",
+      "source_group": "131",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Individual accessory crops where present and full final union/target reviewed.",
+      "accessories_review": "Carried bags and selected wearable/body items included; fixed objects excluded. 138 no visible detached accessory requiring change. 134 distant dock figures checked at native scale and confirmed parked scooters, preserved.",
+      "target_review": "Full target reviewed: real people and associated human shadows removed. Fixed railings, tree shade, parked scooters/bicycle, architecture and environmental reflections retained.",
+      "selected_accessory_proposals": [
+        1,
+        2
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/131.png",
+          "sha256": "e7f9658538d72cf03fd90f9997350867442a811613e055eaed740c1f6f405b9b",
+          "bytes": 5515067
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/131.png",
+          "sha256": "5360a477ae1fd91b340f76f5677c06f33efb8ac5dbe287cdf8cc45182be305a4",
+          "bytes": 8950
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/131.png",
+          "sha256": "33e72f5ae75883b8362cdc62c4c6764819a3a916a92e4c379930f52e47452899",
+          "bytes": 5538129
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/131.jpg",
+          "sha256": "8a4bfd3e55b9c1fcc0c2646e4d5f07a770548aeca009f94c3ed8e097e0af2702",
+          "bytes": 230001
+        }
+      }
+    },
+    {
+      "id": "134",
+      "source_group": "134",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Individual accessory crops where present and full final union/target reviewed.",
+      "accessories_review": "Carried bags and selected wearable/body items included; fixed objects excluded. 138 no visible detached accessory requiring change. 134 distant dock figures checked at native scale and confirmed parked scooters, preserved.",
+      "target_review": "Full target reviewed: real people and associated human shadows removed. Fixed railings, tree shade, parked scooters/bicycle, architecture and environmental reflections retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/134.png",
+          "sha256": "b8dfe5fd38c6a83ffc8743203e261033ce562b8268696507d3848b6e5ac57eec",
+          "bytes": 6338469
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/134.png",
+          "sha256": "91317672ec6e19e83e849432abe0c8a8fd4207923a679da0505d944cf6dd8262",
+          "bytes": 6708
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/134.png",
+          "sha256": "f06b244f5aa58bc2b889922cc9cc6a7ebf87e2d41044c7bb60fe0dc1d37ad64a",
+          "bytes": 6378199
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/134.jpg",
+          "sha256": "2662d67f480448ae6b6be3a2f1d89e87c73fea15dec0fbd04e0c4306276fe945",
+          "bytes": 229936
+        }
+      }
+    },
+    {
+      "id": "135",
+      "source_group": "135",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Individual accessory crops where present and full final union/target reviewed.",
+      "accessories_review": "Carried bags and selected wearable/body items included; fixed objects excluded. 138 no visible detached accessory requiring change. 134 distant dock figures checked at native scale and confirmed parked scooters, preserved.",
+      "target_review": "Full target reviewed: real people and associated human shadows removed. Fixed railings, tree shade, parked scooters/bicycle, architecture and environmental reflections retained.",
+      "selected_accessory_proposals": [
+        1
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/135.png",
+          "sha256": "03d148e3fd447458bd1cfdfa6c739d0c078cd8d8300b1aad428b7d116ebd5e85",
+          "bytes": 8478991
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/135.png",
+          "sha256": "30ff54e61f43efb45358780b0fa3186266433b2f76bfe635bc52113d46cee91a",
+          "bytes": 5624
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/135.png",
+          "sha256": "0ed21b11241f422a8dadb7268d9b6d05d9301b704ee9b9a999606a18fdabe5f2",
+          "bytes": 8493050
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/135.jpg",
+          "sha256": "131611f0784b37b3024048b819c3362efa4648bfe92ced57caa8bfe0237f2548",
+          "bytes": 338526
+        }
+      }
+    },
+    {
+      "id": "137",
+      "source_group": "137",
+      "working_size": [
+        2347,
+        1760
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory crops, native ambiguous-object details and final merged mask/target reviewed.",
+      "accessories_review": "All103 proposals inspected;95 selected after rejecting rocks, fixed patio/boat parasols and body false positives. Red beach bucket and white personal ground cloth added. Boundaries approximate at small distant objects.",
+      "target_review": "Full target and selected accessory contexts reviewed: people and relevant removed items/ground shadows gone, unselected physical scene elements retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "supplementary_masks": [
+        "137_bucket.png",
+        "137_ground_cloth.png"
+      ],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/137.png",
+          "sha256": "2d7dcfc60f2af66beeb1f1d6c74e550189619df08f2eac9f3e2c22909cfa76e2",
+          "bytes": 7632497
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/137.png",
+          "sha256": "0e247586e71ee68b99b2d7cac58eca3ef3ded3757745a6913ee50093457365cd",
+          "bytes": 26667
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/137.png",
+          "sha256": "dec8a7d9bfe245f08818d0753ab64c53d1cf638d6da7a63868db04c1f1db9db0",
+          "bytes": 7452535
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/137.jpg",
+          "sha256": "0ee7539be33f5e72fb739b85f8b6aeffd692dd15bfab274b857b3a2cdf626948",
+          "bytes": 185086
+        }
+      }
+    },
+    {
+      "id": "139",
+      "source_group": "139",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory crops, native ambiguous-object details and final merged mask/target reviewed.",
+      "accessories_review": "Crossbody bag/strap added. Bench-side native source/target comparison identifies retained fishing equipment/chair rather than remaining seated people; retained gear excluded.",
+      "target_review": "Full target and selected accessory contexts reviewed: people and relevant removed items/ground shadows gone, unselected physical scene elements retained.",
+      "selected_accessory_proposals": [
+        1
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/139.png",
+          "sha256": "d7a8c6b54c6e7a7260005b5b44a2ece970730f325e6129f2a8fd136d0f09d869",
+          "bytes": 6106872
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/139.png",
+          "sha256": "b1ad722c64ea0b4e3623d55126c047c080f224486e313953ba37f381c01fedea",
+          "bytes": 8279
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/139.png",
+          "sha256": "12791cee3ff287d913be9103567c65676d2792068e0c2d0cdc5bb775994b8a65",
+          "bytes": 6151477
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/139.jpg",
+          "sha256": "1fa5873e44364afa388444b454f6c7852958ea3cfe1aba5a57bf4115a3ea8dc6",
+          "bytes": 203617
+        }
+      }
+    },
+    {
+      "id": "141",
+      "source_group": "141",
+      "working_size": [
+        1584,
+        2640
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory crops and final merged mask/target reviewed.",
+      "accessories_review": "Real backpacks, carried bags, luggage bodies/wheels/handles and handheld item added. 141 printed/reflected ad bag7 excluded; real human floor reflections not in entity mask.",
+      "target_review": "Full target reviewed: selected walking people and their accessories/reflections gone, advertisement figures and terminal architecture retained; no obvious residual selected silhouette.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/141.png",
+          "sha256": "0e7b88f6bbd985cd5ef2b0c3f4a229bb3f326b34b32c4f1f440862dfadfe1032",
+          "bytes": 2203574
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/141.png",
+          "sha256": "dc28c12216b9a56447b96a4599fefc2cac115ec73a6647997fa4b5d360c7f63f",
+          "bytes": 7630
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/141.png",
+          "sha256": "d4492c3a358844d635493f6a0968752e9c9432c132f726fc2d9cefcdd5d1e8d8",
+          "bytes": 2444213
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/141.jpg",
+          "sha256": "26bdf3df70665f461f57d5bdf693d63d61c87120efd461ccd6800141de82bcf7",
+          "bytes": 250379
+        }
+      }
+    },
+    {
+      "id": "142",
+      "source_group": "142",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory crops and final merged mask/target reviewed.",
+      "accessories_review": "Real backpacks, carried bags, luggage bodies/wheels/handles and handheld item added. 141 printed/reflected ad bag7 excluded; real human floor reflections not in entity mask.",
+      "target_review": "Full target reviewed: selected walking people and their accessories/reflections gone, advertisement figures and terminal architecture retained; no obvious residual selected silhouette.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/142.png",
+          "sha256": "e3fc0765b06e4afedcf4baefe55d10aedec6ef4adca8c204afec966fb94fb9a4",
+          "bytes": 6961090
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/142.png",
+          "sha256": "42a3ba8b8ddae668b7c91f096e7ec0b55499832f57b4a5af7890b9f1cb59010b",
+          "bytes": 7055
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/142.png",
+          "sha256": "216d816774e044b0187d3e76faf79ca71355fdba0796a8a37f786290ce06c765",
+          "bytes": 6949210
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/142.jpg",
+          "sha256": "13673f23abfd87ae0a4259448c23b8c2dafd4b6853958a8358d71e2516d40d2b",
+          "bytes": 275623
+        }
+      }
+    },
+    {
+      "id": "145",
+      "source_group": "145",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory contact pages and final merged mask/full target reviewed.",
+      "accessories_review": "Reviewed physical luggage, bags/backpacks and held umbrellas now included; external water/floor reflections excluded. Approximate small/distant contours recorded.",
+      "target_review": "Selected people and physical belongings removed; associated human water/floor reflections absent. Terminal architecture or lake/balloon fixtures and environmental reflections retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/145.png",
+          "sha256": "4cdd7319cbe6d042d4ee9ec7d842cd37abd6fea0c0eb521f129ed103c1aaacf9",
+          "bytes": 7716718
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/145.png",
+          "sha256": "afd2f001f3a9dac52abdd9c594782069c4babd907803c187d3c736d775b1d05d",
+          "bytes": 6617
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/145.png",
+          "sha256": "a8483cd0d6f25140c21751ecc1a15d24c69ce1a98fe20acfcefb7ba56d40196f",
+          "bytes": 7722087
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/145.jpg",
+          "sha256": "705834dba1c09a6392b279f345e5d1a3efe3976b64ca78799e6b47c4c0286d14",
+          "bytes": 308728
+        }
+      }
+    },
+    {
+      "id": "146",
+      "source_group": "146",
+      "working_size": [
+        2496,
+        1664
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory contact pages and final merged mask/full target reviewed.",
+      "accessories_review": "Reviewed physical luggage, bags/backpacks and held umbrellas now included; external water/floor reflections excluded. Approximate small/distant contours recorded.",
+      "target_review": "Selected people and physical belongings removed; associated human water/floor reflections absent. Terminal architecture or lake/balloon fixtures and environmental reflections retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/146.png",
+          "sha256": "53f9ba6dd9a67f452c903f2d28a6e8de9c162b41dc794d1695b7621e5f0f96f3",
+          "bytes": 5731863
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/146.png",
+          "sha256": "e53c3b8d4585bc79b77b956ef293ff05cd2a61996a0d68437705336254b3bf36",
+          "bytes": 11666
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/146.png",
+          "sha256": "10f9978686da1cd7cd69ad7ca844798066794408c25a959763eff1f8f1335687",
+          "bytes": 5675899
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/146.jpg",
+          "sha256": "2ecf884f4989e4c1f5353b4ffd9fe4659b67d267b06273a6f93c2328699735f4",
+          "bytes": 111533
+        }
+      }
+    },
+    {
+      "id": "147",
+      "source_group": "147",
+      "working_size": [
+        2496,
+        1664
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant and partially occluded people and their carried belongings, together with all their cast shadows, contact shadows and reflections on the ground, water and glass. Reconstruct the empty scene naturally. Preserve all unrelated vehicles, architecture, signs, advertising images, statues, vegetation, lighting and their reflections. Keep everything else unchanged. Preserve hot-air balloons, boats, mountains and their reflections unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "All accessory contact pages and final merged mask/full target reviewed.",
+      "accessories_review": "Reviewed physical luggage, bags/backpacks and held umbrellas now included; external water/floor reflections excluded. Approximate small/distant contours recorded.",
+      "target_review": "Selected people and physical belongings removed; associated human water/floor reflections absent. Terminal architecture or lake/balloon fixtures and environmental reflections retained.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": false,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/147.png",
+          "sha256": "3deedc7909938e5d0637ba5bba22265e434c428a204b5396b86cfa44caea19a3",
+          "bytes": 4877032
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/147.png",
+          "sha256": "daad935c0a2d9b06fd91d532309145cb61b92e79258b01f023377d31d968521a",
+          "bytes": 9061
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/147.png",
+          "sha256": "2465a45538fda31af8b706f41e6df6f50f84d347a4637102efdd15ee0d6d189e",
+          "bytes": 4815093
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/147.jpg",
+          "sha256": "edc2ea6932098631edfc18abf712a5e06bf0d29f154ff626addbe53a428e9bb7",
+          "bytes": 89913
+        }
+      }
+    },
+    {
+      "id": "201",
+      "source_group": "201",
+      "working_size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove ALL real people, including every tiny, distant, partially visible person, their carried items, ridden bikes or scooters and led dogs. Remove all their cast shadows, contact shadows and complete mirrored silhouettes on the ground, water and glass. Reconstruct the empty scene naturally. Preserve architecture, signs, advertising images, statues, unrelated parked vehicles, environmental lighting and their reflections. Keep everything else unchanged.",
+      "selected_instance_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "mask_source": "reviewed semantic entity mask plus selected connected accessories; shadows/reflections excluded",
+      "review_status": "Regenerated target attempt2 and reviewed source/raw/composite full images and native wheel crop; local composite verified.",
+      "accessories_review": "Three held umbrellas and central carried bag included in final entity mask. Original visible unrelated wheel explicitly protected from replacement.",
+      "target_review": "People, umbrellas and human shadows/reflections removed. Original visible wheel and surroundings retained; occluded bicycle completion comes from FLUX only inside removal support. No hallucinated car. Original pixels outside saved support unchanged, protected wheel unchanged.",
+      "selected_accessory_proposals": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "supplementary_masks": [],
+      "mask_changed": true,
+      "target_changed": true,
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/input/201.png",
+          "sha256": "8201b2bdbad71b499035a1d4fead2f01154ffd531d2bf6819f16ff0b2b5c0ce8",
+          "bytes": 5482165
+        },
+        "mask": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/mask/201.png",
+          "sha256": "8df56ac2748b4f7883b55eb1429a586992a6217a577b6d1cf39c201be16f77b4",
+          "bytes": 15049
+        },
+        "target": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/target/201.png",
+          "sha256": "83cc473742f3841bc6dd4c520dca484d45464d6392bfc6625b593dd6b9f13d66",
+          "bytes": 5688880
+        },
+        "comparison": {
+          "path": "revisions/2026-10-28-entity-accessory-mask-reaudit/comparison/201.jpg",
+          "sha256": "12dbfb8215ce9c371f92a1c82f045f8780b8eaf514778dd4d1683d0bb2247b89",
+          "bytes": 231173
+        }
+      }
+    }
+  ]
+}

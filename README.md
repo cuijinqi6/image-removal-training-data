@@ -77,3 +77,7 @@ Batch 4 的实体 mask 来自语义模型候选并经目视审查，边界为近
 ## 可复用造数 Skill
 
 [flux-removal-training-data](skills/flux-removal-training-data/SKILL.md) 以完整目录提供，包含流程参考、Python 回贴/导出/续跑脚本和合成测试；跨设备迁移见 [MIGRATION.md](skills/flux-removal-training-data/MIGRATION.md)。本次更新包含 Edge 扩展连接、最新标签页接管和实际下载核验。复制整个 skill 目录即可使用；依赖见 requirements.txt。skill 不包含本机数据、模型权重或凭据。
+
+## New training batches
+
+- [Crowd batch 7](batches/crowd_batch7/README.md): incrementally published accepted samples; separate from the preserved 134-sample baseline.

@@ -1,0 +1,35 @@
+{
+  "batch": 7,
+  "accepted_count": 1,
+  "samples": [
+    {
+      "id": 503,
+      "size": [
+        2496,
+        1664
+      ],
+      "files": {
+        "input": {
+          "path": "input/503.png",
+          "sha256": "93ab64248d21dca995980c07e504cc1fb648ba857bdaf1ba9c4fb9f936ecc266"
+        },
+        "mask": {
+          "path": "mask/503.png",
+          "sha256": "a336008377a9399c4fdff196d02ea340184e7a6dca95065135bb2b8da0a468ef"
+        },
+        "target": {
+          "path": "target/503.png",
+          "sha256": "8d68d07e7ed6a70613c832cb48072bd9047607c0296531e1eeff13ad1ae4ae76"
+        },
+        "comparison": {
+          "path": "comparison/503.jpg",
+          "sha256": "66db2f24292ca3561abb719de8a429e7bfb3a875c34abc2e28f254b0655d18ae"
+        }
+      },
+      "prompt": "Remove only the two real people, including their hats, clothing and phone, and all their cast/contact shadows and reflections. Reconstruct the empty ground naturally. Preserve the bronze statue beside the doorway, illustrated mural, buildings, bench, planters and everything else unchanged.",
+      "mask_semantics": "Real people and physical belongings only; external shadows/reflections excluded",
+      "target_semantics": "Associated people shadows/reflections removed; exact original working pixels outside reviewed paste support",
+      "review": "Full scene and native person/phone/foot panels reviewed; approximate segmentation boundaries"
+    }
+  ]
+}

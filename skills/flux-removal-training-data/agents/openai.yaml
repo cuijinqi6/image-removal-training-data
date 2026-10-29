@@ -1,0 +1,6 @@
+interface:
+  display_name: "FLUX 消除训练数据"
+  short_description: "FLUX对象及阴影/倒影消除造数，支持无标注mask审核、回贴和断联续跑"
+  default_prompt: "使用 $flux-removal-training-data，先读取项目最新摘要和状态，再制作或续接实体mask与阴影/倒影消除训练数据；只导出审核通过样本。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,67 @@
+{
+  "revision": "2026-10-29-continued-reaudit-01",
+  "baseline_commit": "18ac7c0cf08ccc1605f605e462d7bab2627b092d",
+  "sample_count": 2,
+  "samples": [
+    {
+      "id": "164",
+      "mask_changed": true,
+      "target_changed": true,
+      "review_note": "第2次FLUX输出修复两组远处真人残留，补实体mask，局部回贴并保留固定陈列。",
+      "accessory_review": "逐项查看全部14附件、局部分块17候选与SAM补充。选择真实小人候选1/2/3/5/6/7/9/10/11/12/13；剔除固定雕塑/陈列误检4/8/14/15/16/17。补坐姿真人、中央小人及可见小伞顶，拒绝错误SAM伞候选。最终合并mask全图及两组原尺寸裁图已重审，语义轮廓近似，不含外部倒影。",
+      "target_review": "原图、基线raw、新raw及最终target全图/原尺寸局部已看。累计请求2，新raw已完整解码1760x2347。仅两组确认残留及邻近地面采用新raw羽化回贴，其余沿用已审核基线target；对应真人、阴影/倒影消失，店内固定陈列与广告保留，未见明显接缝。合并support外与工作原图像素完全一致。",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-29-continued-reaudit-01/input/164.png",
+          "sha256": "efec8183f8b59fa049efa35f7d103671b3e9ed251275a9a28dc224e856f2a6db",
+          "bytes": 6658833
+        },
+        "mask": {
+          "path": "revisions/2026-10-29-continued-reaudit-01/mask/164.png",
+          "sha256": "2d9c45c30a1a02f68913260b006642cfa7e014450af95fe28375e69f1fb0a651",
+          "bytes": 9352
+        },
+        "target": {
+          "path": "revisions/2026-10-29-continued-reaudit-01/target/164.png",
+          "sha256": "a4755ef213f1ab54595cb2fd4e22dae9e6bd4695777c98127fe161ed8147ee22",
+          "bytes": 6730765
+        },
+        "comparison": {
+          "path": "revisions/2026-10-29-continued-reaudit-01/comparison/164.jpg",
+          "sha256": "99f8275f73087ecdd52eb4aa0069238374dd2707a77ef7df7ca22125688b03d4",
+          "bytes": 304545
+        }
+      }
+    },
+    {
+      "id": "243",
+      "mask_changed": true,
+      "target_changed": false,
+      "review_note": "补随身包袋并排除附件候选中误选的固定灭火器。",
+      "accessory_review": "全部9附件裁图、完整最终合并三联及墙边原尺寸裁图已查看。真实随身包袋/背包并入；候选5混入的固定灭火器按可见轮廓排除，保留人物衣物与实体包。外部湿地倒影不进mask。",
+      "target_review": "完整原图/target及全部附件、灭火器原尺寸裁图复核：直接人群、包袋和地面人物投影已清除；固定灭火器、建筑灯光、广告和无关设施保留，未见明显残留或接缝。",
+      "files": {
+        "input": {
+          "path": "revisions/2026-10-29-continued-reaudit-01/input/243.png",
+          "sha256": "baf39ee6d3ebea9373471a12fc1878f1ed4234da4794cd60ecb95feb472d3853",
+          "bytes": 5762335
+        },
+        "mask": {
+          "path": "revisions/2026-10-29-continued-reaudit-01/mask/243.png",
+          "sha256": "19e398c5920a6b098a512046c5210eff4f33f86a34947a39be5bffd868a05bee",
+          "bytes": 7926
+        },
+        "target": {
+          "path": "revisions/2026-10-29-continued-reaudit-01/target/243.png",
+          "sha256": "5b2790d9ad9ee3f75ec1a0d11f38e96be017acdf27e29281a42b8c6f737208b0",
+          "bytes": 5759816
+        },
+        "comparison": {
+          "path": "revisions/2026-10-29-continued-reaudit-01/comparison/243.jpg",
+          "sha256": "e34906fe3486621a7d91e89aaea97eb0faeab56caf9f2f067ec88a13d327985a",
+          "bytes": 247388
+        }
+      }
+    }
+  ]
+}

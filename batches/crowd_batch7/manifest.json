@@ -1,6 +1,6 @@
 {
   "batch": 7,
-  "accepted_count": 1,
+  "accepted_count": 2,
   "samples": [
     {
       "id": 503,
@@ -36,6 +36,41 @@
       "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
       "review": "Viewed full original/raw/merged mask/composite and native person-phone-foot boundary panels. Two real people with hats and phone masked; bronze statue and mural excluded. People and associated contact/shadow regions removed. Floor-only support preserves statue/bench/planters; outside support exact input. Model mask boundaries approximate.",
       "group": "6ace36de0000000015017014"
+    },
+    {
+      "id": 520,
+      "size": [
+        876,
+        1168
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove all real people, including blurred, distant, partially occluded and edge-cropped people and their carried belongings, together with all their long cast shadows and contact shadows. Restore the empty crosswalk and pavement naturally. Preserve the broad diagonal sunlight and building shadows, road markings, pavement texture and everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/520.png",
+          "sha256": "ae73ad785665506d46c4fec476b9edbbacf61ad950a09d53c743496f7415d7e7",
+          "bytes": 1252029
+        },
+        "mask": {
+          "path": "mask/520.png",
+          "sha256": "e45c1a66ceec25860573b31edbd08fef47e42e91040153c11d6e36586ed943ed",
+          "bytes": 12352
+        },
+        "target": {
+          "path": "target/520.png",
+          "sha256": "fa516abc9513a01f77596ff0c6abe71539bb07e69bf5bfa0134b8af24316d4b0",
+          "bytes": 1434043
+        },
+        "comparison": {
+          "path": "comparison/520.jpg",
+          "sha256": "3e3dc4552dfe224106242cc6d1616b249da28d06afa2ceafb6481fc12a433672",
+          "bytes": 1027311
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Full input, supplemented mask overlay, four native quadrants, raw output, target candidate and three-panel comparison reviewed. All visible real people and blurred/edge-cropped body extents are covered; associated long/contact shadows are removed. Broad diagonal building shadow, road markings, pavement texture and fixed scene remain. No visible residual people, object spill or seam; support outside changed pixels is 0. Accepted for training export.",
+      "group": "6a2fdee0000000001101daeb"
     }
   ]
 }

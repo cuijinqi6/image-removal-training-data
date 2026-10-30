@@ -1,6 +1,6 @@
 {
   "batch": 7,
-  "accepted_count": 4,
+  "accepted_count": 5,
   "samples": [
     {
       "id": 503,
@@ -141,6 +141,41 @@
       "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
       "review": "Full input, supplemented mask overlay, four native quadrants, raw output, target candidate and three-panel comparison reviewed. All visible real people and blurred/edge-cropped body extents are covered; associated long/contact shadows are removed. Broad diagonal building shadow, road markings, pavement texture and fixed scene remain. No visible residual people, object spill or seam; support outside changed pixels is 0. Accepted for training export.",
       "group": "6a2fdee0000000001101daeb"
+    },
+    {
+      "id": 546,
+      "size": [
+        1760,
+        2347
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove the man walking with the black umbrella, including his reflection in the wet road and his contact shadow, and reconstruct the empty crosswalk naturally. Keep the rain, crosswalk stripes, painted bicycle symbol, curb, grass, trees, poles and lighting unchanged.",
+      "files": {
+        "input": {
+          "path": "input/546.png",
+          "sha256": "87282b21a0a5db5fd4350410f433c50a84f2365061eaf6be755244a49098b8c6",
+          "bytes": 7495777
+        },
+        "mask": {
+          "path": "mask/546.png",
+          "sha256": "2bdfc9725b8994cdcd6e28be7fd1b485a65e6dcff23e9d0a2d07a7758bdd191b",
+          "bytes": 7638
+        },
+        "target": {
+          "path": "target/546.png",
+          "sha256": "127b66a101780e65e8e67f6475967a18d1a6d87b320ce2759dfcaef459223b1a",
+          "bytes": 7708486
+        },
+        "comparison": {
+          "path": "comparison/546.jpg",
+          "sha256": "4ebb330e3b3f716f0024748e23f5b2d1eee6bb60847e4f5fc40faf8150650d52",
+          "bytes": 4365985
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Full input, mask overlay, four native quadrants, raw, soft-blended target and three-panel comparison reviewed. Man, umbrella and his road reflection removed; the reflection area was blended with a Gaussian alpha (sigma 16, core forced to 1) to avoid a hard puddle seam. Fixed crosswalk, rain, lane symbol, curb, grass and trees preserved; outside-support changed pixels = 0. Accepted.",
+      "group": "6a7aef010000000033037289"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "batch": 7,
-  "accepted_count": 2,
+  "accepted_count": 4,
   "samples": [
     {
       "id": 503,
@@ -36,6 +36,76 @@
       "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
       "review": "Viewed full original/raw/merged mask/composite and native person-phone-foot boundary panels. Two real people with hats and phone masked; bronze statue and mural excluded. People and associated contact/shadow regions removed. Floor-only support preserves statue/bench/planters; outside support exact input. Model mask boundaries approximate.",
       "group": "6ace36de0000000015017014"
+    },
+    {
+      "id": 505,
+      "size": [
+        2496,
+        1664
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/505.png",
+          "sha256": "ea84f6d8ac60a82d179ef4458d62c17b548461da41d6c0bc1b24eabefac4fb46",
+          "bytes": 4119686
+        },
+        "mask": {
+          "path": "mask/505.png",
+          "sha256": "c1d5d002cc964a77a7dfa15c9850c7ea366bc21084251175469094007c46603a",
+          "bytes": 12246
+        },
+        "target": {
+          "path": "target/505.png",
+          "sha256": "965c1b91a2815b170e746c6971a31c77cc39c14fe469e0a2c548ad072436a8fc",
+          "bytes": 4019764
+        },
+        "comparison": {
+          "path": "comparison/505.jpg",
+          "sha256": "e069a4466982a4a64ac78d38e54b24ec84c32f1cd4e8a7b5b364e425055fa540",
+          "bytes": 1421529
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Full input, supplemented mask overlay, four native quadrants, raw, target and three-panel comparison reviewed. All visible real people (505: four men; 506: three women incl. the sheer dress train on the grate) are covered; associated contact shadows removed. Fixed scene (lamp post, tree, wall, curb, drain grate, pavement texture) preserved; support outside changed pixels = 0; no visible residual person or seam. Accepted.",
+      "group": "6a3baa1d0000000022014bee"
+    },
+    {
+      "id": 506,
+      "size": [
+        2496,
+        1664
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove the three women standing and sitting by the wall, including the long sheer dress train lying on the drain grate and all contact shadows, and reconstruct the empty pavement naturally. Keep the lamp post, tree, wall, stucco texture, drain grate and lighting unchanged.",
+      "files": {
+        "input": {
+          "path": "input/506.png",
+          "sha256": "524717e5c71fe8fd7dc9b35dba9029297dd1a69546398c7a1b3cf49e09ec2002",
+          "bytes": 5112510
+        },
+        "mask": {
+          "path": "mask/506.png",
+          "sha256": "50c712580f3965dc0fcafadfbd7aec2b2e9772176a75b114f42adf377ce3b4e4",
+          "bytes": 11078
+        },
+        "target": {
+          "path": "target/506.png",
+          "sha256": "260db0df4f87b5edd9ae519da4f885755e340685d053412ae7a9831877ee734a",
+          "bytes": 4886630
+        },
+        "comparison": {
+          "path": "comparison/506.jpg",
+          "sha256": "814607575bd28c0e713a7fad14fe033d4a8ab36ae500a0f8eaeda1cc026b8502",
+          "bytes": 2113009
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Full input, supplemented mask overlay, four native quadrants, raw, target and three-panel comparison reviewed. All visible real people (505: four men; 506: three women incl. the sheer dress train on the grate) are covered; associated contact shadows removed. Fixed scene (lamp post, tree, wall, curb, drain grate, pavement texture) preserved; support outside changed pixels = 0; no visible residual person or seam. Accepted.",
+      "group": "6a3baa1d0000000022014bee"
     },
     {
       "id": 520,

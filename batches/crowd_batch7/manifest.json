@@ -1,6 +1,6 @@
 {
   "batch": 7,
-  "accepted_count": 11,
+  "accepted_count": 16,
   "samples": [
     {
       "id": 503,
@@ -213,6 +213,76 @@
       "group": "6a2fdee0000000001101daeb"
     },
     {
+      "id": 523,
+      "size": [
+        876,
+        1168
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove the person walking in front of the church facade, including their shadow, and restore the empty stone pavement. Preserve the church, columns, walls and sunlight. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/523.png",
+          "sha256": "5f2124d891fa8b2512c52fafc46a01a9a98584fe11734a7dbbdc807fcb8d9621",
+          "bytes": 1074818
+        },
+        "mask": {
+          "path": "mask/523.png",
+          "sha256": "a49f0a16e44b9818c01fac89d4a46ff91edccafb0e17532217b274383fca9c90",
+          "bytes": 1925
+        },
+        "target": {
+          "path": "target/523.png",
+          "sha256": "2d3c487a1110eb2410fbe3c3eb51cf55f0501e98d0ea45a96859d8da344308ec",
+          "bytes": 1076635
+        },
+        "comparison": {
+          "path": "comparison/523.jpg",
+          "sha256": "7ec3438554378b382762ef95e0a0f41805601d9e46b8c6a7bbb6d098704c7559",
+          "bytes": 754804
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "6a2fdee0000000001101daeb"
+    },
+    {
+      "id": 524,
+      "size": [
+        1664,
+        2496
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove all people on the station platform, including their reflections in the wet floor, and restore the empty platform naturally. Preserve the signage, pillars, benches, trains and lighting. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/524.png",
+          "sha256": "113d0b1534b8d1a74035d4f972e8333c7e7f578baf91aa1e1527ea14847cc174",
+          "bytes": 3460260
+        },
+        "mask": {
+          "path": "mask/524.png",
+          "sha256": "651fc5984b255cfe019d218feb04b4ba2ae69d3b4b6835b6e25ef5943138272b",
+          "bytes": 8962
+        },
+        "target": {
+          "path": "target/524.png",
+          "sha256": "de024163df47c1e5e584b017cdd03edb558a476f5a5d9ce73e4ad4f5d4912819",
+          "bytes": 4000273
+        },
+        "comparison": {
+          "path": "comparison/524.jpg",
+          "sha256": "a3c32dc9c185e50c1b037c8c5cbbb65aba740164c94859ec0098580c902dfb09",
+          "bytes": 2760117
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "6aa48cfa000000000b002186"
+    },
+    {
       "id": 533,
       "size": [
         2496,
@@ -248,6 +318,41 @@
       "group": "6a9a1c58000000002603b0dd"
     },
     {
+      "id": 534,
+      "size": [
+        1168,
+        876
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove all people in the station hall, including their shadows, and restore the empty floor and platform. Preserve the roof trusses, lamps, benches and structure. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/534.png",
+          "sha256": "0e835162f5898235bd5c0ea983d3b4e165785453892ff6d8df378e77b3e2ec3c",
+          "bytes": 1039517
+        },
+        "mask": {
+          "path": "mask/534.png",
+          "sha256": "9c2f0d6b5bec921a60c97cec1b2702949e0d3762867a89a304ec77e73e072053",
+          "bytes": 5655
+        },
+        "target": {
+          "path": "target/534.png",
+          "sha256": "dcc5311d9f77920f55b552a75cdcf2ddbdbe3f1ce73b64b53fa58bab28724d55",
+          "bytes": 1279193
+        },
+        "comparison": {
+          "path": "comparison/534.jpg",
+          "sha256": "a01c936b81a0b2fd47341d4e0a519a5a5d02d1076eeed3a3682999df1e787141",
+          "bytes": 1303743
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "6aa402290000000026030e40"
+    },
+    {
       "id": 535,
       "size": [
         1188,
@@ -281,6 +386,76 @@
       "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
       "review": "Diff-based pair: training mask = YOLO object ∩ change (shadows excluded); target = original with change ∪ object support replaced by FLUX raw (alpha=1 inside, 4px feather outside). Full-frame and zoom review: removed object gone, surrounding scene preserved, support outside unchanged.",
       "group": "68d8e5ae000000001400b04b"
+    },
+    {
+      "id": 541,
+      "size": [
+        1168,
+        876
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove the group of people and the dark objects on the wet foggy plaza, and restore the empty ground naturally. Preserve the lamp glow, fog, bollards and distant lights. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/541.png",
+          "sha256": "4af285bf6ee41ba679d5c7d4878e6549ce561ec2773af36cd7fdd7512919e14e",
+          "bytes": 677538
+        },
+        "mask": {
+          "path": "mask/541.png",
+          "sha256": "e3842b46620c4d77b75a92c0eccffc81db9e2e8c875cfe01a07dd411036b6a6d",
+          "bytes": 4724
+        },
+        "target": {
+          "path": "target/541.png",
+          "sha256": "665f30e9f4c323e87fbdf355987f69590157a65442dc042c974c1d32b68a96d5",
+          "bytes": 798976
+        },
+        "comparison": {
+          "path": "comparison/541.jpg",
+          "sha256": "54546c6786b51a7b34d4d1916d6a662bbac199cd66835b4e1269551ed97d443e",
+          "bytes": 475531
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "674c1fb1000000000202eba7"
+    },
+    {
+      "id": 544,
+      "size": [
+        876,
+        1168
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every pedestrian and their long shadows from the crosswalk, and reconstruct the empty striped road surface. Preserve the road markings, light direction and perspective. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/544.png",
+          "sha256": "d73622315721a81202d18bb31a1258f5745b010eb3cd2c299bbfa4d85db4c75d",
+          "bytes": 1599379
+        },
+        "mask": {
+          "path": "mask/544.png",
+          "sha256": "0495952113b743104737cd57c184c7106d5b27aef3f45bb5d972ee9c43ee596c",
+          "bytes": 7159
+        },
+        "target": {
+          "path": "target/544.png",
+          "sha256": "0f40614785b099a4650a020643fa136e5df0253cb1aecd31b24e64a89b89bd82",
+          "bytes": 1873061
+        },
+        "comparison": {
+          "path": "comparison/544.jpg",
+          "sha256": "658938e99ec1f9f4dea0ce5b12cd7a017151788109d7f75a5209890db1e37387",
+          "bytes": 1122826
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "6a2fdee0000000001101daeb"
     },
     {
       "id": 546,

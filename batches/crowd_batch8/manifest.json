@@ -1,0 +1,881 @@
+{
+  "batch": 8,
+  "accepted_count": 25,
+  "samples": [
+    {
+      "id": 551,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/551.png",
+          "sha256": "26964816a8eed976f7066f6c81aed0f0cbc8b548f18a73a39bd5fd846f158aee",
+          "bytes": 3893618
+        },
+        "mask": {
+          "path": "mask/551.png",
+          "sha256": "1878401cd05da5e2a9f136b81b4a81d5d8b65e84fb63be210e6e3be39b145bf1",
+          "bytes": 10849
+        },
+        "target": {
+          "path": "target/551.png",
+          "sha256": "cf19f863cf304530e2bda01931ba97603c2f4179fe4190f88d8fd7a0ba7204e2",
+          "bytes": 3728176
+        },
+        "comparison": {
+          "path": "comparison/551.jpg",
+          "sha256": "8a85c16c5364caf482f0da8610153774f17b0b030647e63ee6de39d50aa5c4fe",
+          "bytes": 2347234
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "551"
+    },
+    {
+      "id": 552,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/552.png",
+          "sha256": "153fb22931f0cf10acc543c5c3f746534f858aaa55c0befc122811eeb54ce39a",
+          "bytes": 3881153
+        },
+        "mask": {
+          "path": "mask/552.png",
+          "sha256": "daa1911a2a7784c8b40357d7d016f9bf23cc5abbe2b657d7a81d05edd58cb49d",
+          "bytes": 7590
+        },
+        "target": {
+          "path": "target/552.png",
+          "sha256": "e7ac5dd029d703a1b3609503c8f6205e015e00f6bcc6d5079d6d7f0863c8fbde",
+          "bytes": 3705702
+        },
+        "comparison": {
+          "path": "comparison/552.jpg",
+          "sha256": "afa6a9d7ce04581c07484d05a899a17633850b5a1b54b93e81b8fe8a718f3250",
+          "bytes": 2632523
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "552"
+    },
+    {
+      "id": 553,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/553.png",
+          "sha256": "bd50ff5af59c10d8f31e71c277b9e4a956b8467691499b43eff7f2220445f760",
+          "bytes": 3653683
+        },
+        "mask": {
+          "path": "mask/553.png",
+          "sha256": "e37a7385f9f9fe0d73fa0ced85c0f18c3eb183bf2c34d06b8e5f7703642f10cc",
+          "bytes": 10322
+        },
+        "target": {
+          "path": "target/553.png",
+          "sha256": "2a6ffbf982e914867b8a946264a94f6aa2a2c8fcde07d8b9d986f912b1b2f70a",
+          "bytes": 3649165
+        },
+        "comparison": {
+          "path": "comparison/553.jpg",
+          "sha256": "513215d8964f51237ce9c229dab2349e8325d139588aeca91638a0674e09de90",
+          "bytes": 2166153
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "553"
+    },
+    {
+      "id": 554,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/554.png",
+          "sha256": "015a2fb892388776860653ef7d5fb8386b59dd013c4218a0321284c805b03cf5",
+          "bytes": 2917112
+        },
+        "mask": {
+          "path": "mask/554.png",
+          "sha256": "719d0744e6b492fc7483c7c0e5714a5a3871d6b309afc44310f8bc66674e374d",
+          "bytes": 6194
+        },
+        "target": {
+          "path": "target/554.png",
+          "sha256": "afdba2e3be44e402952d5ada38d7f3ca6cfaa8a3e8df0348c9f21367537dbae0",
+          "bytes": 2905517
+        },
+        "comparison": {
+          "path": "comparison/554.jpg",
+          "sha256": "255ec99bf57f9dfa3d60bfa2645666661bf4144e17191763149b91f33c0f123d",
+          "bytes": 1724778
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3k03268o0373lg6g5ou8o0ua378imvvgkm0"
+    },
+    {
+      "id": 555,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/555.png",
+          "sha256": "d859f4d54521dc9cbbd1f45e5fe656d2ff3fe85ef22b97294fc581628614265b",
+          "bytes": 4161325
+        },
+        "mask": {
+          "path": "mask/555.png",
+          "sha256": "57aab960ae0cc4d934cbf8c893f0bea75bee1b0f81abe181b8e62d95f0b6bbc6",
+          "bytes": 8491
+        },
+        "target": {
+          "path": "target/555.png",
+          "sha256": "b5423c3cc8dc8c3c281f08cccf57e2b998e196c85810f1094e5c6b672b5a766a",
+          "bytes": 4056330
+        },
+        "comparison": {
+          "path": "comparison/555.jpg",
+          "sha256": "eec583a72a3bb15cec5ffc9c3974fe793cd2dc90fcf2c71747fb5564a62d056b",
+          "bytes": 2421306
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3r83222qmchn7c5g5ofo7l4k1mr8dt9a62g"
+    },
+    {
+      "id": 556,
+      "size": [
+        1080,
+        1920
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/556.png",
+          "sha256": "1cc5a5340eeaff6deb6b0b93e91ea63ef2f9bb3f36ed9387393c56265cc88c47",
+          "bytes": 2250002
+        },
+        "mask": {
+          "path": "mask/556.png",
+          "sha256": "638fece68e3698c006124e56bf59d17ef55ff109958a0193450f9c9f1bcd4d6d",
+          "bytes": 8278
+        },
+        "target": {
+          "path": "target/556.png",
+          "sha256": "1695c8804d76dc61f5c68c167684bdb3fc1f981859c1cdc79ba91ccc46e3bc8b",
+          "bytes": 2287108
+        },
+        "comparison": {
+          "path": "comparison/556.jpg",
+          "sha256": "c2b746f8010138b086f64b392c68479e1385eabc6a43ef08ab41061eabe658d2",
+          "bytes": 1668403
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g2sg325p89hm9l0e04brlujkq3qjuj31v9u0"
+    },
+    {
+      "id": 557,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/557.png",
+          "sha256": "666a7873e9e57f936438813ba582becf4c6d6eb88bebd59effda2d28b56246f7",
+          "bytes": 4089577
+        },
+        "mask": {
+          "path": "mask/557.png",
+          "sha256": "76627b86c887d24a0768b963470357ed35b04bd916c3bf18d3c32478058b88a0",
+          "bytes": 6574
+        },
+        "target": {
+          "path": "target/557.png",
+          "sha256": "d324966b690885b6e2c2aba2b17a6728d8796c4c1d3904a740f268b15f452679",
+          "bytes": 4093750
+        },
+        "comparison": {
+          "path": "comparison/557.jpg",
+          "sha256": "3d56ebee56a8dbce0342e3e50381202195b1db72304a628d6b3e0051876e9f90",
+          "bytes": 2958740
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3qo326k75ki9l8805pjlgfs0uabk0egnssg"
+    },
+    {
+      "id": 558,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/558.png",
+          "sha256": "5006791e4c6df69516a8c2b2f324e44013f8bc0284ba68735a8a86c2b68f20d0",
+          "bytes": 3394173
+        },
+        "mask": {
+          "path": "mask/558.png",
+          "sha256": "0a173530ef9076b510bc3e51f27b1442bd342825e546b0b69f41d6e6540bacad",
+          "bytes": 10888
+        },
+        "target": {
+          "path": "target/558.png",
+          "sha256": "599665cdf35adc7e23d2c72dce8da231809fd7c3db5d8f07b7255c42485e71ae",
+          "bytes": 3394742
+        },
+        "comparison": {
+          "path": "comparison/558.jpg",
+          "sha256": "19b5c8b81edc232bbb5fd3b3cd9dd12e851318921ff691b18ccb0a64003822a4",
+          "bytes": 2308873
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3qg32476d4bf0a005o2d9kp08adaqae5a98"
+    },
+    {
+      "id": 560,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/560.png",
+          "sha256": "8e603babaf840bc0e80d1fac7ffd818556caad15cbd681966f90afcb421a4a59",
+          "bytes": 3803716
+        },
+        "mask": {
+          "path": "mask/560.png",
+          "sha256": "e13f5c9886467b9ff70ae89d12c1478177ae65f63a9918bb682ba6e2c5b5728e",
+          "bytes": 11596
+        },
+        "target": {
+          "path": "target/560.png",
+          "sha256": "a263acf609e12547fe2ea0cfb6c5af03b4cfb711968137219105f965d39be8c8",
+          "bytes": 3706844
+        },
+        "comparison": {
+          "path": "comparison/560.jpg",
+          "sha256": "3c9a65554adf7af1f36b9c47138dfd6af7bef869e33f576d2be89330ee511394",
+          "bytes": 2451593
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3qg325mqsk3qlg004a53rn1dd3uma1g1vbo"
+    },
+    {
+      "id": 561,
+      "size": [
+        2000,
+        1331
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/561.png",
+          "sha256": "a1e6dd9347a4c1252b7591f6c9bd7f737272b1d762b265de39bd55a839d0ba2a",
+          "bytes": 3718465
+        },
+        "mask": {
+          "path": "mask/561.png",
+          "sha256": "84e4f4810e19ad548913cca3f8280ec4483a327fe615611cb094eb1835e0933c",
+          "bytes": 15536
+        },
+        "target": {
+          "path": "target/561.png",
+          "sha256": "61aedfd3aaf5b7ef9809192d1dfc5781934bc9da7bb4c91eb82e66fb1f990da7",
+          "bytes": 3289501
+        },
+        "comparison": {
+          "path": "comparison/561.jpg",
+          "sha256": "181f214d88326ad686b7e6b1fd86544e714de1f10b536158dcb7b791d8b1272d",
+          "bytes": 2134934
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g2sg326upi8kcmke05ndvl44g8bi5eqdg6pg"
+    },
+    {
+      "id": 562,
+      "size": [
+        1080,
+        1442
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/562.png",
+          "sha256": "f55a2d652332fc637f664174b6b58dddafdd387fa62070c707f9b5c3351cd5b4",
+          "bytes": 1742135
+        },
+        "mask": {
+          "path": "mask/562.png",
+          "sha256": "949b1543d11ee1bd23524bf6d78f6b0d9a96987628583695a581d6dac218457c",
+          "bytes": 6259
+        },
+        "target": {
+          "path": "target/562.png",
+          "sha256": "98a86b59210283639bc5d95dcb34724047e55edd2553587203ca59fb17963610",
+          "bytes": 1771815
+        },
+        "comparison": {
+          "path": "comparison/562.jpg",
+          "sha256": "175cdde84153f790fc715d4b23f46a2226801206fef50e0a88c2dd358dec07b3",
+          "bytes": 1417784
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3k8321tlg8df7ed05q0bcsbj97vu5s8ia7g"
+    },
+    {
+      "id": 563,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/563.png",
+          "sha256": "313a8d96b5022806726cbc16882a43aa15be52e98cfed12a11bde16dbe1ea6e0",
+          "bytes": 5856845
+        },
+        "mask": {
+          "path": "mask/563.png",
+          "sha256": "1765f2fb7692608be7010c38d6a45a8fcfa440d6aac4bcfbe05a3e4c732826aa",
+          "bytes": 11882
+        },
+        "target": {
+          "path": "target/563.png",
+          "sha256": "a0473b65da9d72033b45b98cb91e6b84af9027f13f41d63f0d6451d90f84ec68",
+          "bytes": 5745337
+        },
+        "comparison": {
+          "path": "comparison/563.jpg",
+          "sha256": "25f49ad07a860666792a75d641860304824bb99a9032f1d9b663dd8364763546",
+          "bytes": 4275674
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3k031odrj200lmdg5oeupl240hkpj11bim8"
+    },
+    {
+      "id": 564,
+      "size": [
+        1707,
+        1280
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/564.png",
+          "sha256": "9d6c3a8b0973ae4b796f148dddd627e5fac5542c6b40a250bf8d77e577c85ef1",
+          "bytes": 2624663
+        },
+        "mask": {
+          "path": "mask/564.png",
+          "sha256": "c9107be4d8ebb0b652aa4e39978770c53051a3b5275c5881af9ce4c2835ae2a4",
+          "bytes": 8508
+        },
+        "target": {
+          "path": "target/564.png",
+          "sha256": "fc6b6ec3636dcc7d7d9bebf4959c6d276a73fa83ae5c6bb4c47aad882b419363",
+          "bytes": 2801296
+        },
+        "comparison": {
+          "path": "comparison/564.jpg",
+          "sha256": "2a07354ddbacc0930d5550f94ded323bf9b0c1376e643b9dc8205e2af2dbdbe1",
+          "bytes": 2177743
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3k8325p9bm4558h05n8u0uc4mdt61oto6mo"
+    },
+    {
+      "id": 565,
+      "size": [
+        2000,
+        1500
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/565.png",
+          "sha256": "2bd2c89aa02a091f23e631a6894ddc70ea85ba61b9f473334e108b3d6342a365",
+          "bytes": 4621624
+        },
+        "mask": {
+          "path": "mask/565.png",
+          "sha256": "6efd53923477bbb20cb7368c27410751c181d482308a9c8f56b2ffebd7870d3f",
+          "bytes": 11801
+        },
+        "target": {
+          "path": "target/565.png",
+          "sha256": "2fc7d32886e1fd2f7ea977f8406b5f23fdbc801d588e36aa8940c5cabeb0fb08",
+          "bytes": 4515935
+        },
+        "comparison": {
+          "path": "comparison/565.jpg",
+          "sha256": "59387ae2e05b5f1f791e4a4d45322070f1e7c7eae8993d8b6740b844c734a8d6",
+          "bytes": 2786032
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3k031quid1erga5g5o680iu087328r8nfto"
+    },
+    {
+      "id": 566,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/566.png",
+          "sha256": "c9b5112edf85b2b0058784f7ccb919b6970d1506d821358ed1f9736dab863a11",
+          "bytes": 5029208
+        },
+        "mask": {
+          "path": "mask/566.png",
+          "sha256": "c07d74b747deb8cf1daff41a25a7059a535005972c66e200634e782ffcf44251",
+          "bytes": 9058
+        },
+        "target": {
+          "path": "target/566.png",
+          "sha256": "547cc139b511d4c0d4fe5d899dbe2bdddffb503368ca8a6b09990cf51646ddf3",
+          "bytes": 4892639
+        },
+        "comparison": {
+          "path": "comparison/566.jpg",
+          "sha256": "8a51f3dd36d473741a976acc85967bc1262299311a4eac9d84c64bbbad68aab2",
+          "bytes": 3594104
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3qo323uq76170a005oa4h7q0jt7iuveuktg"
+    },
+    {
+      "id": 567,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/567.png",
+          "sha256": "753e4bd66742e9c0f9d023cea29bcce47375078cca65daac34cee0cc5b29b377",
+          "bytes": 4893260
+        },
+        "mask": {
+          "path": "mask/567.png",
+          "sha256": "bded24cf87454504ee871f74d962cf259402a16a7b165b81b8c35510e21e5170",
+          "bytes": 9441
+        },
+        "target": {
+          "path": "target/567.png",
+          "sha256": "55693c38d75b955bc0090c6a7b14412d58f60bde6e5ddb2e390fdf91b6dfc845",
+          "bytes": 4903040
+        },
+        "comparison": {
+          "path": "comparison/567.jpg",
+          "sha256": "687723459fa8606b1d344e027aff4d03c0b446ac85721687f051567ecac1e85c",
+          "bytes": 3962693
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3r0322grbt2e6u00400qa33qu2dh5p7q8sg"
+    },
+    {
+      "id": 568,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/568.png",
+          "sha256": "4162cefec2266127507c967631b42aeff5e3295ab42021e9a5560a4d560210e6",
+          "bytes": 5004543
+        },
+        "mask": {
+          "path": "mask/568.png",
+          "sha256": "4a82fef56eab9791beff966c05ce29c718688b87d9e453caca2d3fd8d5850362",
+          "bytes": 10796
+        },
+        "target": {
+          "path": "target/568.png",
+          "sha256": "127ba96e7619e4243aad9ce30a8d05bc4e5cdd4bea58ec89d3242d10d105290d",
+          "bytes": 5014312
+        },
+        "comparison": {
+          "path": "comparison/568.jpg",
+          "sha256": "262b06d1d5854414862217d10981a71be335543dbd5f4e9271c18ee58c3e7176",
+          "bytes": 3659389
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3r8323u7s8or0acg4a0sbghjiqjj50glq6o"
+    },
+    {
+      "id": 569,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/569.png",
+          "sha256": "c7a34e3bf6cc5740ffe7b8503f6ee7d24e23d2d7d7486bb045c7e93ce3897360",
+          "bytes": 4378764
+        },
+        "mask": {
+          "path": "mask/569.png",
+          "sha256": "fef0e7d6fc656bd2baa2267ed52e8e36ca8b9cd9e440ca65adf8b7b79c98e0d9",
+          "bytes": 11435
+        },
+        "target": {
+          "path": "target/569.png",
+          "sha256": "dd1bdd8a9b90d76a64c8b774a6be973f30c02548a253e7ee5289b5146142b2db",
+          "bytes": 4300481
+        },
+        "comparison": {
+          "path": "comparison/569.jpg",
+          "sha256": "419666aa42818126a46dbe1ab4053fa06cdd21335c440758cb2ca6061a205565",
+          "bytes": 3021516
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g008322otrkd5nu6g5o7h5gngbksel5lkkbg"
+    },
+    {
+      "id": 570,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/570.png",
+          "sha256": "bbe7b2c3bade75687fa2d37a054f42b61a4a2b9c5175cf863c50ff70aaeee4a4",
+          "bytes": 3005160
+        },
+        "mask": {
+          "path": "mask/570.png",
+          "sha256": "02e0281d8855a503f8f8398b474dff58c0c239ec848578502a9b01280c20093f",
+          "bytes": 11871
+        },
+        "target": {
+          "path": "target/570.png",
+          "sha256": "fcf413dcb14688911ee7f74a21f70b547c8db5f01fc1b7e1ef0d7548480ee74b",
+          "bytes": 2937436
+        },
+        "comparison": {
+          "path": "comparison/570.jpg",
+          "sha256": "94935d783ae712bc74b0a9bc0abcd05c4459c6cf925d33805ba4c94c64a1c039",
+          "bytes": 1574976
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3qg325s05lfflg005n7vhdv5vthbff48d4o"
+    },
+    {
+      "id": 571,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/571.png",
+          "sha256": "3902db12883ca905b99ffd038e089c807f063d4e6ad914672f3b8598aa61bebb",
+          "bytes": 4796128
+        },
+        "mask": {
+          "path": "mask/571.png",
+          "sha256": "3acb2a084ec66a3498c98604b4529cf3996c571b1cd79666730ec7ef0de73685",
+          "bytes": 8519
+        },
+        "target": {
+          "path": "target/571.png",
+          "sha256": "71894b95d41ffe3baf3fcc17258d7f1fb5126e25a001014ada7b90251cf13f59",
+          "bytes": 4726571
+        },
+        "comparison": {
+          "path": "comparison/571.jpg",
+          "sha256": "859bd147722c76ff1f90d5efa0368105948f90563b3752062c7efddd66e7b0f5",
+          "bytes": 3600370
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g2sg323lu9q6tgoeg5oerhik41d0md6kjfv8"
+    },
+    {
+      "id": 572,
+      "size": [
+        2000,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/572.png",
+          "sha256": "82f96e6eae89a1f09845fe7de184ae080bf0cf974a2ecd12afb57ebedfbbb66e",
+          "bytes": 5908813
+        },
+        "mask": {
+          "path": "mask/572.png",
+          "sha256": "3c9c28e52efef73caaedccd3818e15b1e0a61bbca46fc4508b0ee67a3bcf55a3",
+          "bytes": 8648
+        },
+        "target": {
+          "path": "target/572.png",
+          "sha256": "69d23f35ffa56300b3652f2a436f0d86d53a8d29d0c32e5d35cceedc4c81e208",
+          "bytes": 5810714
+        },
+        "comparison": {
+          "path": "comparison/572.jpg",
+          "sha256": "8d34273b3763b1a440077d113f5d379ccaa1cff41a2614a192b971d5c8922b6f",
+          "bytes": 3662583
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3k831u0t0d0m72dg5pipi6aiuaulqak6v48"
+    },
+    {
+      "id": 574,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/574.png",
+          "sha256": "5d4da49db6f082f01a6321e52ea3d1903e19bc92ddf9f2cf677d1e9911d3aa76",
+          "bytes": 3776841
+        },
+        "mask": {
+          "path": "mask/574.png",
+          "sha256": "204e3c9f830516ba21c6407a88e9ae4eb6767d15c2e4dd0b12dc4aa936280e81",
+          "bytes": 8556
+        },
+        "target": {
+          "path": "target/574.png",
+          "sha256": "d29490b7e90eeeae23c251e138128ce4f697b9bbdf13f8edfbce7feb6a16c2f2",
+          "bytes": 3813253
+        },
+        "comparison": {
+          "path": "comparison/574.jpg",
+          "sha256": "8d2ce12c0070caf6bca189923102b5b4d30d6b2b5be157c91891fa86bb52c806",
+          "bytes": 2557393
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3qo31pdk3dc93c004brlcnhf9s0mfhuvmko"
+    },
+    {
+      "id": 575,
+      "size": [
+        2000,
+        1644
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/575.png",
+          "sha256": "077b33b21f6d1e2e51b6c11a6a5200ba7f913641e767483a1bc189a2576e5fda",
+          "bytes": 3968327
+        },
+        "mask": {
+          "path": "mask/575.png",
+          "sha256": "e13a61c5723e1258f4fd0d4d89037112645712d86197dc0e202f409db1f2d46f",
+          "bytes": 5781
+        },
+        "target": {
+          "path": "target/575.png",
+          "sha256": "31c3ec75f6b43227ff29cc6f733489d2099270196bdf0cf93225d3f7c5202d03",
+          "bytes": 3969700
+        },
+        "comparison": {
+          "path": "comparison/575.jpg",
+          "sha256": "36bb2acfd80d8718b53c94d32f108de9b8b18267e33d9a5016ab4450963d7a09",
+          "bytes": 3421510
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3k031ssi3vjp56605ouu28dpt98cv18ann0"
+    },
+    {
+      "id": 576,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/576.png",
+          "sha256": "1a87a69df284283a2e7027a440e50c6d1407c247a6ffe1876dcfb81b04fa219d",
+          "bytes": 4687930
+        },
+        "mask": {
+          "path": "mask/576.png",
+          "sha256": "26fb637595373350c19a06b22a41777b6b78a3c899a3e6b0e4a3478b58b873d3",
+          "bytes": 8479
+        },
+        "target": {
+          "path": "target/576.png",
+          "sha256": "38c8a76d9ff48f28f84e97c93dc7866ae43fe751c874417c8a1c2e845673ebe7",
+          "bytes": 4579202
+        },
+        "comparison": {
+          "path": "comparison/576.jpg",
+          "sha256": "82cebae7abece264053c5919532264e46e101a435d0d99fd6eb65f7f6f3b0337",
+          "bytes": 2949088
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3k8325p43hekkqc05pbk3t3n3f9rmj51vn0"
+    },
+    {
+      "id": 577,
+      "size": [
+        1500,
+        2000
+      ],
+      "model": "FLUX 3 Large",
+      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "files": {
+        "input": {
+          "path": "input/577.png",
+          "sha256": "f2c6095fd42178bf1d10660de0980bd6d1c2ebf17d7484dfe47b2d44c3b910dc",
+          "bytes": 5840315
+        },
+        "mask": {
+          "path": "mask/577.png",
+          "sha256": "463a47ef54b0728df6fc161a879d64ef3ba00009006cd59548fd51e0747c9dc8",
+          "bytes": 10339
+        },
+        "target": {
+          "path": "target/577.png",
+          "sha256": "666ead9fae022eb722020f736f007739d2de5dc4bc1fcf964a85791a735a2b11",
+          "bytes": 5678143
+        },
+        "comparison": {
+          "path": "comparison/577.jpg",
+          "sha256": "76d11ffd530487400d5e5b4b1911fdb80cdc5e061b64cfc52d41171607b2bed1",
+          "bytes": 4093159
+        }
+      },
+      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
+      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
+      "group": "1040g3k8325p43hekkqdg5pbk3t3n3f9roqak7s8"
+    }
+  ]
+}

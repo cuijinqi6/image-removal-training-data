@@ -1,15 +1,12 @@
 {
   "batch": 8,
-  "accepted_count": 92,
+  "accepted_count": 89,
   "samples": [
     {
       "id": 551,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
-      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "prompt": "",
       "files": {
         "input": {
           "path": "input/551.png",
@@ -39,12 +36,9 @@
     },
     {
       "id": 552,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
-      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "prompt": "",
       "files": {
         "input": {
           "path": "input/552.png",
@@ -74,12 +68,9 @@
     },
     {
       "id": 553,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
-      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
+      "prompt": "",
       "files": {
         "input": {
           "path": "input/553.png",
@@ -109,10 +100,7 @@
     },
     {
       "id": 554,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -144,10 +132,7 @@
     },
     {
       "id": 555,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -179,10 +164,7 @@
     },
     {
       "id": 556,
-      "size": [
-        1080,
-        1920
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -214,10 +196,7 @@
     },
     {
       "id": 557,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -249,10 +228,7 @@
     },
     {
       "id": 558,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -284,10 +260,7 @@
     },
     {
       "id": 560,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -319,10 +292,7 @@
     },
     {
       "id": 561,
-      "size": [
-        2000,
-        1331
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -354,10 +324,7 @@
     },
     {
       "id": 562,
-      "size": [
-        1080,
-        1442
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -389,10 +356,7 @@
     },
     {
       "id": 563,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -424,10 +388,7 @@
     },
     {
       "id": 564,
-      "size": [
-        1707,
-        1280
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -459,10 +420,7 @@
     },
     {
       "id": 565,
-      "size": [
-        2000,
-        1500
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -494,10 +452,7 @@
     },
     {
       "id": 566,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -529,10 +484,7 @@
     },
     {
       "id": 567,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -564,10 +516,7 @@
     },
     {
       "id": 568,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -599,10 +548,7 @@
     },
     {
       "id": 569,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -634,10 +580,7 @@
     },
     {
       "id": 570,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -669,10 +612,7 @@
     },
     {
       "id": 571,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -704,10 +644,7 @@
     },
     {
       "id": 572,
-      "size": [
-        2000,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -739,10 +676,7 @@
     },
     {
       "id": 574,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -774,10 +708,7 @@
     },
     {
       "id": 575,
-      "size": [
-        2000,
-        1644
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -809,10 +740,7 @@
     },
     {
       "id": 576,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -844,10 +772,7 @@
     },
     {
       "id": 577,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -879,10 +804,7 @@
     },
     {
       "id": 579,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -914,10 +836,7 @@
     },
     {
       "id": 580,
-      "size": [
-        1080,
-        1440
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -949,10 +868,7 @@
     },
     {
       "id": 581,
-      "size": [
-        1125,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -984,10 +900,7 @@
     },
     {
       "id": 582,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1018,46 +931,8 @@
       "group": "1040g3qo31v6fthb42a705oqsvde65dqtmqgfipo"
     },
     {
-      "id": 583,
-      "size": [
-        1500,
-        2000
-      ],
-      "model": "FLUX 3 Large",
-      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
-      "files": {
-        "input": {
-          "path": "input/583.png",
-          "sha256": "771d99d6be75ba9b94625540121743e9c03be0bacd12491ac1fc448585a5a986",
-          "bytes": 6325068
-        },
-        "mask": {
-          "path": "mask/583.png",
-          "sha256": "ade8e4198831c33dee1b85a18a2bdcc27b48129e385f670db07a14ecb397b465",
-          "bytes": 3675
-        },
-        "target": {
-          "path": "target/583.png",
-          "sha256": "5e47fea2e78d1bcdbfdc4ff293ee641b7c2b5ba22c8034883f82b5955df77799",
-          "bytes": 5134715
-        },
-        "comparison": {
-          "path": "comparison/583.jpg",
-          "sha256": "ce340ade54577fb48837997ddd0520e88eb2793507e3c99027239b7926ddcc3e",
-          "bytes": 4390293
-        }
-      },
-      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
-      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
-      "group": "1040g3qo31sd7l0v7lm904a2s6c5dej53rq1tsio"
-    },
-    {
       "id": 584,
-      "size": [
-        1501,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1089,10 +964,7 @@
     },
     {
       "id": 585,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1124,10 +996,7 @@
     },
     {
       "id": 586,
-      "size": [
-        1536,
-        1426
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1159,10 +1028,7 @@
     },
     {
       "id": 587,
-      "size": [
-        2000,
-        1499
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1194,10 +1060,7 @@
     },
     {
       "id": 588,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1229,10 +1092,7 @@
     },
     {
       "id": 589,
-      "size": [
-        2000,
-        1500
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1264,10 +1124,7 @@
     },
     {
       "id": 590,
-      "size": [
-        2000,
-        1500
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1299,10 +1156,7 @@
     },
     {
       "id": 591,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1334,10 +1188,7 @@
     },
     {
       "id": 592,
-      "size": [
-        1280,
-        1707
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1369,10 +1220,7 @@
     },
     {
       "id": 593,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1404,10 +1252,7 @@
     },
     {
       "id": 594,
-      "size": [
-        1280,
-        720
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1439,10 +1284,7 @@
     },
     {
       "id": 595,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1474,10 +1316,7 @@
     },
     {
       "id": 596,
-      "size": [
-        1329,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1509,10 +1348,7 @@
     },
     {
       "id": 597,
-      "size": [
-        1329,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1544,10 +1380,7 @@
     },
     {
       "id": 598,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1578,46 +1411,8 @@
       "group": "1040g3k031v0nh8102g0g5pp6u9jndtofk1193io"
     },
     {
-      "id": 599,
-      "size": [
-        1500,
-        2000
-      ],
-      "model": "FLUX 3 Large",
-      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
-      "files": {
-        "input": {
-          "path": "input/599.png",
-          "sha256": "783ffec4f2698e146ac8b2f2f55e789572fa768c77daa13c2c062f9bab72dc41",
-          "bytes": 5081195
-        },
-        "mask": {
-          "path": "mask/599.png",
-          "sha256": "d5c751de53af14395a885787db0cd9c26e587176802031ddeca380d132a80a8e",
-          "bytes": 3418
-        },
-        "target": {
-          "path": "target/599.png",
-          "sha256": "e5db21135b3b4e4b45e7237b575b20d4e238028c23dec245e37d4148acd6583f",
-          "bytes": 4914455
-        },
-        "comparison": {
-          "path": "comparison/599.jpg",
-          "sha256": "bd30d3c0d93c2f5db0f83cafc0d5805b127cea0d1803e86c215f49b342f7f1d4",
-          "bytes": 3622434
-        }
-      },
-      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
-      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
-      "group": "1040g3qo325qgtnds4ed049oj6j56vafj1ps7b90"
-    },
-    {
       "id": 600,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1649,10 +1444,7 @@
     },
     {
       "id": 601,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1684,10 +1476,7 @@
     },
     {
       "id": 602,
-      "size": [
-        1080,
-        1920
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1719,10 +1508,7 @@
     },
     {
       "id": 603,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1754,10 +1540,7 @@
     },
     {
       "id": 604,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1789,10 +1572,7 @@
     },
     {
       "id": 605,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1824,10 +1604,7 @@
     },
     {
       "id": 606,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1859,10 +1636,7 @@
     },
     {
       "id": 607,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1894,10 +1668,7 @@
     },
     {
       "id": 608,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1929,10 +1700,7 @@
     },
     {
       "id": 609,
-      "size": [
-        2000,
-        1500
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1964,10 +1732,7 @@
     },
     {
       "id": 610,
-      "size": [
-        1080,
-        1440
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -1999,10 +1764,7 @@
     },
     {
       "id": 611,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2034,10 +1796,7 @@
     },
     {
       "id": 612,
-      "size": [
-        2000,
-        1500
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2069,10 +1828,7 @@
     },
     {
       "id": 613,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2104,10 +1860,7 @@
     },
     {
       "id": 614,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2139,10 +1892,7 @@
     },
     {
       "id": 615,
-      "size": [
-        1125,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2174,10 +1924,7 @@
     },
     {
       "id": 616,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2209,10 +1956,7 @@
     },
     {
       "id": 617,
-      "size": [
-        2000,
-        1500
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2244,10 +1988,7 @@
     },
     {
       "id": 619,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2279,10 +2020,7 @@
     },
     {
       "id": 620,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2314,10 +2052,7 @@
     },
     {
       "id": 621,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2349,10 +2084,7 @@
     },
     {
       "id": 622,
-      "size": [
-        1440,
-        1920
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2384,10 +2116,7 @@
     },
     {
       "id": 623,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2419,10 +2148,7 @@
     },
     {
       "id": 625,
-      "size": [
-        2000,
-        1500
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2454,10 +2180,7 @@
     },
     {
       "id": 626,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2489,10 +2212,7 @@
     },
     {
       "id": 627,
-      "size": [
-        1920,
-        1440
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2524,10 +2244,7 @@
     },
     {
       "id": 628,
-      "size": [
-        2000,
-        1500
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2559,10 +2276,7 @@
     },
     {
       "id": 629,
-      "size": [
-        1702,
-        1276
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2594,10 +2308,7 @@
     },
     {
       "id": 630,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2628,46 +2339,8 @@
       "group": "1040g3qg326ut9tnkmq704alh9d05euspsovf5t8"
     },
     {
-      "id": 631,
-      "size": [
-        1506,
-        2000
-      ],
-      "model": "FLUX 3 Large",
-      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
-      "files": {
-        "input": {
-          "path": "input/631.png",
-          "sha256": "0013635a050b6c1e2f7c9b05b02490da106671e59f32026092f09169c725606a",
-          "bytes": 4492749
-        },
-        "mask": {
-          "path": "mask/631.png",
-          "sha256": "b46679c92d921dc471b73d178f98cabf6923323c9cba67655963c09ff47aee95",
-          "bytes": 3626
-        },
-        "target": {
-          "path": "target/631.png",
-          "sha256": "42c7e98a36132ffc52f6a0420597eb64dde576e76907ca39c023c0d13fa83bf2",
-          "bytes": 4333115
-        },
-        "comparison": {
-          "path": "comparison/631.jpg",
-          "sha256": "6784c9bce03e150368b40b2e00038f83eaf5145c4dc5f2ae06f038534e0990fb",
-          "bytes": 3055283
-        }
-      },
-      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
-      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
-      "group": "1040g3k8325rft2dpkc005nh6e90g81l6repb860"
-    },
-    {
       "id": 632,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2699,10 +2372,7 @@
     },
     {
       "id": 633,
-      "size": [
-        1008,
-        1570
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2734,10 +2404,7 @@
     },
     {
       "id": 681,
-      "size": [
-        1329,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2769,10 +2436,7 @@
     },
     {
       "id": 682,
-      "size": [
-        1329,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2804,10 +2468,7 @@
     },
     {
       "id": 683,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2839,10 +2500,7 @@
     },
     {
       "id": 684,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2874,10 +2532,7 @@
     },
     {
       "id": 685,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2909,10 +2564,7 @@
     },
     {
       "id": 686,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2944,10 +2596,7 @@
     },
     {
       "id": 687,
-      "size": [
-        1125,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -2979,10 +2628,7 @@
     },
     {
       "id": 688,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -3014,10 +2660,7 @@
     },
     {
       "id": 689,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -3049,10 +2692,7 @@
     },
     {
       "id": 690,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -3084,10 +2724,7 @@
     },
     {
       "id": 691,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -3119,10 +2756,7 @@
     },
     {
       "id": 692,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -3154,10 +2788,7 @@
     },
     {
       "id": 693,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {
@@ -3189,10 +2820,7 @@
     },
     {
       "id": 695,
-      "size": [
-        1500,
-        2000
-      ],
+      "size": null,
       "model": "FLUX 3 Large",
       "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
       "files": {

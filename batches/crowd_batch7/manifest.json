@@ -1,6 +1,6 @@
 {
   "batch": 7,
-  "accepted_count": 16,
+  "accepted_count": 14,
   "samples": [
     {
       "id": 503,
@@ -23,17 +23,17 @@
         },
         "target": {
           "path": "target/503.png",
-          "sha256": "8d68d07e7ed6a70613c832cb48072bd9047607c0296531e1eeff13ad1ae4ae76",
-          "bytes": 6928940
+          "sha256": "8d485641a3f0cb786e7b1dfb97a811063a1ee8c5ff2de531144ff91631dc9093",
+          "bytes": 6834547
         },
         "comparison": {
           "path": "comparison/503.jpg",
-          "sha256": "66db2f24292ca3561abb719de8a429e7bfb3a875c34abc2e28f254b0655d18ae",
-          "bytes": 1084711
+          "sha256": "aa67c6c22de03f2bff209f30a1f26ba418359556444a1269d789303c206a4756",
+          "bytes": 1531670
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Viewed full original/raw/merged mask/composite and native person-phone-foot boundary panels. Two real people with hats and phone masked; bronze statue and mural excluded. People and associated contact/shadow regions removed. Floor-only support preserves statue/bench/planters; outside support exact input. Model mask boundaries approximate.",
       "group": "6ace36de0000000015017014"
     },
@@ -58,17 +58,17 @@
         },
         "target": {
           "path": "target/505.png",
-          "sha256": "965c1b91a2815b170e746c6971a31c77cc39c14fe469e0a2c548ad072436a8fc",
-          "bytes": 4019764
+          "sha256": "9ea1e54e57d3d4e1aa66a517a7d5715883204d96aaeef872836833272c0b72e8",
+          "bytes": 4045341
         },
         "comparison": {
           "path": "comparison/505.jpg",
-          "sha256": "e069a4466982a4a64ac78d38e54b24ec84c32f1cd4e8a7b5b364e425055fa540",
-          "bytes": 1421529
+          "sha256": "742411d30bcc38110979e475eafc2061372f96648c82198446011243521fec9d",
+          "bytes": 444427
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Full input, supplemented mask overlay, four native quadrants, raw, target and three-panel comparison reviewed. All visible real people (505: four men; 506: three women incl. the sheer dress train on the grate) are covered; associated contact shadows removed. Fixed scene (lamp post, tree, wall, curb, drain grate, pavement texture) preserved; support outside changed pixels = 0; no visible residual person or seam. Accepted.",
       "group": "6a3baa1d0000000022014bee"
     },
@@ -93,17 +93,17 @@
         },
         "target": {
           "path": "target/506.png",
-          "sha256": "260db0df4f87b5edd9ae519da4f885755e340685d053412ae7a9831877ee734a",
-          "bytes": 4886630
+          "sha256": "76ea939804a137e17086b55da3afd2ae424c9804a673908f342613ed2fa3eb8f",
+          "bytes": 4885087
         },
         "comparison": {
           "path": "comparison/506.jpg",
-          "sha256": "814607575bd28c0e713a7fad14fe033d4a8ab36ae500a0f8eaeda1cc026b8502",
-          "bytes": 2113009
+          "sha256": "9c54cbce559f90c4880a3ec9e2d33c9ae41d230aca2e778831ce4e5fadfd1bff",
+          "bytes": 690975
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Full input, supplemented mask overlay, four native quadrants, raw, target and three-panel comparison reviewed. All visible real people (505: four men; 506: three women incl. the sheer dress train on the grate) are covered; associated contact shadows removed. Fixed scene (lamp post, tree, wall, curb, drain grate, pavement texture) preserved; support outside changed pixels = 0; no visible residual person or seam. Accepted.",
       "group": "6a3baa1d0000000022014bee"
     },
@@ -128,17 +128,17 @@
         },
         "target": {
           "path": "target/508.png",
-          "sha256": "694e0d3d518bcc9566fcf2023a06d3e40cac197526396a33da4bd145823c8993",
-          "bytes": 2606374
+          "sha256": "9ebb5370cfb6e9f07489e89a061f6768bc7bce51a99d193eb6795be8ee1329d1",
+          "bytes": 2678925
         },
         "comparison": {
           "path": "comparison/508.jpg",
-          "sha256": "95a9c3d81bb3e75e3894539057be2c6f427ff3f79519939e8b87219deed1cb6c",
-          "bytes": 1533181
+          "sha256": "00dfa5bcae4772e1d84c1f6de98bc62082fafe68bca5d8e5900801d1bb611b76",
+          "bytes": 534433
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Diff-based pair: mask = YOLO object ∩ change (shadows excluded); target replaces change∪object support with FLUX raw. Reviewed full frame and removal area; removed object gone, scene preserved, outside support unchanged.",
       "group": "6a70afe9000000003302dbdc"
     },
@@ -163,17 +163,17 @@
         },
         "target": {
           "path": "target/520.png",
-          "sha256": "fa516abc9513a01f77596ff0c6abe71539bb07e69bf5bfa0134b8af24316d4b0",
-          "bytes": 1434043
+          "sha256": "7b6bc41ef46cb60a478d96946dd35bdcd2d8cf6872bd344d9a1954323802684c",
+          "bytes": 1330674
         },
         "comparison": {
           "path": "comparison/520.jpg",
-          "sha256": "3e3dc4552dfe224106242cc6d1616b249da28d06afa2ceafb6481fc12a433672",
-          "bytes": 1027311
+          "sha256": "2c08fdccc8cd046f4d0c34a02d2476af86b05e33fe3b73afa52b9b898e79391d",
+          "bytes": 221424
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Full input, supplemented mask overlay, four native quadrants, raw output, target candidate and three-panel comparison reviewed. All visible real people and blurred/edge-cropped body extents are covered; associated long/contact shadows are removed. Broad diagonal building shadow, road markings, pavement texture and fixed scene remain. No visible residual people, object spill or seam; support outside changed pixels is 0. Accepted for training export.",
       "group": "6a2fdee0000000001101daeb"
     },
@@ -198,17 +198,17 @@
         },
         "target": {
           "path": "target/522.png",
-          "sha256": "fa4b37b32a54fc99f888605da26842b9827f579442b61cb88fb3e48a64bfacba",
-          "bytes": 1626453
+          "sha256": "262a8af9d67a0f82b4b255e62a0830f88842ea40a803708f6f653c6d48951f2f",
+          "bytes": 1598451
         },
         "comparison": {
           "path": "comparison/522.jpg",
-          "sha256": "6d31787058c88e86025e9e1cee400892eacac9a6625b9d802586d7a068bda08a",
-          "bytes": 999469
+          "sha256": "30a52d7a25067600023bb760ed1916e6b6dbff1001896dd53a657f7602ea480e",
+          "bytes": 359067
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Diff-based pair: training mask = YOLO object ∩ change (shadows excluded); target = original with change ∪ object support replaced by FLUX raw (alpha=1 inside, 4px feather outside). Full-frame and zoom review: removed object gone, surrounding scene preserved, support outside unchanged.",
       "group": "6a2fdee0000000001101daeb"
     },
@@ -233,17 +233,17 @@
         },
         "target": {
           "path": "target/523.png",
-          "sha256": "2d3c487a1110eb2410fbe3c3eb51cf55f0501e98d0ea45a96859d8da344308ec",
-          "bytes": 1076635
+          "sha256": "eac36e3c2834923015d1a48477ff95c843ecc19f848bda5a9cb763b9d468129c",
+          "bytes": 1076432
         },
         "comparison": {
           "path": "comparison/523.jpg",
-          "sha256": "7ec3438554378b382762ef95e0a0f41805601d9e46b8c6a7bbb6d098704c7559",
-          "bytes": 754804
+          "sha256": "3eef5a596631b4fc0890de9c813a985f3dc5d9af1fe8ceecbd97d60e92b0a26c",
+          "bytes": 219437
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "6a2fdee0000000001101daeb"
     },
@@ -268,54 +268,19 @@
         },
         "target": {
           "path": "target/524.png",
-          "sha256": "de024163df47c1e5e584b017cdd03edb558a476f5a5d9ce73e4ad4f5d4912819",
-          "bytes": 4000273
+          "sha256": "9acfea4091efdbfc062a029b187cec92fdb1a798a3c8aab94cc56b318fb19525",
+          "bytes": 3731256
         },
         "comparison": {
           "path": "comparison/524.jpg",
-          "sha256": "a3c32dc9c185e50c1b037c8c5cbbb65aba740164c94859ec0098580c902dfb09",
-          "bytes": 2760117
+          "sha256": "061f04e041fbdb5a95756ef8cdf84f77d1bfcd56678c50dd89bf0bbe9276213b",
+          "bytes": 825767
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "6aa48cfa000000000b002186"
-    },
-    {
-      "id": 533,
-      "size": [
-        2496,
-        1664
-      ],
-      "model": "FLUX 3 Large",
-      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
-      "files": {
-        "input": {
-          "path": "input/533.png",
-          "sha256": "9d497930613bd4a7376707e44240620cf569b9143ad59bccc6869637de0dbdc8",
-          "bytes": 4279715
-        },
-        "mask": {
-          "path": "mask/533.png",
-          "sha256": "a2ee966b3e4eaa7604d1d824793efc8656e885f07b43f1a0ce14e0075014aaba",
-          "bytes": 8121
-        },
-        "target": {
-          "path": "target/533.png",
-          "sha256": "b2b2e0e8a372b020bd20b46002819e4e2fd1e2d6542ab663f11698366c435101",
-          "bytes": 4311109
-        },
-        "comparison": {
-          "path": "comparison/533.jpg",
-          "sha256": "02c53a4ac5d00e09d38e050df45acdff74080f52d32204d590900c500c57c3cb",
-          "bytes": 2582054
-        }
-      },
-      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
-      "review": "Diff-based pair: mask = YOLO object ∩ change (shadows excluded); target replaces change∪object support with FLUX raw. Reviewed full frame and removal area; removed object gone, scene preserved, outside support unchanged.",
-      "group": "6a9a1c58000000002603b0dd"
     },
     {
       "id": 534,
@@ -338,17 +303,17 @@
         },
         "target": {
           "path": "target/534.png",
-          "sha256": "dcc5311d9f77920f55b552a75cdcf2ddbdbe3f1ce73b64b53fa58bab28724d55",
-          "bytes": 1279193
+          "sha256": "3d142338824cb4bbe3b7c5b591ce3397bbeb6a4252560be50f3ddc1fbedc553c",
+          "bytes": 1290691
         },
         "comparison": {
           "path": "comparison/534.jpg",
-          "sha256": "a01c936b81a0b2fd47341d4e0a519a5a5d02d1076eeed3a3682999df1e787141",
-          "bytes": 1303743
+          "sha256": "50f43fab605efe28375d96c4f181e728af301476ea4722c3536e2ddcedfdf203",
+          "bytes": 400499
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "6aa402290000000026030e40"
     },
@@ -373,17 +338,17 @@
         },
         "target": {
           "path": "target/535.png",
-          "sha256": "78aa728d83b975ed1d481f5ad457c09316136e5bb4eef17f45cb7dfa47492fd1",
-          "bytes": 2648600
+          "sha256": "c4fa48d90f490bc74c860f904619c51a66006ebdc765e12a49a1c210b37627a9",
+          "bytes": 2599179
         },
         "comparison": {
           "path": "comparison/535.jpg",
-          "sha256": "c5f7e6b10c9992bba71f8fab570b9ee167d7ae9281dbb4cb9734226f60fc7d0d",
-          "bytes": 1325169
+          "sha256": "c1504b51e08cf16e9c6e678769443f52830c7abbb17e6c1c3ce6d233ce07f779",
+          "bytes": 472074
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Diff-based pair: training mask = YOLO object ∩ change (shadows excluded); target = original with change ∪ object support replaced by FLUX raw (alpha=1 inside, 4px feather outside). Full-frame and zoom review: removed object gone, surrounding scene preserved, support outside unchanged.",
       "group": "68d8e5ae000000001400b04b"
     },
@@ -408,54 +373,19 @@
         },
         "target": {
           "path": "target/541.png",
-          "sha256": "665f30e9f4c323e87fbdf355987f69590157a65442dc042c974c1d32b68a96d5",
-          "bytes": 798976
+          "sha256": "f79449c3cd958a5026e1f8df8e339d0c1049b019546c43b57f763bad4433dedd",
+          "bytes": 797064
         },
         "comparison": {
           "path": "comparison/541.jpg",
-          "sha256": "54546c6786b51a7b34d4d1916d6a662bbac199cd66835b4e1269551ed97d443e",
-          "bytes": 475531
+          "sha256": "09c1b188a127c6a1ddcde7aa4b0079b8f5ddfcb532dde5c93511fedd77fbd923",
+          "bytes": 135133
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "674c1fb1000000000202eba7"
-    },
-    {
-      "id": 544,
-      "size": [
-        876,
-        1168
-      ],
-      "model": "FLUX 3 Large",
-      "prompt": "Remove every pedestrian and their long shadows from the crosswalk, and reconstruct the empty striped road surface. Preserve the road markings, light direction and perspective. Keep everything else unchanged.",
-      "files": {
-        "input": {
-          "path": "input/544.png",
-          "sha256": "d73622315721a81202d18bb31a1258f5745b010eb3cd2c299bbfa4d85db4c75d",
-          "bytes": 1599379
-        },
-        "mask": {
-          "path": "mask/544.png",
-          "sha256": "0495952113b743104737cd57c184c7106d5b27aef3f45bb5d972ee9c43ee596c",
-          "bytes": 7159
-        },
-        "target": {
-          "path": "target/544.png",
-          "sha256": "0f40614785b099a4650a020643fa136e5df0253cb1aecd31b24e64a89b89bd82",
-          "bytes": 1873061
-        },
-        "comparison": {
-          "path": "comparison/544.jpg",
-          "sha256": "658938e99ec1f9f4dea0ce5b12cd7a017151788109d7f75a5209890db1e37387",
-          "bytes": 1122826
-        }
-      },
-      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
-      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
-      "group": "6a2fdee0000000001101daeb"
     },
     {
       "id": 546,
@@ -478,17 +408,17 @@
         },
         "target": {
           "path": "target/546.png",
-          "sha256": "127b66a101780e65e8e67f6475967a18d1a6d87b320ce2759dfcaef459223b1a",
-          "bytes": 7708486
+          "sha256": "08c8f3dd41238ed165f811208dc5e79428505cd59a7ad07746a6404eb57bb374",
+          "bytes": 7717033
         },
         "comparison": {
           "path": "comparison/546.jpg",
-          "sha256": "4ebb330e3b3f716f0024748e23f5b2d1eee6bb60847e4f5fc40faf8150650d52",
-          "bytes": 4365985
+          "sha256": "6ee014a2be5b45b7f2183aa02bae57cae533d69eeaacf90c560ff4f5b567140f",
+          "bytes": 1662298
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Full input, mask overlay, four native quadrants, raw, soft-blended target and three-panel comparison reviewed. Man, umbrella and his road reflection removed; the reflection area was blended with a Gaussian alpha (sigma 16, core forced to 1) to avoid a hard puddle seam. Fixed crosswalk, rain, lane symbol, curb, grass and trees preserved; outside-support changed pixels = 0. Accepted.",
       "group": "6a7aef010000000033037289"
     },
@@ -513,17 +443,17 @@
         },
         "target": {
           "path": "target/547.png",
-          "sha256": "e4ab7d1340d04fb637a5dbbf2d8c57af6ccb1b423b71f4790998c3e1c5f8dd78",
-          "bytes": 6441341
+          "sha256": "d90cc49ec7ee43e39bcd74180b41573709377195ae8571e57944ec591bd7679d",
+          "bytes": 6574150
         },
         "comparison": {
           "path": "comparison/547.jpg",
-          "sha256": "2945e8cda22df6aa061462c0fb095185985f240aaefd8249681bb205dda1d166",
-          "bytes": 4082893
+          "sha256": "89f436cf9a6cefec79733b395a4f51ebc9ce367cc4b7457797c3f1daa3e50abd",
+          "bytes": 1510766
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Diff-based pair: training mask = YOLO object ∩ change (shadows excluded); target = original with change ∪ object support replaced by FLUX raw (alpha=1 inside, 4px feather outside). Full-frame and zoom review: removed object gone, surrounding scene preserved, support outside unchanged.",
       "group": "69c1dd36000000001d0195f0"
     },
@@ -548,17 +478,17 @@
         },
         "target": {
           "path": "target/548.png",
-          "sha256": "9a3829f0931ea631d895e8038b8da7e4679104a8ca98eda71aebe73f692303be",
-          "bytes": 5454332
+          "sha256": "ff6c47e4d8c03f0b3d72fb955b9b744cf398f13fbb2d784e26b832913f50d0a7",
+          "bytes": 5589729
         },
         "comparison": {
           "path": "comparison/548.jpg",
-          "sha256": "5c06d7869e648f1b5702f8c19e99d667e7a46979b1872c663083412ee3a78dcf",
-          "bytes": 3108604
+          "sha256": "60ea8beadbc2a5c4176989f88a16726daaf8fed0947f6fc7369e0fdc4af4ce20",
+          "bytes": 1050883
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Diff-based pair: mask = YOLO object ∩ change (shadows excluded); target replaces change∪object support with FLUX raw. Reviewed full frame and removal area; removed object gone, scene preserved, outside support unchanged.",
       "group": "69c8b9a4000000001a028dc6"
     }

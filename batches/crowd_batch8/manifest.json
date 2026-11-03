@@ -1,6 +1,6 @@
 {
   "batch": 8,
-  "accepted_count": 89,
+  "accepted_count": 84,
   "samples": [
     {
       "id": 551,
@@ -20,51 +20,19 @@
         },
         "target": {
           "path": "target/551.png",
-          "sha256": "cf19f863cf304530e2bda01931ba97603c2f4179fe4190f88d8fd7a0ba7204e2",
-          "bytes": 3728176
+          "sha256": "b079d274de07035657162dd8063fab601cec455ce37e163a23d21a0c373cbb74",
+          "bytes": 3729792
         },
         "comparison": {
           "path": "comparison/551.jpg",
-          "sha256": "8a85c16c5364caf482f0da8610153774f17b0b030647e63ee6de39d50aa5c4fe",
-          "bytes": 2347234
+          "sha256": "4270bf8316bc2b265b35cbe7f60065e3898f22fda15572d950bdf15199342b83",
+          "bytes": 719615
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "551"
-    },
-    {
-      "id": 552,
-      "size": null,
-      "model": "FLUX 3 Large",
-      "prompt": "",
-      "files": {
-        "input": {
-          "path": "input/552.png",
-          "sha256": "153fb22931f0cf10acc543c5c3f746534f858aaa55c0befc122811eeb54ce39a",
-          "bytes": 3881153
-        },
-        "mask": {
-          "path": "mask/552.png",
-          "sha256": "daa1911a2a7784c8b40357d7d016f9bf23cc5abbe2b657d7a81d05edd58cb49d",
-          "bytes": 7590
-        },
-        "target": {
-          "path": "target/552.png",
-          "sha256": "e7ac5dd029d703a1b3609503c8f6205e015e00f6bcc6d5079d6d7f0863c8fbde",
-          "bytes": 3705702
-        },
-        "comparison": {
-          "path": "comparison/552.jpg",
-          "sha256": "afa6a9d7ce04581c07484d05a899a17633850b5a1b54b93e81b8fe8a718f3250",
-          "bytes": 2632523
-        }
-      },
-      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
-      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
-      "group": "552"
     },
     {
       "id": 553,
@@ -84,17 +52,17 @@
         },
         "target": {
           "path": "target/553.png",
-          "sha256": "2a6ffbf982e914867b8a946264a94f6aa2a2c8fcde07d8b9d986f912b1b2f70a",
-          "bytes": 3649165
+          "sha256": "b2eb357340682d650e356a5729ade2bf345355a53e0c993e01f392782407b1e8",
+          "bytes": 3651952
         },
         "comparison": {
           "path": "comparison/553.jpg",
-          "sha256": "513215d8964f51237ce9c229dab2349e8325d139588aeca91638a0674e09de90",
-          "bytes": 2166153
+          "sha256": "0519f0355282ec160416397722b5adb10c1cba0a7f5ee1d3148c53e8eae498ab",
+          "bytes": 612064
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "553"
     },
@@ -116,17 +84,17 @@
         },
         "target": {
           "path": "target/554.png",
-          "sha256": "afdba2e3be44e402952d5ada38d7f3ca6cfaa8a3e8df0348c9f21367537dbae0",
-          "bytes": 2905517
+          "sha256": "9b89ec7a645645b0abb03df161094926c667ce5f5c44f8053f2d5332d5adb7c3",
+          "bytes": 2902838
         },
         "comparison": {
           "path": "comparison/554.jpg",
-          "sha256": "255ec99bf57f9dfa3d60bfa2645666661bf4144e17191763149b91f33c0f123d",
-          "bytes": 1724778
+          "sha256": "ac347ad7daa9313e097212c28c064295df2f4f4e5760d7b84e57be8350c65007",
+          "bytes": 490449
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k03268o0373lg6g5ou8o0ua378imvvgkm0"
     },
@@ -148,17 +116,17 @@
         },
         "target": {
           "path": "target/555.png",
-          "sha256": "b5423c3cc8dc8c3c281f08cccf57e2b998e196c85810f1094e5c6b672b5a766a",
-          "bytes": 4056330
+          "sha256": "5dd4b246d93c48271e61f438c87d1df56beb06192182d691abec87242b76534a",
+          "bytes": 4062211
         },
         "comparison": {
           "path": "comparison/555.jpg",
-          "sha256": "eec583a72a3bb15cec5ffc9c3974fe793cd2dc90fcf2c71747fb5564a62d056b",
-          "bytes": 2421306
+          "sha256": "6e2f93b61e8f249d6a873d428f188bf73c58cd0786a4c6f335f0938c38581631",
+          "bytes": 698225
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3r83222qmchn7c5g5ofo7l4k1mr8dt9a62g"
     },
@@ -180,17 +148,17 @@
         },
         "target": {
           "path": "target/556.png",
-          "sha256": "1695c8804d76dc61f5c68c167684bdb3fc1f981859c1cdc79ba91ccc46e3bc8b",
-          "bytes": 2287108
+          "sha256": "0a5e845bd1d5245045c1d3a37f04913057c09bb1e91ef266b036b51b6afdd95d",
+          "bytes": 2397159
         },
         "comparison": {
           "path": "comparison/556.jpg",
-          "sha256": "c2b746f8010138b086f64b392c68479e1385eabc6a43ef08ab41061eabe658d2",
-          "bytes": 1668403
+          "sha256": "2785e711ff6e9e6acba1df35fb563c2f9c1ecfde742d55d6d4177c7cf302deff",
+          "bytes": 542485
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g2sg325p89hm9l0e04brlujkq3qjuj31v9u0"
     },
@@ -212,17 +180,17 @@
         },
         "target": {
           "path": "target/557.png",
-          "sha256": "d324966b690885b6e2c2aba2b17a6728d8796c4c1d3904a740f268b15f452679",
-          "bytes": 4093750
+          "sha256": "a6efd88c5873b0f59ab4747ca0b32b4e9a5dcc68c58b5c869bcf4296e4f09f88",
+          "bytes": 4094321
         },
         "comparison": {
           "path": "comparison/557.jpg",
-          "sha256": "3d56ebee56a8dbce0342e3e50381202195b1db72304a628d6b3e0051876e9f90",
-          "bytes": 2958740
+          "sha256": "af52aecb3ff3e87b30f3785cc5f976757725e9de29084ab493cf3781112831a3",
+          "bytes": 911325
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo326k75ki9l8805pjlgfs0uabk0egnssg"
     },
@@ -244,17 +212,17 @@
         },
         "target": {
           "path": "target/558.png",
-          "sha256": "599665cdf35adc7e23d2c72dce8da231809fd7c3db5d8f07b7255c42485e71ae",
-          "bytes": 3394742
+          "sha256": "1e643d2da0ecf3e477c8970199d1a02ec5b1a118a80f23fd24f1f406c870992f",
+          "bytes": 3395191
         },
         "comparison": {
           "path": "comparison/558.jpg",
-          "sha256": "19b5c8b81edc232bbb5fd3b3cd9dd12e851318921ff691b18ccb0a64003822a4",
-          "bytes": 2308873
+          "sha256": "de8194af1c44d9427990fb1158ad8a87ab76fd04bf8fca90e9451ad7774b4be5",
+          "bytes": 639704
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg32476d4bf0a005o2d9kp08adaqae5a98"
     },
@@ -276,17 +244,17 @@
         },
         "target": {
           "path": "target/560.png",
-          "sha256": "a263acf609e12547fe2ea0cfb6c5af03b4cfb711968137219105f965d39be8c8",
-          "bytes": 3706844
+          "sha256": "a699f5920ce3b217f6c488dea9d77c8119bfc1e8d9c8eb317756bb522edc76e0",
+          "bytes": 3698798
         },
         "comparison": {
           "path": "comparison/560.jpg",
-          "sha256": "3c9a65554adf7af1f36b9c47138dfd6af7bef869e33f576d2be89330ee511394",
-          "bytes": 2451593
+          "sha256": "9c2ad41a78a708d93ca2639cf023ff619c5e669c1dcbb11ab825886884101d40",
+          "bytes": 704806
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg325mqsk3qlg004a53rn1dd3uma1g1vbo"
     },
@@ -308,17 +276,17 @@
         },
         "target": {
           "path": "target/561.png",
-          "sha256": "61aedfd3aaf5b7ef9809192d1dfc5781934bc9da7bb4c91eb82e66fb1f990da7",
-          "bytes": 3289501
+          "sha256": "193699c6e5c921296c7f8cb9da24a5c825dca109fe89b78614c28ecffa2ded40",
+          "bytes": 3289104
         },
         "comparison": {
           "path": "comparison/561.jpg",
-          "sha256": "181f214d88326ad686b7e6b1fd86544e714de1f10b536158dcb7b791d8b1272d",
-          "bytes": 2134934
+          "sha256": "e977d02ce69caa406a7c67dd48ebd15b53d4004bd41342d87d24e84a1fd6b728",
+          "bytes": 662703
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g2sg326upi8kcmke05ndvl44g8bi5eqdg6pg"
     },
@@ -340,17 +308,17 @@
         },
         "target": {
           "path": "target/562.png",
-          "sha256": "98a86b59210283639bc5d95dcb34724047e55edd2553587203ca59fb17963610",
-          "bytes": 1771815
+          "sha256": "92526a568accae1c5a6f7d083bfc7909ddbf5c7c8c2be47ece9910efbd86f4e3",
+          "bytes": 1776262
         },
         "comparison": {
           "path": "comparison/562.jpg",
-          "sha256": "175cdde84153f790fc715d4b23f46a2226801206fef50e0a88c2dd358dec07b3",
-          "bytes": 1417784
+          "sha256": "977385a90625d4689baf7eee90b98b7296e8537eeb4489c98fff7f0c2f25ccbe",
+          "bytes": 431795
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k8321tlg8df7ed05q0bcsbj97vu5s8ia7g"
     },
@@ -372,17 +340,17 @@
         },
         "target": {
           "path": "target/563.png",
-          "sha256": "a0473b65da9d72033b45b98cb91e6b84af9027f13f41d63f0d6451d90f84ec68",
-          "bytes": 5745337
+          "sha256": "3dc461776790c757cf4cbfcc2859a48363bb5f28832774950ac066c9d912dd69",
+          "bytes": 5751109
         },
         "comparison": {
           "path": "comparison/563.jpg",
-          "sha256": "25f49ad07a860666792a75d641860304824bb99a9032f1d9b663dd8364763546",
-          "bytes": 4275674
+          "sha256": "316d0c43878646516d3142afda22d3ddda8dfe1791fe6782056d746ef19e71a3",
+          "bytes": 1376245
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k031odrj200lmdg5oeupl240hkpj11bim8"
     },
@@ -404,17 +372,17 @@
         },
         "target": {
           "path": "target/564.png",
-          "sha256": "fc6b6ec3636dcc7d7d9bebf4959c6d276a73fa83ae5c6bb4c47aad882b419363",
-          "bytes": 2801296
+          "sha256": "0532a0be921bfd21c444ff5ed04a24f718bc8db02c7c61a978d0086172c95138",
+          "bytes": 2793459
         },
         "comparison": {
           "path": "comparison/564.jpg",
-          "sha256": "2a07354ddbacc0930d5550f94ded323bf9b0c1376e643b9dc8205e2af2dbdbe1",
-          "bytes": 2177743
+          "sha256": "339cb5632b14ad57fe0a3ca0488e07b4e7609edc337f384f82887787e04e9a65",
+          "bytes": 704920
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k8325p9bm4558h05n8u0uc4mdt61oto6mo"
     },
@@ -436,17 +404,17 @@
         },
         "target": {
           "path": "target/565.png",
-          "sha256": "2fc7d32886e1fd2f7ea977f8406b5f23fdbc801d588e36aa8940c5cabeb0fb08",
-          "bytes": 4515935
+          "sha256": "ee5039c83d9375c5503775dc0d70b89cb8e5173ad9f0d051423cb05e6b2f3886",
+          "bytes": 4538201
         },
         "comparison": {
           "path": "comparison/565.jpg",
-          "sha256": "59387ae2e05b5f1f791e4a4d45322070f1e7c7eae8993d8b6740b844c734a8d6",
-          "bytes": 2786032
+          "sha256": "f3269d8fb6b861135f515b9d8df8fa4bd61fcd9cf7c537f681dc83391cc91ae0",
+          "bytes": 813386
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k031quid1erga5g5o680iu087328r8nfto"
     },
@@ -468,17 +436,17 @@
         },
         "target": {
           "path": "target/566.png",
-          "sha256": "547cc139b511d4c0d4fe5d899dbe2bdddffb503368ca8a6b09990cf51646ddf3",
-          "bytes": 4892639
+          "sha256": "d61457869327a02b061b1cb7f499e6fc7672737e2c480b84f1a12bf109ce855a",
+          "bytes": 4873180
         },
         "comparison": {
           "path": "comparison/566.jpg",
-          "sha256": "8a51f3dd36d473741a976acc85967bc1262299311a4eac9d84c64bbbad68aab2",
-          "bytes": 3594104
+          "sha256": "f85cce4ce21365f6dfb63db8cbfa401bd347a9747713e9f5738093f858c4f12b",
+          "bytes": 1069574
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo323uq76170a005oa4h7q0jt7iuveuktg"
     },
@@ -500,17 +468,17 @@
         },
         "target": {
           "path": "target/567.png",
-          "sha256": "55693c38d75b955bc0090c6a7b14412d58f60bde6e5ddb2e390fdf91b6dfc845",
-          "bytes": 4903040
+          "sha256": "c53633e87bcd471bf7f6d868e069cc707eb879d10b038b8b91f5beb57ce7b670",
+          "bytes": 4897868
         },
         "comparison": {
           "path": "comparison/567.jpg",
-          "sha256": "687723459fa8606b1d344e027aff4d03c0b446ac85721687f051567ecac1e85c",
-          "bytes": 3962693
+          "sha256": "059383622325c65f747afc72f826e6300aeea7e9a0138302b2cf83adb528f9dc",
+          "bytes": 1204365
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3r0322grbt2e6u00400qa33qu2dh5p7q8sg"
     },
@@ -532,17 +500,17 @@
         },
         "target": {
           "path": "target/568.png",
-          "sha256": "127ba96e7619e4243aad9ce30a8d05bc4e5cdd4bea58ec89d3242d10d105290d",
-          "bytes": 5014312
+          "sha256": "7a713b0e30e12e8096abc976dd0ea4f1a97c34ab230080f5c5cb8c106c726578",
+          "bytes": 5015740
         },
         "comparison": {
           "path": "comparison/568.jpg",
-          "sha256": "262b06d1d5854414862217d10981a71be335543dbd5f4e9271c18ee58c3e7176",
-          "bytes": 3659389
+          "sha256": "d8f2fde9301fa19ea19a08fbd32e751ee29b597c374f38dfe3084a5b85d02976",
+          "bytes": 1120127
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3r8323u7s8or0acg4a0sbghjiqjj50glq6o"
     },
@@ -564,17 +532,17 @@
         },
         "target": {
           "path": "target/569.png",
-          "sha256": "dd1bdd8a9b90d76a64c8b774a6be973f30c02548a253e7ee5289b5146142b2db",
-          "bytes": 4300481
+          "sha256": "9f6391c8e3057f9417dd19d609bd82c9efa305cdc54e2ff9c858fdc7eefd736e",
+          "bytes": 4300584
         },
         "comparison": {
           "path": "comparison/569.jpg",
-          "sha256": "419666aa42818126a46dbe1ab4053fa06cdd21335c440758cb2ca6061a205565",
-          "bytes": 3021516
+          "sha256": "5c1df2518c732d70357fce55d27fd2bc7d63b54fd2a5a133e953ded6c10778cb",
+          "bytes": 929953
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g008322otrkd5nu6g5o7h5gngbksel5lkkbg"
     },
@@ -596,17 +564,17 @@
         },
         "target": {
           "path": "target/570.png",
-          "sha256": "fcf413dcb14688911ee7f74a21f70b547c8db5f01fc1b7e1ef0d7548480ee74b",
-          "bytes": 2937436
+          "sha256": "0cf58e79fac87896f1b48a852a640f52d50ce4eeeba5f777ca6379ce1297f0f8",
+          "bytes": 2949481
         },
         "comparison": {
           "path": "comparison/570.jpg",
-          "sha256": "94935d783ae712bc74b0a9bc0abcd05c4459c6cf925d33805ba4c94c64a1c039",
-          "bytes": 1574976
+          "sha256": "6081b8959d3819fcd45186e512823756e9ea7822bc22031ba324ea4be6784237",
+          "bytes": 420210
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg325s05lfflg005n7vhdv5vthbff48d4o"
     },
@@ -628,17 +596,17 @@
         },
         "target": {
           "path": "target/571.png",
-          "sha256": "71894b95d41ffe3baf3fcc17258d7f1fb5126e25a001014ada7b90251cf13f59",
-          "bytes": 4726571
+          "sha256": "4059ad6a115861d778ca70627c945b824c95546db6789c63f911799ab9a600ef",
+          "bytes": 4728365
         },
         "comparison": {
           "path": "comparison/571.jpg",
-          "sha256": "859bd147722c76ff1f90d5efa0368105948f90563b3752062c7efddd66e7b0f5",
-          "bytes": 3600370
+          "sha256": "cad79b95dc2104ee7214f9cf5f9b896b1c2c83695c242b6910a103653f438df6",
+          "bytes": 1090322
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g2sg323lu9q6tgoeg5oerhik41d0md6kjfv8"
     },
@@ -660,17 +628,17 @@
         },
         "target": {
           "path": "target/572.png",
-          "sha256": "69d23f35ffa56300b3652f2a436f0d86d53a8d29d0c32e5d35cceedc4c81e208",
-          "bytes": 5810714
+          "sha256": "7ccaea6dded02859fb6822ffb8173b0db5943d560b33aaa961355cb65eb4466d",
+          "bytes": 5838439
         },
         "comparison": {
           "path": "comparison/572.jpg",
-          "sha256": "8d34273b3763b1a440077d113f5d379ccaa1cff41a2614a192b971d5c8922b6f",
-          "bytes": 3662583
+          "sha256": "b64abf384f14430479a490c271930e9f4f2975a1140787129c2e0845b8b04e98",
+          "bytes": 1064331
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k831u0t0d0m72dg5pipi6aiuaulqak6v48"
     },
@@ -692,51 +660,19 @@
         },
         "target": {
           "path": "target/574.png",
-          "sha256": "d29490b7e90eeeae23c251e138128ce4f697b9bbdf13f8edfbce7feb6a16c2f2",
-          "bytes": 3813253
+          "sha256": "91929bb35811626356f862d072fc2d9ad842a1ca576575da65d39ef804ad81f7",
+          "bytes": 3815910
         },
         "comparison": {
           "path": "comparison/574.jpg",
-          "sha256": "8d2ce12c0070caf6bca189923102b5b4d30d6b2b5be157c91891fa86bb52c806",
-          "bytes": 2557393
+          "sha256": "536b9f873ac00c8e1fa0c74440db60599809bfcce7fcb19af1b66d03213e233b",
+          "bytes": 738478
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo31pdk3dc93c004brlcnhf9s0mfhuvmko"
-    },
-    {
-      "id": 575,
-      "size": null,
-      "model": "FLUX 3 Large",
-      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
-      "files": {
-        "input": {
-          "path": "input/575.png",
-          "sha256": "077b33b21f6d1e2e51b6c11a6a5200ba7f913641e767483a1bc189a2576e5fda",
-          "bytes": 3968327
-        },
-        "mask": {
-          "path": "mask/575.png",
-          "sha256": "e13a61c5723e1258f4fd0d4d89037112645712d86197dc0e202f409db1f2d46f",
-          "bytes": 5781
-        },
-        "target": {
-          "path": "target/575.png",
-          "sha256": "31c3ec75f6b43227ff29cc6f733489d2099270196bdf0cf93225d3f7c5202d03",
-          "bytes": 3969700
-        },
-        "comparison": {
-          "path": "comparison/575.jpg",
-          "sha256": "36bb2acfd80d8718b53c94d32f108de9b8b18267e33d9a5016ab4450963d7a09",
-          "bytes": 3421510
-        }
-      },
-      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
-      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
-      "group": "1040g3k031ssi3vjp56605ouu28dpt98cv18ann0"
     },
     {
       "id": 576,
@@ -756,17 +692,17 @@
         },
         "target": {
           "path": "target/576.png",
-          "sha256": "38c8a76d9ff48f28f84e97c93dc7866ae43fe751c874417c8a1c2e845673ebe7",
-          "bytes": 4579202
+          "sha256": "a2d1f1333f0fcd5dcd7184e41c9406291f8492f0b0454042caa61ad01b49aeba",
+          "bytes": 4596043
         },
         "comparison": {
           "path": "comparison/576.jpg",
-          "sha256": "82cebae7abece264053c5919532264e46e101a435d0d99fd6eb65f7f6f3b0337",
-          "bytes": 2949088
+          "sha256": "5c19fbef2aba0b5412fb07f6f41f30cf465dfc642e457d983d1db45d925d6081",
+          "bytes": 907012
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k8325p43hekkqc05pbk3t3n3f9rmj51vn0"
     },
@@ -788,17 +724,17 @@
         },
         "target": {
           "path": "target/577.png",
-          "sha256": "666ead9fae022eb722020f736f007739d2de5dc4bc1fcf964a85791a735a2b11",
-          "bytes": 5678143
+          "sha256": "02a1a1f646f557d983db4533cc7dad365694f6936e9e28cda413c74747637f08",
+          "bytes": 5670300
         },
         "comparison": {
           "path": "comparison/577.jpg",
-          "sha256": "76d11ffd530487400d5e5b4b1911fdb80cdc5e061b64cfc52d41171607b2bed1",
-          "bytes": 4093159
+          "sha256": "db680d5012f845e6135839b7ce97cb7a75f33bb12564de99ead33a37dc6a02de",
+          "bytes": 1284736
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k8325p43hekkqdg5pbk3t3n3f9roqak7s8"
     },
@@ -820,17 +756,17 @@
         },
         "target": {
           "path": "target/579.png",
-          "sha256": "daffe8f0770e8d0147852d5fe6bc37022ad627761b6b13b380d2b9bb75539b05",
-          "bytes": 5200302
+          "sha256": "36d4b07e4c6805ffe7c4929cb8407068857a0b5a428ff210f916f98d39ca4914",
+          "bytes": 5200353
         },
         "comparison": {
           "path": "comparison/579.jpg",
-          "sha256": "e08015a228d0144d9b9ab497326b97a572c5f59cf338196080713b3e292ad07a",
-          "bytes": 4258648
+          "sha256": "08fe942de7b4918f53fe7d2f9d3db667c10f5fe667dbe6426245480ceb1cb540",
+          "bytes": 1324124
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g2sg31ssu7dvc5sa05phnlfkholm1ck3c9fg"
     },
@@ -852,17 +788,17 @@
         },
         "target": {
           "path": "target/580.png",
-          "sha256": "8e76f159b8605031fb087ed49a28aa32a8a3304345456f244537facb22bee380",
-          "bytes": 2027367
+          "sha256": "d87fc63f341d3b0cbb1d216038cbaba5a9fc575057e4e9880b6a18676170c237",
+          "bytes": 2013997
         },
         "comparison": {
           "path": "comparison/580.jpg",
-          "sha256": "55deb75e6293343c45a83a424778c0e921a6a9de0f5af43e4b723c3f3b9a9781",
-          "bytes": 1522056
+          "sha256": "45a52fa89dd8d1529551e0a41c0c399253dc3e1d158c3c3ba64cfbf4b29cd15b",
+          "bytes": 453514
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k831s9keto35m1g5npemga08fj66du2qk8"
     },
@@ -884,17 +820,17 @@
         },
         "target": {
           "path": "target/581.png",
-          "sha256": "3df533505c45c006c23771b80f7279ad5121c041ee0764f21a21a3d9af5a1dd2",
-          "bytes": 1679408
+          "sha256": "3d3dfbb3b5ec0a85b32e05477899fad34c783649faf4ac34ac6a402e820efd88",
+          "bytes": 1662921
         },
         "comparison": {
           "path": "comparison/581.jpg",
-          "sha256": "52e36c95c74abdc33b0cf42e11eba7f5561aa1ebfefdf7f4768c2372ae6539bb",
-          "bytes": 1006073
+          "sha256": "39c3f02c5accad2107e72267a9e3f557fd5128ddb4330047541ee45d49cc2aea",
+          "bytes": 269821
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g008326tc1j6n584g5pl0h0ap3q2cr69or1o"
     },
@@ -916,51 +852,19 @@
         },
         "target": {
           "path": "target/582.png",
-          "sha256": "a84a3d8f6566953953de12e0d9530695c91bec2aaee67ad012ed688742addc39",
-          "bytes": 4367328
+          "sha256": "d54e872d4a6e73ed3e84cbfc798384fc6d2054d63e9ff9cf90f3e1c36401500b",
+          "bytes": 4375000
         },
         "comparison": {
           "path": "comparison/582.jpg",
-          "sha256": "7cfe3f4daacdd8e1d874cb9fef1306bc5fb228395dcec818a968f46036ffd683",
-          "bytes": 3142442
+          "sha256": "c42d691926e9e6c141420b66f474810c18731b95a11b0c0fd5a46d3c07918b6a",
+          "bytes": 920985
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo31v6fthb42a705oqsvde65dqtmqgfipo"
-    },
-    {
-      "id": 584,
-      "size": null,
-      "model": "FLUX 3 Large",
-      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
-      "files": {
-        "input": {
-          "path": "input/584.png",
-          "sha256": "d1ded8eb3254f9509078ea4a703ec9863652c4a868704816cadd9834a3926a7d",
-          "bytes": 5089369
-        },
-        "mask": {
-          "path": "mask/584.png",
-          "sha256": "ad44d7886320f329ec042e98628397a104dcae7e74d3138ffa57bd9de0ca4926",
-          "bytes": 12592
-        },
-        "target": {
-          "path": "target/584.png",
-          "sha256": "7d2470bb1ea996fcf35188423b4da94cec7eb143cbe0aff67f3b40a6ef149449",
-          "bytes": 4924137
-        },
-        "comparison": {
-          "path": "comparison/584.jpg",
-          "sha256": "248c7275ff8d9fd2c9dd536584564a272def01f2d0852891519d759f3fa2b186",
-          "bytes": 3608020
-        }
-      },
-      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
-      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
-      "group": "1040g2sg322pu3es5n0e05o24iu8g9a3n540v5eg"
     },
     {
       "id": 585,
@@ -980,17 +884,17 @@
         },
         "target": {
           "path": "target/585.png",
-          "sha256": "0488c0b8432ee951bb1f7dca3382f22a47950acf0dc4954ea3a2ca295fa54c4e",
-          "bytes": 5413498
+          "sha256": "ccec00f48281f5edc93c9f55935cf384f95b09943ed0872df47b5cd22b6e7ed4",
+          "bytes": 5412890
         },
         "comparison": {
           "path": "comparison/585.jpg",
-          "sha256": "a2b4064273843b9a894d06ccb8dddbedeab91d641a0e90984945c54ea2d592b7",
-          "bytes": 4113469
+          "sha256": "2a8499d4f7fd709aadef2a1ebe07fb135d436e57db2aa2ea9514c7e3afb76da0",
+          "bytes": 1260085
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k831lstt0q15edg48lmu8rpqakl3969c9o"
     },
@@ -1012,17 +916,17 @@
         },
         "target": {
           "path": "target/586.png",
-          "sha256": "71143fd065439bd0ddc8d442239cba64cec5b37387771845b094f285fb3d9d88",
-          "bytes": 5215110
+          "sha256": "c9528691320ece1a79b8ff5d3876957cd728e66b22973862067ece7516ac1847",
+          "bytes": 5216881
         },
         "comparison": {
           "path": "comparison/586.jpg",
-          "sha256": "47ffd5d6abc7a28a088bb84ff0aba138f842385745957aa265a77f90c0cfaa04",
-          "bytes": 4715202
+          "sha256": "cc285ecb3b4c0c387573d03ff207007e70441fab69335bb95ea79520489565e6",
+          "bytes": 1548282
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g008322kjf9ivg0305nv3gkbgbg38ekeifv8"
     },
@@ -1044,17 +948,17 @@
         },
         "target": {
           "path": "target/587.png",
-          "sha256": "49d96b9037109e54020eecbf88da6b7599ed9c0d263b836ad34b302288095b00",
-          "bytes": 5305423
+          "sha256": "870876b39c210484c66d6decffefdc4facd7eaa4bcf31d79f6c7ebfb436a9888",
+          "bytes": 5322129
         },
         "comparison": {
           "path": "comparison/587.jpg",
-          "sha256": "12d437c64f29b6f85d3770d5858749ca2b24a76f5647aef1d3eb5207252b1e81",
-          "bytes": 4010500
+          "sha256": "4cdb69242a8a52369f36f097fe2fbd7bce9cf289e8c79a84d4629e072d7c03a3",
+          "bytes": 1232951
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k03231etkiank1g5nho6ep090pbq2imls0"
     },
@@ -1076,17 +980,17 @@
         },
         "target": {
           "path": "target/588.png",
-          "sha256": "f96e5e5696064787187740c92c97812aec88be3afc87def3dc1005f3aeb974c7",
-          "bytes": 5541241
+          "sha256": "c6a5a05ea3e2b57961cf3fa1c4e8a3a631ae867391c6a0f4723eff1f1344ec24",
+          "bytes": 5537716
         },
         "comparison": {
           "path": "comparison/588.jpg",
-          "sha256": "de4ae65ea2ff00088eb0ad7950ed9982caef828de8044f0c1dc51f40375ff771",
-          "bytes": 4148782
+          "sha256": "81a062c59ff63203bff0a63c8fa8aba00f6b6a6415961eecf55ed514129bdc35",
+          "bytes": 1297613
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo326jbivj4l8405nhk1u7g84j8s46msk8"
     },
@@ -1108,17 +1012,17 @@
         },
         "target": {
           "path": "target/589.png",
-          "sha256": "384aa0ab8388d285cf8b9d95f0fa130cddb88aac3f4481c0f4d951772d95e84c",
-          "bytes": 4349291
+          "sha256": "091634e67f5c274c618255aed8c3cf7dc3d628bfdbe07b268dbe518668aebeea",
+          "bytes": 4335232
         },
         "comparison": {
           "path": "comparison/589.jpg",
-          "sha256": "52fe6683b5f28e6d858de69666c9a0267eb96073712d12e14c65f999b9bccd2b",
-          "bytes": 3569800
+          "sha256": "f65a044d0ee6e198b559b99d2d87fe22d93a9ec10d955a1ba3fadbf9caf797d1",
+          "bytes": 1127504
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g0k031usbqurthm005nd6nep095q7v3cm5t8"
     },
@@ -1140,17 +1044,17 @@
         },
         "target": {
           "path": "target/590.png",
-          "sha256": "e0b7dca3dcbddb6cab98b616459d6a3c2bcf752138eb75519d4072ef98ef22a8",
-          "bytes": 3341673
+          "sha256": "b86d9ff2a260c5c58c1979804fea7ce744a6e0a278e21aaf3f5385ea19d2eead",
+          "bytes": 3308497
         },
         "comparison": {
           "path": "comparison/590.jpg",
-          "sha256": "a2e89672538471a5745d49b43b23d21bab017c3ff7971fb2f9947787fd0b0492",
-          "bytes": 2137166
+          "sha256": "71e440808baaf3a063e6c8529567eb57cb677909b99618d8d76383748b154120",
+          "bytes": 646300
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg325qiqqr8460g5p804tm1m5fdfdtpm4o"
     },
@@ -1172,17 +1076,17 @@
         },
         "target": {
           "path": "target/591.png",
-          "sha256": "7d678a1accecfa33aa8f2728177aa9b60b276edab047a569622d9b19e0df1048",
-          "bytes": 5734370
+          "sha256": "67132a15f3cadd00a28012a53d7c7faebdff61b238da2100030a5c18991227ff",
+          "bytes": 5740294
         },
         "comparison": {
           "path": "comparison/591.jpg",
-          "sha256": "9a70eeaa32170e2fc97b9f388c1325a30f7e0a2a1fea0ef6bef1c74ef8202995",
-          "bytes": 4345408
+          "sha256": "f78d0365d1ae5f761279e317f853bf4d096cd9c57bb785e6adf251bd82bc5081",
+          "bytes": 1304728
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k031r7skgvuga005nb3phsg8vp3vvfbi3g"
     },
@@ -1204,17 +1108,17 @@
         },
         "target": {
           "path": "target/592.png",
-          "sha256": "7de54cc1047196c8bfd56d6d088c12a8b999aa047edcfd791f1a55a73e108f86",
-          "bytes": 3633014
+          "sha256": "0f36bcb71b2510d3f716835149f0dacf907811b85b4aa006cdcf267f535b2d3e",
+          "bytes": 3636805
         },
         "comparison": {
           "path": "comparison/592.jpg",
-          "sha256": "f83910785ea1184e7671e947df7892792c88e50ff0d8f3f843c15d157ff584ac",
-          "bytes": 2206824
+          "sha256": "79e629118cead92a5d82a4e35da558d2a880cd865eb19fae139431712b235530",
+          "bytes": 669277
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k0325gi48of4q00491c4pkg0at9t3lu708"
     },
@@ -1236,17 +1140,17 @@
         },
         "target": {
           "path": "target/593.png",
-          "sha256": "18d03ac419c67fd1e7044bdde7b8aab8301dd633ed53fcd2e15250bd54f77284",
-          "bytes": 4290302
+          "sha256": "25425477230d5e34bcd982e4280d13da49e3c17a6ed3c84347970f1991a44916",
+          "bytes": 4299331
         },
         "comparison": {
           "path": "comparison/593.jpg",
-          "sha256": "ad348b626fb7616a232053826d79c83083feac07a8adf00c2785bcc7f59ba92f",
-          "bytes": 2745522
+          "sha256": "c7ab39117534ddebf696e0b0b806bea126e8c100fc294b6f832f620e293c14f3",
+          "bytes": 825083
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo31theuf66lkcg5ni63cr08c3uorn239g"
     },
@@ -1268,17 +1172,17 @@
         },
         "target": {
           "path": "target/594.png",
-          "sha256": "2d175c445ab5b14fd20424718eeb0ce7e419ac37b05d70e050e4a0fe7bba1303",
-          "bytes": 967657
+          "sha256": "01ce3a62a7c6d351262430f159c765e1312fa80250a9ab0bbdceecde4669a3af",
+          "bytes": 966516
         },
         "comparison": {
           "path": "comparison/594.jpg",
-          "sha256": "5007d1a0e27e1edce90da4065967cf36d442ec81ceb12b99cd9f04e6942feede",
-          "bytes": 635162
+          "sha256": "805d266878d1219a0dc194f3e5f2d4f348ba03cf1fbe933c367dc728c032f26d",
+          "bytes": 189701
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g2sg325pofa5i58k05n8u0uc4mdt6ovallsg"
     },
@@ -1300,17 +1204,17 @@
         },
         "target": {
           "path": "target/595.png",
-          "sha256": "17d124141e93de0dc6955a88d2b912d179349105c29aaf9a2c682b0a1efba6a4",
-          "bytes": 3963444
+          "sha256": "4050a1bda7c44c507ea06e5a664aa66f924c3c51b809d2186af52b5f59a4cc31",
+          "bytes": 3953338
         },
         "comparison": {
           "path": "comparison/595.jpg",
-          "sha256": "8d41988645fe65caaca56a309b6c47d619c78c199d216c38f161b40234ba0c1d",
-          "bytes": 2613681
+          "sha256": "386d6b996a0abb91eb855f5b8bd3bdb80bf285c39fbfc996790ef9e613e74a92",
+          "bytes": 779892
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo326k75ki9l8a05pjlgfs0uabkqg33hm0"
     },
@@ -1332,17 +1236,17 @@
         },
         "target": {
           "path": "target/596.png",
-          "sha256": "ae63f20195857ef3240e9407a9dbe5489a5b0809a81a270ee1630afe705c0e9f",
-          "bytes": 2871354
+          "sha256": "b9b43b79f73be7b99669c4cee98017919f3d351838e37b39fb90111877733be0",
+          "bytes": 2859231
         },
         "comparison": {
           "path": "comparison/596.jpg",
-          "sha256": "af6dfcec2e1f66467e2ebfad45e663f989a33c69754731008d6f500c98fff70c",
-          "bytes": 1898495
+          "sha256": "35ffdfd620012fa5bdd4370522a9cf146088985c46b85fe5cf4b51ccf78ae8ec",
+          "bytes": 581593
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k0325vh75r6lg1g5ntv5d1gbmn8nv47jv8"
     },
@@ -1364,17 +1268,17 @@
         },
         "target": {
           "path": "target/597.png",
-          "sha256": "68e5f5636cf0300a6d1101273f677d2aa18d5daad53f27b1da28b2fd549c6763",
-          "bytes": 3651821
+          "sha256": "fb51cdda6d0b71a2605268ada813f43b560763c855009fba7e8cc588b9eb63a7",
+          "bytes": 3636185
         },
         "comparison": {
           "path": "comparison/597.jpg",
-          "sha256": "8ed66d90c5943f0b10fba86c585380dc5a59186052cbbf38f9a4a53191e4cbb3",
-          "bytes": 2831888
+          "sha256": "d1103163eaa44a680f66a2209dcabbfafe3d4fbc32f0b31d1af97c89af3e9f56",
+          "bytes": 886199
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k0325vh75r6lg4g5ntv5d1gbmn8g365i60"
     },
@@ -1396,17 +1300,17 @@
         },
         "target": {
           "path": "target/598.png",
-          "sha256": "88b7aeb09078f9cf6350ee89d44e672514acc1a90dc76fa8c483e066c859181e",
-          "bytes": 3383966
+          "sha256": "e7a7cbaafa1a7ec598766becab13699664386f9f9c99de34b5e0f4bfb4baaed2",
+          "bytes": 3384627
         },
         "comparison": {
           "path": "comparison/598.jpg",
-          "sha256": "1b49d6a5fdfb8ce6e3f12ba90bb2f0dabda7da38eeda02d005168f02cb6424f3",
-          "bytes": 1875970
+          "sha256": "a4effbd044bf57eb21826a825ba88644436ae49d910d6d36d46573209735865a",
+          "bytes": 540812
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k031v0nh8102g0g5pp6u9jndtofk1193io"
     },
@@ -1428,17 +1332,17 @@
         },
         "target": {
           "path": "target/600.png",
-          "sha256": "62d086cd132c015ca82fef022cdd7413ab984122063177ec9459c53cbbd3f350",
-          "bytes": 6044150
+          "sha256": "0f9d93bf82a3c8994f7207465cea09518dbd0c6e934a2441e7b58d9160427a03",
+          "bytes": 6047636
         },
         "comparison": {
           "path": "comparison/600.jpg",
-          "sha256": "7d195b23221d225d1a836d5c6f51ebda2f944ddc1866f86b6647310415abfe1a",
-          "bytes": 4902026
+          "sha256": "e409b02fb606fa347952c441921b784295a09786e7f441d5435ab024daf93c36",
+          "bytes": 1529701
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3r831v95mhrl3q5g5oar4bl0j7jr1ihmcd8"
     },
@@ -1460,17 +1364,17 @@
         },
         "target": {
           "path": "target/601.png",
-          "sha256": "56fceefbb923e0be24c5418518f4b51e1031e50faf639cdc99108f8b81b302d4",
-          "bytes": 6266795
+          "sha256": "fc6b35d0ef62817f1cd8ffa0af6987bc35a7c88bc23b9b3d482d970dbafcdf3e",
+          "bytes": 6266621
         },
         "comparison": {
           "path": "comparison/601.jpg",
-          "sha256": "30d5ff3c8d433d75d673c4acee64f7c7c8336ed614d27ea8fddc9b7b12aef9a6",
-          "bytes": 5138501
+          "sha256": "7e0234ab97f3612566ac3c461f04e49c493c164ae2eacc4fb2f9fc2713bda2a5",
+          "bytes": 1599885
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k831vupm6nb2i9g5nuldcd08ahdjh8husg"
     },
@@ -1492,17 +1396,17 @@
         },
         "target": {
           "path": "target/602.png",
-          "sha256": "f7bf4aa3093b8a70f7f404d446a35f1cf4ef2b387082375ff288d59eda62bb29",
-          "bytes": 3158988
+          "sha256": "9617485bb6094629c610fe3e8b5dc826425cc1943f655f2cde6e3930191d6dbc",
+          "bytes": 3150210
         },
         "comparison": {
           "path": "comparison/602.jpg",
-          "sha256": "a058224bece166c810bae9953aa0b779d8a826af8c210b3a284d25cfc630fedf",
-          "bytes": 2676613
+          "sha256": "b676e8f1b21dab3739694ea6fbc902e90385d440d55054294a87f4d2f783b96d",
+          "bytes": 789372
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g00831vo71b39iq1g5ps900115o9uv1q1os0"
     },
@@ -1524,17 +1428,17 @@
         },
         "target": {
           "path": "target/603.png",
-          "sha256": "8110f8558b624f83aaff006c192c1833bc1d3eb7cedc0c0a2fbdc45548436f35",
-          "bytes": 4442374
+          "sha256": "b9efcf565101ad06f1f9a03cd843c02f141fd3d1568e15ec2d281b21d17468c7",
+          "bytes": 4435109
         },
         "comparison": {
           "path": "comparison/603.jpg",
-          "sha256": "39b6ef11d405b8493daabbc991c692316febf484128e3bd73a09a1b08f967b32",
-          "bytes": 3071471
+          "sha256": "792ce2d9c6bbb85403ef94eb183b09c85867ffbc3bd33e403ae81f9df95efe00",
+          "bytes": 908155
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg321866m73ms205p22htcnua5dca0biuo"
     },
@@ -1556,17 +1460,17 @@
         },
         "target": {
           "path": "target/604.png",
-          "sha256": "6202108b205f33f900ba241187ff91788d28ee20e3ceee99a8e4027c686385fc",
-          "bytes": 4828343
+          "sha256": "0fa4104e61c16bebde2cad14e633bdd5c3183e013154fb1b2e15e38563669e95",
+          "bytes": 4832667
         },
         "comparison": {
           "path": "comparison/604.jpg",
-          "sha256": "c88d68c9abcae90b1588e85a8e9cfd98d85c983b5e45a4f0fedf4d4926ba89fe",
-          "bytes": 3236892
+          "sha256": "fcf70406b7242be916ca3eeb605348b4def66dcbd6b35a04a90aa4b331fd2b8f",
+          "bytes": 1008308
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo326k75ki9l8d05pjlgfs0uabk6reno80"
     },
@@ -1588,17 +1492,17 @@
         },
         "target": {
           "path": "target/605.png",
-          "sha256": "bbab6d7e4f49718652fec2ba879ffeaf2060418b92d39d9e47902b865f2b1dc7",
-          "bytes": 6126295
+          "sha256": "581ab96c894df59b26e741e6c4df5a6671c3dc26070ad89e5061efd667281ca5",
+          "bytes": 6130313
         },
         "comparison": {
           "path": "comparison/605.jpg",
-          "sha256": "cfe958cffc2087b72f494aab775c06d3c85f3447e77cb53ba8086777d4445ac9",
-          "bytes": 4865587
+          "sha256": "064275dd1f33d2019aa473e248ce3f3c66f6c7580a886817e13c3ea910bb67b3",
+          "bytes": 1512795
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k031r7skhn47u005nb3phsg8vp3ccipjm8"
     },
@@ -1620,17 +1524,17 @@
         },
         "target": {
           "path": "target/606.png",
-          "sha256": "0cf0e84bdd59d82086a392135bf65393c3bc733aee538259399d7110eb8f0ff1",
-          "bytes": 4588758
+          "sha256": "5e3e40a85d538d8e71c1f6a3cbca3dc053c6d9194f1a72d8fc39887a945aff12",
+          "bytes": 4594616
         },
         "comparison": {
           "path": "comparison/606.jpg",
-          "sha256": "55641d90f10eb9a0b9a28342c801b1e8c822ddcb5cbadd764932cdcd1e433bac",
-          "bytes": 2842034
+          "sha256": "c257ab4ddac8aa8e6ce3b366b72067d771cbf4d07dad66303b8336c91355183a",
+          "bytes": 825455
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k831lem46ttl8005nsp7qd088v9gcd65ko"
     },
@@ -1652,17 +1556,17 @@
         },
         "target": {
           "path": "target/607.png",
-          "sha256": "034292c7161bf70dc890b1d1daf0ce41730600923037371d964d31f4356ced61",
-          "bytes": 5860597
+          "sha256": "b59efdc5db09bd4aaaeab7afd5a7c9ad5e6a1933f91c9d9e6f22d58a63240a9b",
+          "bytes": 5858745
         },
         "comparison": {
           "path": "comparison/607.jpg",
-          "sha256": "6035df2355b53d71a1afc916d7ab000a6055b0322d8139c84af489eba9b97a46",
-          "bytes": 4561783
+          "sha256": "1d5c9ca4320eb16daaabf610db4f3bc2adae76b3ff5d727a8e76abc99f9328e4",
+          "bytes": 1432661
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g008325g3f89k5660400jnio68q1gj03jb40"
     },
@@ -1684,17 +1588,17 @@
         },
         "target": {
           "path": "target/608.png",
-          "sha256": "76ef1fa4249cf7dad014301d7527d0b83fa4d2895bbbb0eecf4f722a74e97520",
-          "bytes": 4495476
+          "sha256": "4990e7da4154d564b6e3ca10469cbe3009c6751bd50da075b7bb5bf4af398669",
+          "bytes": 4493625
         },
         "comparison": {
           "path": "comparison/608.jpg",
-          "sha256": "f6693c7ebe8a4227f38dab0fa41e63238e15347cc409399de809966b71e4ec1a",
-          "bytes": 3267231
+          "sha256": "97cfc2b47d49ed52a9987665895db3c6457efab17421104625335caae5935831",
+          "bytes": 979006
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg325nr1si0kq005ql96ukkoe06b8hoe5o"
     },
@@ -1716,17 +1620,17 @@
         },
         "target": {
           "path": "target/609.png",
-          "sha256": "db5aa2ba2579e869bf438e4193e22ef16d15d62be4a1c2e12b3745ad11301c24",
-          "bytes": 4250280
+          "sha256": "e4f44b5be150ed69512e324843beab92b3123402f727e72787be366689046b7e",
+          "bytes": 4244136
         },
         "comparison": {
           "path": "comparison/609.jpg",
-          "sha256": "ef29e47efdc3ad63e3e39cf5c78fbde4126d7fc32816cdbcd5e2294ee7802774",
-          "bytes": 2766003
+          "sha256": "7beaade126cf0a411990a67ed8ef69df5f3583c72c72d53df6aad862976b413d",
+          "bytes": 844380
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g2sg31vc6hg5fjme05od7hu641j04i4vi3qo"
     },
@@ -1748,17 +1652,17 @@
         },
         "target": {
           "path": "target/610.png",
-          "sha256": "f8d388150987de09912fd31be7fb77d12f9a0ac89d7810cf3896511ce2e1fed2",
-          "bytes": 2170258
+          "sha256": "0c4382190056914982598a5d28da05d639ee6e5fb4432ef059e13279c7041d0b",
+          "bytes": 2141571
         },
         "comparison": {
           "path": "comparison/610.jpg",
-          "sha256": "58d12aa2bdd09ba18e28b7707231a21dd489baedd9c7bf3d4448747ce2d40b94",
-          "bytes": 1366959
+          "sha256": "dce87df9671d1db15abdddb51299e9f1db078f750d37fbdc0793791b3cdaa185",
+          "bytes": 413056
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g2sg320q353trlkeg5p2u2s5l1rvimejnpoo"
     },
@@ -1780,17 +1684,17 @@
         },
         "target": {
           "path": "target/611.png",
-          "sha256": "ae88cd5e9b7e35d146cf8363f5394e6126d76eba533c4a116bcddd27992f2efb",
-          "bytes": 6563568
+          "sha256": "1ef5c16f9c7fb7b50699ad8acb0f737b4d6e452fe86f5c2b2e802ba3970ea7ca",
+          "bytes": 6563487
         },
         "comparison": {
           "path": "comparison/611.jpg",
-          "sha256": "f5ef8e32e3fe6124613695e9022ea173a33f45df5bce857f30d08963846dd402",
-          "bytes": 5516844
+          "sha256": "6ea814ce85fd95a97239acf619149e18795f0409eb3035852568b142e234c4c7",
+          "bytes": 1757615
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g008326lc5dg0l66g5q7eellttsbdmn7mvco"
     },
@@ -1812,17 +1716,17 @@
         },
         "target": {
           "path": "target/612.png",
-          "sha256": "8e8b9ef5e80a002f688bda41b462009989b7ca629040ba36163d66519cd38997",
-          "bytes": 5392978
+          "sha256": "da72146a09fb9d3bb34b4189e504946b4d6234aeacaf3288d29c925951c495dc",
+          "bytes": 5401395
         },
         "comparison": {
           "path": "comparison/612.jpg",
-          "sha256": "7c256b6e8b24e32f4011116296f566b3456d6f70138ee530f4a98f59aabab8a5",
-          "bytes": 3902088
+          "sha256": "e83652c5b76eb77786e2b88194cc70182702fdd7cd9877adc6f649fb4b4d2562",
+          "bytes": 1172839
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo320oqj3eu5s505o2cs6l0bge4oebvc0g"
     },
@@ -1844,17 +1748,17 @@
         },
         "target": {
           "path": "target/613.png",
-          "sha256": "ccaddfff7ca1e3ae449d624a256d541477b3784c8c8f03544210bc8bc4a8b915",
-          "bytes": 4904080
+          "sha256": "c947d82d21e548b17c4a65b78e88c82b53a91564726cf381f317f51f75e7c4fc",
+          "bytes": 4900768
         },
         "comparison": {
           "path": "comparison/613.jpg",
-          "sha256": "e00a2c90d491b15a661aa9080daa33aef4aba3ac488869017f87b76efaa8018b",
-          "bytes": 3491244
+          "sha256": "28ea0c0bb7dc4ffb4dc7a2cecfe1e1a872231c45f6cec44b53d8f294b44e29a1",
+          "bytes": 1080250
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg31vnb9h7d3q004a3a6fj4vmkum0ulbeg"
     },
@@ -1876,17 +1780,17 @@
         },
         "target": {
           "path": "target/614.png",
-          "sha256": "26573278b92f590ba084284dde1c36aac9c4ff0c35d46e680153ec39b6a8671d",
-          "bytes": 5098188
+          "sha256": "195d8e45ad9de587f1f96be75969ac1d5e27a4b03545d9c617e2ca35707ab147",
+          "bytes": 5101530
         },
         "comparison": {
           "path": "comparison/614.jpg",
-          "sha256": "2b3515d925ab6853b177bfa5122c4c4d6a447b6c16e13adf9b9131bb0d1858d8",
-          "bytes": 3858491
+          "sha256": "6c714938866927aa0d059144afcd65204fb73f03b881121ff816f095a7b32d49",
+          "bytes": 1140004
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3r0324rf3g9s2a105ohsb4241uaskk1vq58"
     },
@@ -1908,17 +1812,17 @@
         },
         "target": {
           "path": "target/615.png",
-          "sha256": "e7633146110b554ff0d1f797632866f6efa5f3155bff24d95be95dbecb9e966a",
-          "bytes": 3375556
+          "sha256": "15af59edb4e020184a12df9234e4737f0f2fa9a716800b90550664e55ab443d2",
+          "bytes": 3364596
         },
         "comparison": {
           "path": "comparison/615.jpg",
-          "sha256": "90f6b9fffb95afbf7fb39b95dba52a7c78229027e4d1b0431e6c25ce4ba22f67",
-          "bytes": 2313868
+          "sha256": "b0449e037703e37796a9bfcdbfcd1a4766061ab28a84e7c6c018848acf8de8a9",
+          "bytes": 715806
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo325qr992o58bg5p4ekfg3othrgfcscrg"
     },
@@ -1940,17 +1844,17 @@
         },
         "target": {
           "path": "target/616.png",
-          "sha256": "71ad2b131399fc7fef8f5ae4aa8f55868c09f35417f0c2b67ca4d30f4fc2c94a",
-          "bytes": 4955670
+          "sha256": "e4d9872742f653d75f92daf0ca04e583b1c0822afe14a47198fc7cc5a8215d2b",
+          "bytes": 4958808
         },
         "comparison": {
           "path": "comparison/616.jpg",
-          "sha256": "570c44d33744a36d026b299da3e2926502223a41ca140614199ce6a3e9fc44f6",
-          "bytes": 3924402
+          "sha256": "62ce13151b0121f9770e0b8ed5d81218a535fedb5b9638fc6ecce153aee47dd6",
+          "bytes": 1193040
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg32096avnh6e005nmj5i8gbiiml95hp5o"
     },
@@ -1972,17 +1876,17 @@
         },
         "target": {
           "path": "target/617.png",
-          "sha256": "8695ebdad9bf27f2a6f55980e8becd40eb28beeacf2c4d26dd301149458fdd79",
-          "bytes": 5252224
+          "sha256": "a2856297c2abeed1fa5f268d7e57c153b7efa7c77deb37aa68e0948ae33fce1f",
+          "bytes": 5259468
         },
         "comparison": {
           "path": "comparison/617.jpg",
-          "sha256": "d489915735ecdb8003e614091027c429741b94795fd9dbef5b517d0439b9a8ad",
-          "bytes": 4219123
+          "sha256": "cb3b4003d48097218134ae5e303225ae711162d6db11469c43fb36ec2486f49d",
+          "bytes": 1316856
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3r831ul0g85rhm704beku55qrpq8jk9kuq0"
     },
@@ -2004,17 +1908,17 @@
         },
         "target": {
           "path": "target/619.png",
-          "sha256": "d5ffa62145fe6d27bc08e991c821123f4814ced7a084799dcf07f3f3727fb95b",
-          "bytes": 4545815
+          "sha256": "a881c53086c827691ace372189394e422b7a274db4da0749bc6ce6449e5189e0",
+          "bytes": 4579247
         },
         "comparison": {
           "path": "comparison/619.jpg",
-          "sha256": "0b0147a14b128f9b08cb4b6287f85d7690b2f644688f895843c46f1d3771f775",
-          "bytes": 3283289
+          "sha256": "cb16e5e0fd0fd4de568c43d939a544c78487cf9d05d2f179b72155bf02dde107",
+          "bytes": 1016721
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo325hm1g3hk4d05o2j3vf08j8u5f8bdq0"
     },
@@ -2036,17 +1940,17 @@
         },
         "target": {
           "path": "target/620.png",
-          "sha256": "e3af6983d4cc79c52b798fa1fb608f94805c3f31ca869cfd17115ad4b8f230fe",
-          "bytes": 3796421
+          "sha256": "5caf3d3d4c9a0c84e649ab3ea82847e6549102a8d2909f94bc9a9306402c301b",
+          "bytes": 3769413
         },
         "comparison": {
           "path": "comparison/620.jpg",
-          "sha256": "127a6bd476811ab123a9be50a969c93f5c93eaeea868427a82dc401fc313bb6c",
-          "bytes": 2595626
+          "sha256": "74498e4aa91463e56573761ce59ac7dee4a0574ea795a8dccf74c0bcf0876c6a",
+          "bytes": 804662
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg325pg3kae50205ojotb0oc1veobrg6vo"
     },
@@ -2068,17 +1972,17 @@
         },
         "target": {
           "path": "target/621.png",
-          "sha256": "643d30a990230d29853fc23f1cfb0e8a17c5266c1fd229837d35185fb028bb74",
-          "bytes": 4232025
+          "sha256": "aaf38ecbf25aa6a40a56fa6bbc134c136f5b79cfb7e879bdc14dcaa69c71f37c",
+          "bytes": 4236138
         },
         "comparison": {
           "path": "comparison/621.jpg",
-          "sha256": "00f440ee48cbc867f103f31d3385e04c3e3acc9ed5ffdc7e465a09125442f9b3",
-          "bytes": 3550807
+          "sha256": "5993b74eae6603184751d4496198f05c2f6dfd09c5c24ce9342c129ca4e92b2b",
+          "bytes": 1063664
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo3203td7qm2i705ols5eqmd9q9dtin3mo"
     },
@@ -2100,51 +2004,19 @@
         },
         "target": {
           "path": "target/622.png",
-          "sha256": "ad3859b8036cc0ab7fb446f3b7d04402592766d6da674f2a48cd2bffc09e502e",
-          "bytes": 3567486
+          "sha256": "f36f8425267bfa6bf0c5f90ed89bd31a46ec2c1dccd1e448ced23c160550389e",
+          "bytes": 3628255
         },
         "comparison": {
           "path": "comparison/622.jpg",
-          "sha256": "090d0d9c5aa7a84a5f0e804fd937af86a5a2359ce8753e08e46185ba5335eb72",
-          "bytes": 2231159
+          "sha256": "4787fea67683c98a8cbde4540f8771f30c930732f00c999f077796fa5334541c",
+          "bytes": 686901
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g00831uhr5opdiq005p29tncl1h98moavho8"
-    },
-    {
-      "id": 623,
-      "size": null,
-      "model": "FLUX 3 Large",
-      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
-      "files": {
-        "input": {
-          "path": "input/623.png",
-          "sha256": "38a9feccc2bce6875c4d7413c02ddb52d1839eaefe00bdafe030980bfebad83e",
-          "bytes": 4965007
-        },
-        "mask": {
-          "path": "mask/623.png",
-          "sha256": "52ebb8f6686bb4ef5c76d1a0c96b280984071d6cfff16538651820002364610a",
-          "bytes": 7632
-        },
-        "target": {
-          "path": "target/623.png",
-          "sha256": "0406bf3dbbf58f278d117297656e9e434d44b817b0ad6203214de5cfbd7030c5",
-          "bytes": 4724202
-        },
-        "comparison": {
-          "path": "comparison/623.jpg",
-          "sha256": "5133e4d1126eb5d539c386b3f7a195680645edf018b14fb58fb2d049349ef235",
-          "bytes": 3247757
-        }
-      },
-      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
-      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
-      "group": "1040g3r8325j2maki4q6g5pp7a33g85cs3q4d1f0"
     },
     {
       "id": 625,
@@ -2164,17 +2036,17 @@
         },
         "target": {
           "path": "target/625.png",
-          "sha256": "cbe5b15006a104ac702d0b6c6bd2e7a8106d8add9b228ceb796aa5de9b31c0fe",
-          "bytes": 4113347
+          "sha256": "ed56c0dc57e90c6fbe60320de7bbfad5c0e8a85cc24e693dc8f864e066c75aa2",
+          "bytes": 4124819
         },
         "comparison": {
           "path": "comparison/625.jpg",
-          "sha256": "49f47afb212757b001ba07906488d1c21533510e2be317f584e992e32962f984",
-          "bytes": 2670331
+          "sha256": "2a92ebde0b28d3bdbcabf21a0c2e7a88f56cad40b172957c50bf1cc61b13732b",
+          "bytes": 761219
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qo326us5n0876005o2m40hg9ba4908ivgo"
     },
@@ -2196,17 +2068,17 @@
         },
         "target": {
           "path": "target/626.png",
-          "sha256": "1fc52cb81d575acd932bf29d64f07f4d6caa11117dc6922d3f2fd4f5ff6bf0e3",
-          "bytes": 4035303
+          "sha256": "8b737ae8d3a4f47dd7f4f5f18c6f6457b9eddbbe0d2a65df073cec3cdbd68dd6",
+          "bytes": 4038052
         },
         "comparison": {
           "path": "comparison/626.jpg",
-          "sha256": "9561168caeebc2774a0684725539290fad9d7c93c0494fb1eec9cfde16f3293e",
-          "bytes": 2814750
+          "sha256": "a80cc40e4cb8341cb00aafc8d9839588f782b27c72b6df59fb05303ec7d86346",
+          "bytes": 856690
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg326k75q0hkc005pjlgfs0uabkr877838"
     },
@@ -2228,17 +2100,17 @@
         },
         "target": {
           "path": "target/627.png",
-          "sha256": "8db12da10181957f4d6126753f252b71d75f2e9ef600766d7789635de13d74b6",
-          "bytes": 3558838
+          "sha256": "2721eee89175f6f6051e6f7bc48e708db484ec0916bcc9abcf4c094557e5f4a0",
+          "bytes": 3568684
         },
         "comparison": {
           "path": "comparison/627.jpg",
-          "sha256": "d705e167f74d55d6fdc0cef1238c1006145228d6e5776e2fc9cf06ed70c98f22",
-          "bytes": 3075161
+          "sha256": "6d51285f9fb32dcbd6cb79fb8a9ae2ea32e7550d0f2af4c7845fe9bb4d344dea",
+          "bytes": 933567
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g008325okpgm1kc1g5p5h5d5n51m6f5dotbg"
     },
@@ -2260,51 +2132,19 @@
         },
         "target": {
           "path": "target/628.png",
-          "sha256": "48465088e48a6317ea031e5e9ab23665c0fd20d4b3d6230b7dcfc0a17e9c82bb",
-          "bytes": 5047800
+          "sha256": "66e2c199ff4d3f2eb0156bc0d37a13f8b68bd2059953070285c7f0a34a53b4f9",
+          "bytes": 5060796
         },
         "comparison": {
           "path": "comparison/628.jpg",
-          "sha256": "93b33822356349c59c844e20d8f0dbce7ad3443e358d1f6fe2084bed0e85d017",
-          "bytes": 3909176
+          "sha256": "eb4e641087657f987f85fe5515f651d1ccc84b36c706918943fa8ae18117ec81",
+          "bytes": 1186059
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg3238cnt817k005nprjpj08hvj99pgjag"
-    },
-    {
-      "id": 629,
-      "size": null,
-      "model": "FLUX 3 Large",
-      "prompt": "Remove every real person, including distant, partially occluded and edge-cropped people, with their worn/carried belongings, ridden vehicles and led dogs, and all associated cast/contact shadows and reflections. Reconstruct the empty scene naturally. Preserve unrelated parked vehicles, bins, benches, railings, fixed displays, advertising images, buildings, vegetation, lighting and their reflections. Keep everything else unchanged.",
-      "files": {
-        "input": {
-          "path": "input/629.png",
-          "sha256": "6ec5f295af8e5047459c3d29726d6128ea055aa45669aa5bb95f916e6a1c4e57",
-          "bytes": 2389431
-        },
-        "mask": {
-          "path": "mask/629.png",
-          "sha256": "24f51ffd6609bc114917aacf1c6883e2ac2492250fb14249e805a3d20b9076d7",
-          "bytes": 4667
-        },
-        "target": {
-          "path": "target/629.png",
-          "sha256": "9a6a44e5ca170748032e346771141cdf762201c4517c69bc13e3d9619f821eeb",
-          "bytes": 2231706
-        },
-        "comparison": {
-          "path": "comparison/629.jpg",
-          "sha256": "d2c3f3bf864ad5b5d1568a9d8829dbbf593b3b8d0b14364d36360a73348b513d",
-          "bytes": 1781691
-        }
-      },
-      "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
-      "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
-      "group": "1040g3k8326f31eudl8d05n8u0uc4mdt6ei0242g"
     },
     {
       "id": 630,
@@ -2324,17 +2164,17 @@
         },
         "target": {
           "path": "target/630.png",
-          "sha256": "ec76fb1ad096b0ffec741a101b940f12721367d243062e4e33b4b37d920ca001",
-          "bytes": 3474226
+          "sha256": "f181f452e992f3d1a7e61f2ccaa66ab06ea75ee20b85fee26d351bb4d17c94be",
+          "bytes": 3524600
         },
         "comparison": {
           "path": "comparison/630.jpg",
-          "sha256": "146707d86a61cd9c46d5055490ac4c083ee8e1addc897252b7b9482d2b69daa5",
-          "bytes": 2346320
+          "sha256": "26a5b370e22cee37bcda4739bea7fb636e1f04324d9cb58214d0978c02fc96c2",
+          "bytes": 681228
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg326ut9tnkmq704alh9d05euspsovf5t8"
     },
@@ -2356,17 +2196,17 @@
         },
         "target": {
           "path": "target/632.png",
-          "sha256": "5e69d69845d2bc7bc34b6414dc11c07e03a896061edb951b964e62ee495bb2a1",
-          "bytes": 3875229
+          "sha256": "4f95dae7ddcd5addb9f99d5120b232d95bfea76ee1f171dd58fdc6fb581c4101",
+          "bytes": 3875114
         },
         "comparison": {
           "path": "comparison/632.jpg",
-          "sha256": "4c321e323eccd2dc3d72398b45954d74b6687bbc5b5bb88ff5693f749fd67892",
-          "bytes": 2751385
+          "sha256": "6c56873faa1d9034372a448f8e3d007feaae34a648d83e33c45034d279aa9ef9",
+          "bytes": 864247
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg31vn21rr4hm005or0l1l294kum35gslg"
     },
@@ -2388,17 +2228,17 @@
         },
         "target": {
           "path": "target/633.png",
-          "sha256": "ff964806064d09a946b7b565e187080ccf4cb952d08f0ae750be5c1c69786068",
-          "bytes": 2190674
+          "sha256": "3d8136dab573e97d5c5f0d542048e8e8ffb8298251c200167f390ccbde3280dc",
+          "bytes": 2171531
         },
         "comparison": {
           "path": "comparison/633.jpg",
-          "sha256": "0844fe263dcb91f9aa8701a20b4b1e9806d2c3b210f02265ea371abf972ddfc6",
-          "bytes": 2264280
+          "sha256": "b6cdfdc704e8b310583e7bb72cd02d766cb6716b73e1b4631397b9334d684fa5",
+          "bytes": 599023
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g00831rq30covj2305piuoh5gu6patek52ag"
     },
@@ -2420,17 +2260,17 @@
         },
         "target": {
           "path": "target/681.png",
-          "sha256": "2c04db11df72909bafcf8eecde6dedae5dfbee8d3989b1d0765eb3bc6864c352",
-          "bytes": 3810476
+          "sha256": "9d3ed616969f01ce081027f52a67960e42a7ffda694f745ea51630cd1c8fedb0",
+          "bytes": 3823132
         },
         "comparison": {
           "path": "comparison/681.jpg",
-          "sha256": "69f9c06d443995b81a9e94b0ecad18878a8ca5af27ea9b5482c0c663c8c6c3c8",
-          "bytes": 2609426
+          "sha256": "0255e00f6896fba01584a39bfec8b1f200605630e2f1f0a7575b0a67b1b3c694",
+          "bytes": 790162
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k0325vh75r6lg0g5ntv5d1gbmn82hgt75o"
     },
@@ -2452,17 +2292,17 @@
         },
         "target": {
           "path": "target/682.png",
-          "sha256": "2f122858982cfce5d378d9727c2167692692477eeff3d201e0f5b14fe3a1c25b",
-          "bytes": 3750111
+          "sha256": "abe889e4ad9231e05cf88c4f44e94f9a1b54cb5255b42a39d886d887d4cc957a",
+          "bytes": 3743132
         },
         "comparison": {
           "path": "comparison/682.jpg",
-          "sha256": "fa3082c4994103cc903137b1a1ab6061ee385386f30555715c9fad938a9fffda",
-          "bytes": 2526163
+          "sha256": "4cd9efb49fd47227b48f77ec1a81bac1c72b372fd071cd271d405c47b0faa5c7",
+          "bytes": 766896
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k0325vh75r6lg005ntv5d1gbmn8hj6hr5g"
     },
@@ -2484,17 +2324,17 @@
         },
         "target": {
           "path": "target/683.png",
-          "sha256": "3a8d24e87d4e953bdf93d758c8f90bcd2393908cbea571e1370a5593bddaf547",
-          "bytes": 4675858
+          "sha256": "2faf1b916fb8ce4b3166a696a67e32a3983b7daed53e74a730acc16b00f0e67c",
+          "bytes": 4965416
         },
         "comparison": {
           "path": "comparison/683.jpg",
-          "sha256": "b189ba117796b7dc2b83af8843a1a3686357660cb3c3a2a9a44cc26cc9eeea98",
-          "bytes": 3215923
+          "sha256": "5b7e19448621df3b2761617241d17c8ff19e256a615230d8b5b7f033dde80589",
+          "bytes": 1109854
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g00831os5v5fl1amg5n7orft46r1g5b0se68"
     },
@@ -2516,17 +2356,17 @@
         },
         "target": {
           "path": "target/684.png",
-          "sha256": "e05486ef87ba7298c09b3350b8e6987a698c3c7b1477db1918c202544830587a",
-          "bytes": 3388541
+          "sha256": "55978eebc3d757979eeb6bc97e4b02b026710d294ff2f05d253c08346be1f08f",
+          "bytes": 3385555
         },
         "comparison": {
           "path": "comparison/684.jpg",
-          "sha256": "9ac7245c126cef3028cdef4e97cbee46439d2dbf90a697eeb42c92f3d2887b65",
-          "bytes": 2080165
+          "sha256": "c0390f1017751b93c81275be2d1c120e484b21561a399e6267ad835f99f9010e",
+          "bytes": 620283
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g2sg323fgibbk7v205oqfm6fm5d502rev1ng"
     },
@@ -2548,17 +2388,17 @@
         },
         "target": {
           "path": "target/685.png",
-          "sha256": "5d007e73f617cf0c4accff09bb6591c1258fc4782f8702a505eb6d76585005f9",
-          "bytes": 4802889
+          "sha256": "0fc45989d415639df20911abfc8a9881f696161e2cbdfa5ed114e0b4a7b58a2c",
+          "bytes": 4798434
         },
         "comparison": {
           "path": "comparison/685.jpg",
-          "sha256": "505a79a015e3781e9b86bc7e31bac8c47dc29b99c86744fde4ea72a58dc1e1c2",
-          "bytes": 3578286
+          "sha256": "a1f8736c71b26a3c1bd1ef8ad9e1757115a2c2e23ac20b178039cb748f853542",
+          "bytes": 1133617
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k031nl1skrvl8005n9mg5tk1bto9j0krk0"
     },
@@ -2580,17 +2420,17 @@
         },
         "target": {
           "path": "target/686.png",
-          "sha256": "3da53ecde99fdd0731379fadb08c7836ea1629af2a063e594cf3073d96464c36",
-          "bytes": 4066820
+          "sha256": "8c8450a73a46ca3020a49ea6a06de41a9543992e5115608913792dd9825d56c8",
+          "bytes": 4058082
         },
         "comparison": {
           "path": "comparison/686.jpg",
-          "sha256": "c3a10da92ff845651dfce60ced2cb52b5ef0239d38f0123f1de5778e1c3b64f1",
-          "bytes": 2702874
+          "sha256": "64010c01db60409f8bc7aee4c83f8110ae70638fcbb9467e1fd932891ff7a154",
+          "bytes": 817960
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k831nl1sjfog6005n9mg5tk1bto3mf55h8"
     },
@@ -2612,17 +2452,17 @@
         },
         "target": {
           "path": "target/687.png",
-          "sha256": "fdd1c5d14ea217c7697d717b454046bfd694ca14a398914562c125b03fc9e0e8",
-          "bytes": 3580707
+          "sha256": "e8f50b365d97e8a7edf7d88a06f9d82e50a6b1a8c2f646f7f994bf6f68af3078",
+          "bytes": 3581216
         },
         "comparison": {
           "path": "comparison/687.jpg",
-          "sha256": "343f05ef86c6d27d1e2084355039637fab4e02c2b889be03ea6c29c5306e5fb7",
-          "bytes": 2283403
+          "sha256": "e6847f2153448b6f3b1cde09a6a2ceddeb972bdb99b3d45844b60daed8e471ec",
+          "bytes": 689445
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg31u6673hhio6g5op516rosl236akjtro"
     },
@@ -2644,17 +2484,17 @@
         },
         "target": {
           "path": "target/688.png",
-          "sha256": "5bb95a66cc4232995f636c7a2afdecee0b64d912d225ec1e33b1e1826883ae66",
-          "bytes": 4269774
+          "sha256": "71644282301fb2cf1288ee9ed2f866b4a25cc2dab9dca0ddf0537dafa1c50381",
+          "bytes": 4190232
         },
         "comparison": {
           "path": "comparison/688.jpg",
-          "sha256": "47cd1055a84acdd62c38cdf6461b4fd8cac2e2b732343cdac00f3ef9360f2bd1",
-          "bytes": 2354128
+          "sha256": "a7dc833ee6591ff609c6dc1ad0c356afee97fd60fe75db03d76c4441444a90da",
+          "bytes": 713594
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3r031tlcqoce72604a4khkeiat1ucsjv378"
     },
@@ -2676,17 +2516,17 @@
         },
         "target": {
           "path": "target/689.png",
-          "sha256": "fbf95583aa44c58feaac9dc96f235ccec5e1bacecca8804af667e051583f6f6c",
-          "bytes": 5317232
+          "sha256": "160274ae12b2eabe050cd3a1dcfe0f71c329482414b5693f95c637b01c7e77be",
+          "bytes": 5350351
         },
         "comparison": {
           "path": "comparison/689.jpg",
-          "sha256": "39ff5d3123bf7686bbe2aaf18104a627ff94e50a8b05506ec5be6702116a188e",
-          "bytes": 3165176
+          "sha256": "77f47b7239b10b4fb2875fa5336be18f4dbe2e3ae342efc56d37a071c5c334fc",
+          "bytes": 998403
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g2sg325c0lbsi56e04bumi7i1me1f39mi1mo"
     },
@@ -2708,17 +2548,17 @@
         },
         "target": {
           "path": "target/690.png",
-          "sha256": "65fa24b65068b57dd8d2b1596e74cc988f654b6bfcd3ee4a5968ae5ab736c88c",
-          "bytes": 3577350
+          "sha256": "353182a91060f78be20251656dc179facc8add321899c6948e8c6962989cb4d7",
+          "bytes": 3847487
         },
         "comparison": {
           "path": "comparison/690.jpg",
-          "sha256": "0993bb9e90100f1dc4be35736cf5f75784cdd45c9082993e33244eab21146b6a",
-          "bytes": 2402930
+          "sha256": "1875ab02e822d43e3bfa32e4c6bb8563da35d5464eff0bb10b8c1ab090e85ebe",
+          "bytes": 783972
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g00831j90a08oia4g5pj161k0u488ui4bae8"
     },
@@ -2740,17 +2580,17 @@
         },
         "target": {
           "path": "target/691.png",
-          "sha256": "d07fbf3ed1b16c6ce3d7924b04020bddfd24085d1a2f1a2b5dd367fe545e4ed3",
-          "bytes": 5248558
+          "sha256": "60ee39700efbbbae41ad413c92fceab7e2629ff14213b13883c37a35e9d5f445",
+          "bytes": 5254083
         },
         "comparison": {
           "path": "comparison/691.jpg",
-          "sha256": "0abc70b43d79507037f958a358af3eba953a0451ec95de871bbfc13df8815dbf",
-          "bytes": 3660838
+          "sha256": "eaf4b1948e699123e05fdaa8cc962d23c3664fbe95100bef1b02bae2d6685629",
+          "bytes": 1140252
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g2sg325t020pa50s05obrnd6gk5mf5qk3vlo"
     },
@@ -2772,17 +2612,17 @@
         },
         "target": {
           "path": "target/692.png",
-          "sha256": "66a6d5f276923903c3114445f21c320cfd0b3bf506854c71776e7a01da424037",
-          "bytes": 4808237
+          "sha256": "96e4cafbe4bb089bbf9d97fcb1140a717eb2a5d772ab732e2ac85b94ae9d0e25",
+          "bytes": 4801902
         },
         "comparison": {
           "path": "comparison/692.jpg",
-          "sha256": "0583f7317556e0ccab526fb87987cfb8647db93db90442e9c0660eb84a101ce5",
-          "bytes": 3678938
+          "sha256": "376cff23b9dbded956c7cc20d01e1467dbaeb972b8c6971a38ecb4f6fedc9f1b",
+          "bytes": 1154184
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg3208p62rq68004a55hn37arulc0gcqu0"
     },
@@ -2804,17 +2644,17 @@
         },
         "target": {
           "path": "target/693.png",
-          "sha256": "451ad2e226e5c2dc4c051814b4559ea1172e3dff8b9eada483f2aa92c5f2bfdc",
-          "bytes": 4248068
+          "sha256": "a25cdf6b7db68873d04204eefcd74ad8c5e38685f042b518edb17b2f71a37a1e",
+          "bytes": 4246146
         },
         "comparison": {
           "path": "comparison/693.jpg",
-          "sha256": "34cc7f1fc3f5e715bbcb51231f9089b77ffe24c061971680a864587958937c3c",
-          "bytes": 2524210
+          "sha256": "67796bc3f7fcf1544c894c6355210d6780af1ea4f2ad0ef7fe6a9b1ae16eeb38",
+          "bytes": 791430
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3qg325qp4i87kc005nin9usg82m1m5tf738"
     },
@@ -2836,17 +2676,17 @@
         },
         "target": {
           "path": "target/695.png",
-          "sha256": "031f924cac63ab058c1897ec3531e95e6e0d12e8b53201e527a048e31705cd35",
-          "bytes": 4167995
+          "sha256": "c340255bd4f014a3f03eadbe15ca93a8fe2a3dd69b28fd48d0c3f9efb57fa948",
+          "bytes": 4162971
         },
         "comparison": {
           "path": "comparison/695.jpg",
-          "sha256": "c1770c6dcfa9fcc15d6bf59ac9ea86bb3239bd91071a823a52fcdd46b250cbb7",
-          "bytes": 3017014
+          "sha256": "c9099d1922b0cfbd4a9587b8f7344a756a287a312ae8c2b476646a76526aa95f",
+          "bytes": 934509
         }
       },
       "mask_semantics": "Real people and selected physical belongings only; excludes external shadows/reflections",
-      "target_semantics": "Associated people and shadows/reflections removed; exact working input pixels outside reviewed support",
+      "target_semantics": "Only masked people and their own shadows/reflections removed; pixels outside that region unchanged",
       "review": "Reviewed native target: training mask = YOLO object ∩ change (shadows excluded); target support = change ∪ object, alpha=1 inside, 4px feather; outside-support pixels identical to input.",
       "group": "1040g3k0325teg3pd56004arr1feulonbd886tm0"
     }
